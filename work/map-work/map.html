@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<title>无标题文档</title>
+<link href="css/map.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.1&services=true"></script>
+
+</head>
+<body>
+	<div class="mainWin">
+			<div class="navgation">
+				<a href="http://www.liba.com/square/deco" > 装修广场 </a>
+				<span>&gt;装修卖场地图</span>
+			</div>
+			<div class="nav_catagory">
+					<ul class="market_nav">
+						<li class="allMarket select"><a href="#"><i></i>全部卖场</a></li>
+						<li class="housing"><a href="#"><i></i>家居卖场</a></li>
+						<li class="building"><a href="#"><i></i>建材卖场</a></li>
+						<li class="furniture"><a href="#"><i></i>家居卖场</a></li>
+					</ul>
+					<div class="market_area clearfix">
+						<ul>
+							<li><a href="#">浦东新区</a><i>(140)</i></li>
+							<li><a href="#">普陀区</a><i>(54)</i></li>
+							<li><a href="#">宝山区</a><i>(35)</i></li>
+							<li><a href="#">虹口区</a><i>(28)</i></li>
+							<li><a href="#">静安区</a><i>(12)</i></li>
+							<li><a href="#">徐汇区</a><i>(98)</i></li>
+							<li><a href="#">长宁区</a><i>(32)</i></li>
+							<li><a href="#">杨浦区</a><i>(33)</i></li>
+							<li><a href="#">松江区</a><i>(24)</i></li>
+							<li><a href="#">浦浦区</a><i>(10)</i></li>
+							<li><a href="#">闵行区</a><i>(64)</i></li>
+							<li><a href="#">卢湾区</a><i>(15)</i></li>
+							<li><a href="#">卢湾区</a><i>(15)</i></li>
+							<li><a href="#">闸北区</a><i>(30)</i></li>
+							<li><a href="#">嘉定区</a><i>(13)</i></li>
+						</ul>
+					</div>
+			</div>
+		<div class="map_area clearfix">
+			<div id="mapShow" >
+				<script type="text/javascript">
+					var map = new BMap.Map("mapShow");
+					var point = new BMap.Point(116.404, 39.915);
+					var marker = new BMap.Marker(point);
+					map.centerAndZoom(point,15);
+					map.addControl(new BMap.NavigationControl());
+					map.addControl(new BMap.OverviewMapControl());
+					map.enableScrollWheelZoom();
+					map.enableKeyboard();
+					map.enaleContinousZoom();
+					map.enableInertainlDragging();
+				
+					function showmap(city,address){
+
+						var map = new BMap.Map("mapShow");            
+						var point = new BMap.Point(116.404, 39.915);   
+						map.centerAndZoom(point,15);                    
+						map.addControl(new BMap.NavigationControl()); 
+						var myGeo = new BMap.Geocoder();  
+						myGeo.getPoint(address, function(point){   
+						
+						   if (point) {   
+								 map.centerAndZoom(point, 16); 
+								 var marker = new BMap.Marker(point);   
+								 map.addOverlay(marker); 
+								 
+								 var opts = { width : 250, height: 100}
+								 var infoWindow = new BMap.InfoWindow("红星美凯龙", opts); 
+								 marker.addEventListener("click", function(){          
+									 this.openInfoWindow(infoWindow);  
+						 		});	
+						  }   
+						}, city); 
+					}
+				</script>
+									
+				
+			</div>
+			
+			<div class="addressList">
+				<div class="addressNav"><span>共38家</span><a href="#">全部卖场</a>&gt; 宝山区</div>
+				<div class="address">
+						<div class="address_detail chose clearfix">
+							<i></i>
+							<div class="address_info">
+								<p><a href="javascript:showmap('上海市徐汇区','徐汇区宜山路889号')">红星美凯龙（真北路店）</a></p>
+								<p>地址：真北路1208号</p>
+								<p>营业时间：9：00-17：00</p>
+							</div>
+						</div>
+						
+					  <div class="address_detail chose clearfix">
+							<i></i>
+							<div class="address_info">
+								<p><a href="javascript:showmap('上海市徐汇区','徐汇区钦州南路381号')">达美装潢材料商店</a></p>
+								<p>地址：定西路1300号</p>
+								<p>电话：8888666666</p>
+								<p>营业时间：9：00-17：00</p>
+							</div>
+					  </div>
+					  
+					   <div class="address_detail chose clearfix">
+							<i></i>
+							<div class="address_info">
+								<p><a href="javascript:showmap('上海市徐汇区','徐汇区宜山路148号')">达美装潢材料商店</a></p>
+								<p>地址：定西路1300号</p>
+								<p>电话：8888666666</p>
+								<p>营业时间：9：00-17：00</p>
+							</div>
+					  </div>
+					  <div class="address_detail chose clearfix">
+							<i></i>
+							<div class="address_info">
+								<p><a href="javascript:showmap('上海市徐汇区','徐汇区宜山路889号')">红星美凯龙（真北路店</a></p>
+								<p>地址：真北路1208号</p>
+								<p>营业时间：9：00-17：00</p>
+							</div>
+				  </div>
+					 
+					  <div class="pager">
+					  	<a class="up unavail" href="#"><上一页</a>
+						<a href=""><strong>1</strong></a>
+						<i>/</i>
+						<a href="#">20</a>
+						<a class="up" href="#">下一页></a>
+					  </div>
+					  
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>

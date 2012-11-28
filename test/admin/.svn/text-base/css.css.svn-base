@@ -1,0 +1,25 @@
+*{font-size:13px;font-family: "宋体"; color: #000000; margin:0;}
+body {background-color: #add2da;text-align:left; margin:0px auto;}
+a {color:#A69E42; text-decoration:none;}
+#add {width:100%;clear:both;line-height:1.2em;}
+#add td{background-color:#FFFFFF;height:30px}
+.text{width:150px;}
+#menu td{background-color: #b9dbe2;}
+#menu a {color:#006600;text-decoration:none;font-weight:normal;}
+#add .level1 td{color: #006600; background-color:#99CCCC;}
+#add .head td{color: #fff; background-color: #616f80; font-weight:bold;}
+#add .goods_list td{color: #000000; background-color: #BFE3CE;}
+#add select{width:150px;}
+#add textarea{width:380px;height:100px;}
+.price_old {text-decoration: line-through; color:#990000;}
+.es {color:#FF0000;}
+fieldset{ border:#CCCCCC 1px solid;}
+fieldset a {color:#000000}
+#add .intable{background-color:#B7EEBF;font-size:12px;font-weight:bold;}
+#TB_tables td{background-color:#DDDDDD;height:30px}
+#TB_tables .head td{background-color: #00FFCC;}
+#blockui table{background-color:#CCCCCC;}
+#blockui td{background-color:#FFFFFF;height:25px}
+#blockui .head td{background-color: #00FFCC;}
+form{margin:0; padding:0}
+

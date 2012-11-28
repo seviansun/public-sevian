@@ -1,0 +1,68 @@
+  
+    var check = false;//是否可移动  
+    $(document).ready(function(){  
+	var w = $(".app_box").width();//盒子的宽度  
+	var iw = $("#divcontent").width();//内容容器的宽度  
+	var mw = parseInt(w*w/iw);//滑动图片宽度  
+	var w1 = parseInt(w-mw);//图片与div的宽度差值  
+	var w2 = parseInt(iw - w);//内容与边框div的宽度差值  
+	
+	$(function(){  
+		
+		 $(".app_box").each(function(){ 
+			
+		
+			
+		
+		
+            if(iw > w){  
+                $("#dot").find("img").width(mw);   
+		//begin  
+		var oDiv = document.getElementById("bar"); //取bar，宽度等于w
+		var oDiv2 = document.getElementById("dot"); //取dot，宽度等于mw  
+		var mouseStart={};  
+		var divStart={};  
+		var rightStart={};  
+		var bottomStart={};  
+		
+		$(oDiv2).mousedown(function(ev){  
+		    var oEvent = ev||event;  
+		    mouseStart.x = oEvent.clientX;  
+		     
+		    divStart.x = parseInt($(oDiv2).css("left"));  
+		    
+		    if(oDiv2.setCapture){  
+			oDiv2.setCapture();  
+			oDiv2.onmousemove = doDrag3;  
+			oDiv2.onmouseup = stopDrag3;  
+		    }else{  
+			$(oDiv).bind("mousemove",doDrag3).bind("mouseup",stopDrag3);  
+		    }  
+		    oEvent.preventDefault();  
+		});  
+		
+		function doDrag3(ev) {  
+		    var oEvent = ev||event; //标准化事件对象  
+		    var t = oEvent.clientX-mouseStart.x;  //t为鼠标坐标-图像长度
+		    if(t < 0){  
+			t = 0;  
+		    }else if(t >= $(oDiv).width()-$(oDiv2).width()){  
+			t = $(oDiv).width()-$(oDiv2).width();       //t小于移动阈值，则等于0或者=最大距离
+		    }  
+		    $(oDiv2).css("left",t+"px");  //图片移动距离
+		    $("#divcontent").css("left",-(t*w2/w1)+"px");  //内容移动距离
+		}  
+		function stopDrag3(){  
+		    if(oDiv2.releaseCapture){  
+			oDiv2.releaseCapture();  
+			oDiv2.onmousemove = null;  
+			oDiv2.onmouseup = null;  
+		    }else{  
+			$(oDiv).unbind("mousemove",doDrag3).unbind("mouseup",stopDrag3);  
+		    }  
+		}  
+		//end   
+	    }  
+        });  
+        }); 
+    });  

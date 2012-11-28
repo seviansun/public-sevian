@@ -1,0 +1,14 @@
+.app{width:764px; line-height:21px; border:1px solid #e4e4e4; background:#eee; padding:10px; margin:10px 0 15px 0; font-size:12px;}
+.app{width:60%;}
+.app-img{float:left;}
+.appinfo{float:left;padding-left:20px;width:330px;}
+.app-info{float:left;padding-right:30px;}
+.app-load{float:left;margin-left:10px;display:block;background-image:url(../img/app-load.jpg);
+	width:34px;height:33px;}
+.app-screen{float:left;position:relative;white-space:nowrap;}
+.app_box{width:472px;overflow:hidden;z-index:1;position:relative;height:530px;border:1px solid #e4e4e4;}
+.bar{z-index:3;right:0;width:472px;position:absolute;bottom:0px;;height:20px;border:1px solid #DDE5EA;background-color:#EEF4F8;}
+.dot{position:absolute;background-color:#BDD0E1;top:0;left:0;}
+.dotImg{cursor:pointer;height:20px;display:block;}
+.divcontent{position:absolute;width:1700px;}
+.lockup{float:left;position:relative;display:block;padding:10px;}g:10px;}

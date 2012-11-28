@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  ul { margin-left:20px; color:blue; }
+  li { cursor:default; }
+  span { color:red; }
+  .banned{display:none;}
+</style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  	
+
+</script>
+</head>
+<body>
+  <ul>
+    	<a class="members" href="{:javascript://}">haha</a>
+		<a class="banned" href="{:javascript://}">wawa</a>
+  </ul>
+  <script>
+	$(".members").hover(
+		function(){
+			$(".banned").show();
+		},function(){
+			$(".banned").hide();
+		}
+		); 
+  </script>
+</body>
+</html>
+

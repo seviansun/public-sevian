@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+	<title>固定位置</title>
+	<style type="text/css">
+
+	  * {
+      margin: 0;
+      padding: 0;
+	  }
+	  /* body背景图要有，可以是一张空图，否则IE6下滚动时固定内容会闪动 */
+	  body {
+      background: #666666 url(kong.jpg) fixed left top;
+	  }
+
+	  /* 460是IE6下top的指定高度 */
+	  * html #dock {
+      position: absolute;
+      top: expression((460 + (ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop)) + 'px');
+	  }
+
+	  /* 76%是非IE6浏览器可以指定百分比top高度 */
+	  #dock_wrap > #dock {
+      position: fixed;
+      top: 76%;
+	  }
+	  #dock_wrap {
+      position: relative;
+      z-index: 20;
+	  }
+
+	</style>
+  </head>
+
+  <body>
+	<div id='dock_wrap'>
+	  <div id='dock'>
+		固定内容                
+	  </div>
+	</div>
+  </body>
+</html>

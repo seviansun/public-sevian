@@ -1,0 +1,156 @@
+    <!DOCTYPE >  
+    <html>  
+    <head>  
+        <title></title>  
+      
+        <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>  
+      
+        <script type="text/javascript">  
+            $(  
+            function() {  
+                $(":button").click(  
+                function() {  
+                    var h;  
+                    switch ($(":button").index($(this))) {  
+                        case 0:  
+                            if ($("video")[0].paused) {  
+                                $("video")[0].play();  
+                                $(this).val("暂停");  
+                            }  
+                            else {  
+                                $("video")[0].pause();  
+                                $(this).val("播放");  
+                            }  
+                            break;  
+                        case 1:  
+                            h = document.getElementsByTagName("video")[0].height == 0 ?  
+                                document.getElementsByTagName("video")[0].videoHeight - 10 :  
+                                document.getElementsByTagName("video")[0].height - 10; ;  
+                            document.getElementsByTagName("video")[0].height = h;  
+                            document.getElementsByTagName("video")[0].videoHeight = h;  
+                            break;  
+                        case 2:  
+                            h = document.getElementsByTagName("video")[0].height == 0 ?  
+                                document.getElementsByTagName("video")[0].videoHeight + 10 :  
+                                document.getElementsByTagName("video")[0].height + 10; ;  
+                            document.getElementsByTagName("video")[0].height = h;  
+                            document.getElementsByTagName("video")[0].videoHeight = h;  
+                            break;  
+                    }  
+                }  
+                );  
+            }  
+            );  
+      
+      
+            $(  
+            function() {  
+                $("#video1").on(  
+                "canplay",  
+                function(e) {  
+                    $(":button").removeAttr("disabled");  
+                    console.log(e);  
+                }  
+                );  
+                $("#video1").on(  
+                "canplaythrough",  
+                function(e) {  
+                    $("ol>li:eq(0)").html("全部加载完毕，你可以断网看电影了！");  
+                    console.log(e);  
+                }  
+                );  
+                $("#video1").bind(  
+                "playing waiting ended play pause",  
+                function(e) {  
+                    var vObj = document.getElementById("video1");  
+                    $("ol>li:eq(1)").html(vObj.duration + ":" + vObj.startTime + ":" + vObj.currentTime);  
+                    console.log(e);  
+                }  
+                );  
+                $("#video1").on(  
+                "stalled",  
+                function(e) {  
+                    $("ol>li:eq(2)").html("你的网络不给力啊，正在等数据呢");  
+                    console.log(e);  
+                }  
+                );  
+                $("#video1").on(  
+                "error",  
+                function(e) {  
+                    switch (e.target.error.code) {  
+                        case e.target.error.MEDIA_ERR_ABORTED:  
+                            $("ol>li:eq(3)").html("媒体资源获取异常");  
+                            break;  
+                        case e.target.error.MEDIA_ERR_NETWORK:  
+                            $("ol>li:eq(3)").html("网络错误");  
+                            break;  
+                        case e.target.error.MEDIA_ERR_DECODE:  
+                            $("ol>li:eq(3)").html("媒体解码错误");  
+                            break;  
+                        case e.target.error.MEDIA_ERR_SRC_NOT_SUPPORTED:  
+                            $("ol>li:eq(3)").html("视频格式被不支持");  
+                            break;  
+                        default:  
+                            $("ol>li:eq(3)").html("这个是神马错误啊");  
+                            break;  
+                    }  
+                    console.log(e);  
+                }  
+                );  
+                $("#video1").on(  
+                "suspend abort progress",  
+                function(e) {  
+                    var vObj = document.getElementById("video1");  
+                    $("ol>li:eq(1)").html(vObj.duration + ":" + vObj.startTime + ":" + vObj.currentTime);  
+                    console.log(e);  
+                }  
+                );  
+                $("#video1").on(  
+                "progress error abort",  
+                function(e) {  
+                    switch (e.target.readyState) {  
+                        case 0:  
+                            $("ol>li:eq(3)").html("当前播放位置无有效媒介资源");  
+                            break;  
+                        case 1:  
+                            $("ol>li:eq(3)").html("加载中，媒介资源确认存在，但当前位置没有能够加载到有效媒介数据进行播放");  
+                            break;  
+                        case 2:  
+                            $("ol>li:eq(3)").html("已获取到当前播放数据，但没有足够的数据进行播放");  
+                            break;  
+                        case 3:  
+                            $("ol>li:eq(3)").html("已获取到后续播放数据，可以进行播放");  
+                            break;  
+                        default:  
+                        case 4:  
+                            $("ol>li:eq(3)").html("可以进行播放，且浏览器确认媒体数据以某一种速度进行加载，可以保证有足够的后续数据进行播放，而不会使浏览器的播放进度赶上加载数据的末端");  
+                            break;  
+                    }  
+                    console.log(e);  
+                }  
+                );  
+            }  
+            );  
+             
+          
+        </script>  
+      
+    </head>  
+    <body>  
+        <video id="video1" autobuffer>  
+        <source src="video-test.mp4" type="video/mp4" />  
+        对不起你的浏览器不支持HTML5的新特性，要不你下载一个  
+        <a href="http://info.msn.com.cn/ie9/">IE9</a>？   
+      </video>  
+        <input type="button" value="播放" disabled />  
+        <input type="button" value="缩小" disabled />  
+        <input type="button" value="放大" disabled />  
+        <ol>  
+            <li></li>  
+            <li></li>  
+            <li></li>  
+            <li></li>  
+            <li></li>  
+        </ol>  
+    </body>  
+    </html>  

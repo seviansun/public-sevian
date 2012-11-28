@@ -1,0 +1,36 @@
+document.writeln('<div class="advert" id="forum_detail0_1137"></div>');
+$.getJSON('http://focus.liba.com/service/ads/list.php?encoding=gbk&code=forum_detail0_1137&type=h&cate=0' + '&jsonp=?');
+
+function ad_rotate(id, index, count, timeout) {
+    children = $('#' + id).children();
+    child_length = children.length;
+    if (child_length == 0 || child_length <= count) return;
+
+    hit = new Array();
+    for (i=0; i<count; i++) {
+        new_index = index + i;
+        if (new_index >= child_length) new_index %= child_length;
+        hit[hit.length] = new_index;
+    }
+
+    for (i=0; i<child_length; i++) {
+        matched = 0;
+        for (j=0; j<hit.length; j++) {
+            if (i == hit[j]) {
+                matched = 1;
+                children.eq(i).show();
+                break;
+            }
+        }
+
+        if (matched == 0) {
+            children.eq(i).hide();
+        }
+    }
+
+    index = hit[hit.length - 1] + 1;
+    if (timeout > 0) {
+        exp = 'ad_rotate(\'' + id + '\',' + index + ',' + count + ',' + timeout + ');';
+        setTimeout(exp, timeout);
+    }
+}

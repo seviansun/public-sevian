@@ -1,0 +1,111 @@
+/* #header */
+#headerspace{height:35px;}
+#header{position:fixed; _position:absolute; top:0; left:0; z-index:50001; width:100%; height:35px; background:url(images/comm/c_header_bg24.png?ver=2) 0 0; _background:url(images/comm/c_header_bg.png?ver=2) 0 0; font:500 12px/35px tahoma,arial,\5b8b\4f53; color:#FFF;}
+#header *{margin:0; padding:0; border:0;}
+#header .ui-font-white{color:#FFF; text-decoration:none;}
+#header .fn-clear:after,
+#quicklogin .fn-clear:after{visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+#header .fn-clear,
+#quicklogin .fn-clear{zoom:1;}
+/* header */
+#header .ui-header{margin:0 auto; padding:0 12px; width:1000px; height:35px;}
+#header .ui-header-logo{float:left; _display:inline; margin:8px 10px 0 0; width:217px; height:21px; background:url(images/comm/c_logo.png?ver=1) 0 0 no-repeat; _background:url(images/comm/c_logo8.png) 0 0 no-repeat;}
+#header .ui-header-logo-link{display:block; height:21px; text-indent:-9999px; overflow:hidden;}
+#header .ui-header-nav{float:left; _display:inline;}
+#header .ui-header-nav .ui-icon-expand{font-size:14px; font-weight:700;}
+#header .ui-header-subnav{float:left; _display:inline;}
+#header .ui-header-search{float:left; display:block; margin:5px 0 0 0; width:60px; height:27px; text-indent:9999em; overflow:hidden; background:url(images/comm/ui-search.png) 0 0 no-repeat;}
+#header .ui-header-search:hover{background-position:0 -30px;}
+#header .ui-header-user{float:right; _display:inline;}
+/* nav */
+#header .ui-nav{list-style:none; _display:inline; width:auto; height:35px; background:none repeat scroll 0 0 transparent; -moz-border-radius:none; -khtml-border-radius:none; -webkit-border-radius:none; border-radius:none;}
+#header .ui-nav-item{float:left; display:inline; width:auto; height:35px; overflow:visible; background:none repeat scroll 0 0 transparent; line-height:35px;}
+#header .ui-nav-item-link{position:relative; float:left; padding:0 16px; height:35px; font-size:14px; font-weight:700; color:#FFF; text-decoration:none;}
+#header .ui-nav-item-link:hover,
+#header .ui-nav-item-link-hover{padding:0 15px; border-left:1px solid #7E8696; border-right:1px solid #7E8696; background:url(images/comm/c_hover_bg.png) 0 0;}
+#header .ui-nav-item-link:hover .ui-icon-supnum,
+#header .ui-nav-item-link-hover .ui-icon-supnum{right:2px;}
+#header .ui-nav-item-link-sub{font-size:12px; font-weight:500; padding-left:4px;}
+#header .ui-nav-item-link:hover .ui-list,
+#header .ui-nav-item-link-hover .ui-list{display:block;}
+#header .ui-nav-item-link-user,
+#header .ui-nav-item-link .ui-icon-expand{_display:inline-block;}
+#header .ui-nav-user{display:inline;}
+#header .ui-nav-user .ui-nav-item-link{padding:0 10px; font-size:12px; font-weight:500;}
+#header .ui-nav-user .ui-nav-item-link:hover,
+#header .ui-nav-user .ui-nav-item-link-hover{padding:0 9px;}
+/* list */
+#header .ui-list{position:absolute; right:-1px; top:35px; _right:-2px; display:none; width:90px; list-style:none; border:1px solid #ADB6C7; border-top:none; background-color:#FFF; font:500 12px/27px tahoma,arial,\5b8b\4f53;}
+#header .ui-list-item{list-style:none;}
+#header .ui-list-item-link{display:block; padding:0 15px; text-decoration:none; color:#555;}
+#header .ui-list-item-link:hover{background-color:#E6EAF3; color:#58C;}
+#header .ui-list-item-bt{border-top:1px dotted #ADB6C7;}
+#header .ui-header-subnav .ui-list{width:56px;}
+#header .ui-list-mall{left:-1px; right:auto; width:498px;}
+#header .ui-list-mall .ui-list-item{padding:0 15px;}
+#header .ui-list-item-hd{float:left; width:72px; color:#999;}
+#header .ui-list-item-bd{margin-left:72px; padding:3px 0; white-space:nowrap; line-height:21px;}
+#header .ui-list-item-bd a{display:block; float:left; margin-left:10px; color:#555;}
+#header .ui-list-mall .ui-list-item:hover,
+#header .ui-list-mall .ui-list-item-hover{background-color:#E6EAF3;}
+#header .ui-list-mall .ui-list-item:hover .ui-list-item-bd a,
+#header .ui-list-mall .ui-list-item-hover .ui-list-item-bd a{color:#58C;}
+/* icon */
+#header .ui-icon{display:block; width:auto; height:auto; background:url(images/comm/ui-icon24.png) no-repeat; _background:url(images/comm/ui-icon.png) no-repeat; font-size:12px; font-weight:500; cursor:pointer;}
+#header .ui-icon-mobile{background-position:0px 0px; width:10px; height:35px; font-size:0; text-indent:-9999px; overflow:hidden;}
+#header .ui-icon-expand{background-position:right -30px; padding-right:13px; _font-family:\5b8b\4f53;}
+#header .ui-icon-logout{background-position:2px -60px; width:13px; height:35px; font-size:0; text-indent:-9999px; overflow:hidden;}
+#header .ui-icon-message{background-position:0px -90px; width:16px; height:35px; font-size:0; text-indent:-9999px; overflow:hidden;}
+#header .ui-icon-topic{background-position:-2px -152px;}
+#header .ui-icon-favor{background-position:-2px -182px;}
+#header .ui-icon-order{background-position:0 -210px;}
+#header .ui-icon-idle{background-position:-1px -241px;}
+#header .ui-icon-setup{background-position:-2px -271px;}
+#header .ui-icon-friend {background-position:0 -318px;}
+#header .ui-icon-topic,
+#header .ui-icon-favor,
+#header .ui-icon-order,
+#header .ui-icon-idle,
+#header .ui-icon-setup,
+#header .ui-icon-friend {padding-left:20px; width:5em; color:#555;}
+#header .ui-icon-supnum{position:absolute; top:4px; right:3px; display:none; width:16px; height:16px; font-size:8pt; text-align:center; line-height:16px; color:#FFF; background-position:0px -300px;}
+#header .ui-icon a{color:#FFF; text-decoration:none;}
+
+/* #quicklogin */
+#quicklogin{position:fixed; _position:absolute; top:35px; left:50%; margin-left:-500px; z-index:50000; width:1000px; font-size:12px;}
+#quicklogin a{color:#58C;}
+/* quick login */
+#quicklogin .ui-quicklogin{width:1000px;}
+#quicklogin .ui-quicklogin-bd{padding:10px 0 7px 0; border-left:1px solid #D0D0D0; border-right:1px solid #D0D0D0; background-color:#FFF;}
+#quicklogin .ui-quicklogin-ft{position:relative; font-size:0;}
+#quicklogin .ui-quicklogin-ft-cell{float:left; background:url("images/passport/passport_icon.png?ver=2") no-repeat; height:7px; overflow:hidden;}
+#quicklogin .ui-quicklogin-ft-cell-left{width:7px; background-position:-120px -558px;}
+#quicklogin .ui-quicklogin-ft-cell-center{width:986px; background-position:0 -587px; background-repeat:repeat-x;}
+#quicklogin .ui-quicklogin-ft-cell-rigth{width:7px; background-position:-128px -558px;}
+#quicklogin .ui-quicklogin-ft .ui-button-close{position:absolute; top:-15px; right:11px;}
+/* block */
+#quicklogin .ui-block{margin:0 auto; padding:0;}
+#quicklogin .ui-block-cell{float:left; position:relative; padding-left:20px; line-height:47px;}
+#quicklogin .ui-block-cell-first{padding-left:0;}
+#quicklogin .ui-block-cell-tip{display:inline-block; margin-top:10px; line-height:18px;}
+#quicklogin .ui-block-cell-label{position:absolute; left:35px; top:0; font-size:14px; color:#999;}
+#quicklogin .ui-block-cell-label-focus{color:#DDD;}
+#quicklogin .ui-block-cell-checkcode{display:none; text-align:center;}
+#quicklogin .ui-block-cell-checkcode img{margin-top:4px; width:82px; height:24px; cursor:pointer;}
+#quicklogin .ui-block-cell-checkcode .ui-button-input{width:52px; background-position:0 -510px;}
+#quicklogin .ui-block-cell-checkcode .ui-button-input-focus{background-position: -211px -366px;}
+#quicklogin .ui-block-welcome{width:206px; height:47px; padding-left:270px; background:url("images/passport/bg.png") no-repeat scroll 0 15px transparent;}
+#quicklogin .ui-block-login{display:none; width:885px;}
+#quicklogin  a{display:inline-block;}
+/* button */
+#quicklogin .ui-button{display:block; margin:0; padding:0; border:0; background:url("images/passport/passport_icon.png?ver=2") no-repeat; font-size:14px; color:#333;}
+#quicklogin .ui-button-quickreg{width:138px; height:47px; background-position:0 -86px; text-indent:-9999px; overflow:hidden;}
+#quicklogin .ui-button-quicklogin{width:138px; height:47px; background-position:0 -595px; text-indent:-9999px; overflow:hidden;}
+#quicklogin .ui-button-login{width:98px; height:47px; background-position:-139px -86px; text-indent:-9999px; overflow:hidden;}
+#quicklogin .ui-button-logining{background-position:-83px -510px;}
+#quicklogin .ui-button-input{padding:12px 15px; width:180px; height:23px; background-position:0px 0px;}
+#quicklogin .ui-button-input-focus{background-position: 0 -366px;}
+#quicklogin .ui-button-error{width:137px; height:47px; background-position:0 -414px; font-size:12px; text-align:center; color:#EA5E3D; visibility:hidden;}
+#quicklogin .ui-button-close{width:10px; height:8px; background-position:-231px -30px; text-indent:-9999px; overflow:hidden;}
+
+

@@ -1,0 +1,85 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+body { font-size:12px;  font-family:"ËÎÌå""Microsoft YaHei",Î¢ÈíÑÅºÚ,"Microsoft JhengHei",»ªÎÄÏ¸ºÚ,STHeiti,MingLiu,\5B8B\4F53; color:#555;  overflow-x:hidden;background:#d4d8e0;}
+ul,ol,li,dl,dd,dt {list-style:none;}
+
+a,a:link {color:#58c; text-decoration:none;}
+a:visited {color:#58c;}
+a:hover {color:#58c;text-decoration:underline;}
+
+
+i{font-style:normal;}
+em{font-style:normal;font-size:14px;font-weight:bold;}
+.clear {clear:both;}
+.clearfix:after {content:"\20";display:block;height:0;clear:both;}
+.clearfix {zoom:1;}
+.clearleft {clear:left;}
+.mainWin{margin:0 auto;width:1000px;height:800px;margin-top:30px;}
+	.navgation{height:30px;line-height:30px;}
+	.nav_catagory{width:1000px;height:95px;background:#FFFFFF;padding:10px 0px;}
+		.market_nav{width:430px;height:90px;padding:0px 30px;text-align:center;border-right:1px dashed #E4E4E4;float:left;}
+			.market_nav li{float:left;width:55px;text-align:center;margin:20px 25px 0px 25px;}
+			.market_nav li.select a{dispaly:block;}
+			.select i{background:url(../imgs/icon.png) no-repeat 0px 0px;width:30px;height:30px;margin-left:10px;}
+			
+			.market_nav a i {display:block; width:30px; height:30px; margin-left:15px; margin-bottom:5px; }
+			
+			.allMarket a i{background:url(../imgs/icon.png) no-repeat 0px 0px;}
+			.allMarket a:hover i {background:url(../imgs/icon.png) no-repeat -33px 0px;}
+			
+			.housing a i{background:url(../imgs/icon.png) no-repeat 0 -30px;}
+			.housing a:hover i{background:url(../imgs/icon.png) no-repeat -28px -30px;}
+		
+			.building a i{background:url(../imgs/icon.png) no-repeat 3px -59px;}
+			.building a:hover i{background:url(../imgs/icon.png) no-repeat -22px -59px;}
+			
+			.furniture a i{background:url(../imgs/icon.png) no-repeat 3px -87px;}
+			.furniture a:hover i{background:url(../imgs/icon.png) no-repeat -25px -87px;}
+			
+			.market_area{width:480px;height:90px;float:left;margin-left:20px;text-align:left;font-family:ËÎÌå;}
+			.market_area ul{width:480px;height:80px;margin:5px 0px 5px 0px;text-align:left;}
+			.market_area ul li {margin:5px 5px;float:left;width:85px;}
+			.market_area ul li i{margin-left:5px;}
+		
+	.map_area{width:998px;border:1px solid #c0c6d1;}
+	#mapShow{float:left;width:698px;height:506px;border:1px solid #FFFFFF;}
+	.addressList{float:left;width:296px;background:#efefef;border:1px #FFFFFF solid;height:506px;}
+	
+		.addressNav{height:40px;line-height:40px;margin:0px 10px ;}
+		.addressNav span{float:right;color:#aaaaaa;}
+		.addressNav span i{padding:0px 5px;}
+		
+		.address_detail {padding:17px 0 19px 50px ;border-bottom:dotted 1px #CCCCCC; position:relative; }
+		
+		.address_detail a{font-weight:bold;font-size:14px;color:#000000;}
+			.address_detail i{background:url(../imgs/icon.png) no-repeat 0px -121px;width:30px;height:45px; position:absolute;left:11px;}
+			..address_info{float:left;margin-top:10px;}
+			.address_info p{padding-bottom:5px;}
+			.chose{background:#FFFFFF;}
+			
+			.pager{height:47px;line-height:45px;text-align:center;}
+			.up{padding-left:0 10px;}
+			.pager a.unavail {color:#bbbbbb;}
+			.pager a.up {margin:0 15px ;}
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

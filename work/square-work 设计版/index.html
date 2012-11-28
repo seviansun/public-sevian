@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>webSlide - PPT演示文档架           </title>
+	<link rel="stylesheet" href="src/css/webslide.css" />
+	<link rel="stylesheet" href="src/css/codecolorer.css" />
+</head>
+<body>
+
+<div id="slide" >
+<div class="slides">
+	<section id="cover" class="step" >
+		<section class="title">
+			<h1>“篱笆广场”设计方案</h1>
+			<h2><a href="//weibo.com/sanshuiqing" target="_blank">by孙赟</a></h2>
+		</section>
+	</section>
+	<section id="slide2" class="step slide">
+		<h1 class="header">为什么要改版</h1>
+		<ul>
+			<li>内容单调，贫瘠作为导航作用不佳</li>
+			<li>作为新用户访问篱笆的第一页缺少新鲜元素</li>
+			<li>专注度不够</li>
+			<li>缺少有效指引，重点内容没有曝光</li>
+			<li>缺少互通</li>
+		</ul>
+	</section>
+	
+	<section id="slide3" class="step slide rebuild">
+		<h1 class="header">改版需求</h1>
+		<ul data-build>
+			<li>需具备向“各大主题广场”导流量的作用</li>
+			<li>需向帮帮忙导入精准有效的用户</li>
+			<li>需要向新用户阐述“篱笆是什么”</li>
+			<li>需要承载一定比例的品牌广告，并精准导向</li>
+		</ul>
+	</section>
+	<section id="slide4" class="step slide rebuild">
+		<h1>需求应对</h1>
+		<div data-build><h2>各大主题广场</h2>
+		<ul>
+			<li>精准定位用户需求，合理区分用户人群向各大主题广场导入精准流量</li>
+		</ul>
+		<h2>帮帮忙</h2>
+		<ul>
+			<li>通过合理的区分诱导用户区帮帮忙购买</li>
+		</ul>
+		<h2>篱笆是什么</h2>
+		<ul>
+			<li>篱笆是上海人人生的一部分</li>
+		</ul>
+		<h2>品牌广告</h2>
+		<ul>
+			<li>在第一屏显眼的位置，通过用户自主的选择，进行推送</li>
+		</ul>
+		</div>
+	</section>
+	<section id="grammar" class="step slide rebuild">
+		<h1>实际解决方法</h1>
+		<h2>timeline</h2>
+		<ul>
+		  	<li>通过理念篱笆是上海人人生的一部分想到用timeline作为导航。</li>
+			<li>用篱笆各个主题作为分类，间接的表达人生的经历</li>
+			<li>用户通过timeline导航自主选在自己所处的人生经历对网站浏览</li>
+		</ul>
+		<div data-build><h2>限制timeline长度</h2>
+		<ul>
+			<li>只显示一部分的长度，使用户必须自己进行选择导航</li>
+			<li>很少有人同时在做多件事情，去除不必要的展示，只展示给用户所需的</li>
+			<li>通过用户自己的选择，推送给他相应的帮帮忙和品牌广告</li>
+		</ul>
+		
+		<h2>尾部导航</h2>
+		<ul>
+			<li>对于新用户和还没适应篱笆首页定制内容订阅用户的妥协</li>
+		</ul>
+		</div>
+	</section>
+	<section id="grammar2" class="step slide rebuild" >
+		<h1>交互展现</h1>
+		<h2>拖拽</h2>
+		<ul>
+			<li>交互上采用拖拽的方式，通过良好的用户体验带给用户不一样的浏览方式</li>
+		</ul>
+		<div data-build>
+		<h2>动态信息流</h2>
+		<ul>
+			<li>通过即时的用户发帖和回帖的信息流展示，增加用户互动性，向本地化社区化方向发展</li>
+		</ul>
+	</section>
+
+	<section id="quetion" class="step" >
+         <section class="title"><h1>Question?<br/><b>Q&A</b></h1></section>
+    </section>
+	<section id="end" class="step" >
+        <section class="title"><h1>The End<br/><b>Thank You</b></h1></section>
+    </section>
+</div>
+<div class="progress"><span></span></div>
+</div>
+<canvas id="myCanvas" width="1024" height="768">您的浏览器不支持HTML5,请升级或更换您的浏览器,强烈推荐您使用chrome浏览器。</canvas>
+<menu class="controls" id="slideCtrl">
+	<span class="tool home" onclick="location.hash='#cover'">!</span>
+	<span class="tool paint">p</span>
+	<span class="tool clearIt">d</span>
+</menu>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript" src="src/js/webslide.js"></script>
+</body>
+</html>
