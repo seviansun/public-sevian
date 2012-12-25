@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>圈子首页</title>
+	<link rel="stylesheet" href="<?php echo CDN_URL;?>/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo CSS_URL;?>quan.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo CSS_URL;?>circle.css" type="text/css" />
+	<script type="text/javascript" src="<?php echo HOME_URL;?>/public/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/mustache.js"></script>
+    <script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/circle.js"></script>
+	<script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/jquery.js"></script>
+    <script type="text/javascript">
+        var circleService = new CircleService(<?php echo $circle_id?>);
+    </script>
+  </head>
+
+  <body>
+	<script type="text/javascript" src="http://passport.liba.com/feeds/comm/top"></script>
+
+	<div class="container fn-clear">
+
+	  <div class="top">
+		<div class="ui-theme">
+        <a href="#"><b><?php echo $circle->name;?></b></a>
+		</div>
+	  </div>
+
+	  <div class="wrapper fn-clear">
+
+		<div class="main">
+		  <div class="ui-infobox fn-clear">
+		  	
+			<div class="ui-infobox-text">
+			  <img src="<?php echo $circle->logo_url == null ? IMG_URL . "logo.png" : ATTACHMENT_URL . '/' . $circle->logo_url;?>" class="circle-logo" alt="" />
+			  <div id="focus">
+			  	<div class="follow-con">
+                    <?php if($member_role == 'visitor') { ?>
+				  	    <input type="button" value="" onclick="follow(this)" />
+                    <?php } else { ?>
+                        <input type="button" value="" onclick="quit_follow_box()" class="quit_follow" />
+                    <?php } ?>
+				</div>
+                <?php if($member_role == 'visitor') { ?>
+				<!--<a class="focus-btn" href="{:javascript://}">
+	<img src="<?php echo IMG_URL;?>focusicon.png" value="confirm" data-click="dialog" data-options='{"href":"ajax.php"}'/></a>-->
+                <?php } ?>
+			  </div>
+			  <dl class="ui-category">
+				<dt>分享：</dt>
+				<dd> <a href="javascript:void(0);" onclick="copy(window.location.href);">复制本群地址</a><a href="{:javascript://}">邀请朋友加入</a></dd>
+			  </dl>
+			  <br />
+			  <dl class="ui-category">
+				<dt>创建于:</dt>
+                <dd><?php echo date('Y-m-d H:i:s', $circle->create_time);?></dd>
+			  </dl>
+			  <br />
+			  <br />
+			  <dl class="ui-category">
+				<dt>圈介绍：</dt>
+				<dd class="ui-category-item">
+                <?php echo $circle->description;?>
+				</dd>
+			  </dl>
+			  <br />
+			  <dl class="ui-category">
+				<dt>元老会：</dt>
+				<dd class="ui-category-item fn-clear">
+                  <?php if (is_array($senators) && count($senators) > 0) {?>
+                  <?php foreach ($senators as $senator) { ?>
+                  <p><?=$senator->user_name ?></p>
+                  <?php } ?>
+                  <?php } ?>
+				</dd>
+			  </dl>
+			  <br />
+			  <dl class="ui-category">
+                <?php if ($member_role == 'senator') { ?>
+				<img src="<?php echo IMG_URL;?>Qicon.png" class="" alt="" />
+				我是元老会成员
+                <?php } ?>
+			  </dl>
+			</div>
+		  </div>
+		  <div class="ui-list-hd fn-clear">
+			<div class="ui-list-title">圈帖子</div>
+			<ul class="ui-list-nav">
+			  <li class="ui-list-nav-item<?php if ($type == SHOW_ALL) {echo ' selected';}?>"><a href="<?php echo QUAN_URL;?>/circle.php?cid=<?php echo $circle_id . '&t=' . SHOW_ALL;?>">最新更新</a></li>
+			  <li class="ui-list-nav-item<?php if ($type == SHOW_PERSONAL_TOPIC) {echo ' selected';}?>"><a href="<?php echo QUAN_URL;?>/circle.php?cid=<?php echo $circle_id . '&t=' . SHOW_PERSONAL_TOPIC;?>">我发布的</a></li>
+			  <li class="ui-list-nav-item<?php if ($type == SHOW_PERSONAL_REPLY) {echo ' selected';}?>"><a href="<?php echo QUAN_URL;?>/circle.php?cid=<?php echo $circle_id . '&t=' . SHOW_PERSONAL_REPLY;?>">我回复的</a></li>
+			</ul>
+			<div class="ui-list-post">
+			  <a class="post-btn" href="<?php echo QUAN_URL . '/create_topic.php?act=' . SHOW_CREATE_TOPIC . '&cid=' . $circle_id;?>"></a>
+			</div>
+		  </div>
+		  <div class="ui-list-bd">
+			<table  cellspacing="0" cellpadding="0" border="0">
+			  <tbody>
+				<tr>
+				  <th class="topic">标题</th>
+				  <th class="author">发帖人</th>
+				  <th class="reply">回复/点击</th>
+				  <th class="public">最后回复</th>
+				</tr>
+     <?php if (is_array($topics) && count($topics) > 0) {
+                foreach ($topics as $topic) { ?>
+                <?php if (!$topic->deleted) { ?>
+				<tr>
+				  <td class="topic">
+                  <a href="<?php echo QUAN_URL . '/topic.php?cid=' . $circle_id . '&tid=' . $topic->id;?>"<?php echo $topic_repository->get_title_style_by_level($topic->level);?>><?php echo $topic->title;?></a>
+				  </td>
+				  <td class="author">
+                    <p><a href="<?php echo I_URL . '/' . $topic->poster_id;?>"><?php echo $topic->poster_name;?></a></p>
+                    <p class="date"><?php echo date('Y-m-d H:i:s', $topic->create_time);?></p>
+				  </td>
+				  <td class="reply">
+                    <?php echo $topic->reply_count;?>
+					<span class="slash">/</span>
+                    <?php echo $topic->click_count;?>
+				  </td>
+				  <td class="public">
+                    <p><a href="<?php echo I_URL . '/' .$topic->last_replier_id;?>"><?php echo $topic->last_replier_name;?></a></p>
+                    <p class="time"><?php echo date('Y-m-d H:i:s', $topic->last_update_time);?></p>
+				  </td>
+				</tr>
+     <?php } ?>
+     <?php }
+           } ?>
+			  </tbody>
+			</table>
+			<div class="ui-list-bot">
+			  
+			  <div class="pager all-topic">
+              <?php echo $page_html;?>
+				<span class="page-search">第<input type="text" class="page-input" onfocus="this.select()" value="<?php echo $page;?>" name="fgopage">页</span>
+				  <input type="submit" class="page-btn" title="跳转到指定页" value="">
+			 </div>
+				  <input type="hidden" class="J_url" value="" />
+			</div>
+		  </div>
+		</div>
+
+		<div class="sidebar">
+		  <div class="ui-box fn-clear">
+			<div class="ui-box-title">同分类圈</div>
+     <?php if (is_array($circles_of_category) && count($circles_of_category) >= 0) { ?>
+ <?php foreach ($circles_of_category as $circle) { ?>
+			<dl class="ob">
+			  <dt>
+				<a href="<?php echo QUAN_URL . '/circle.php?cid=' . $circle->id;?>"><img src="<?php echo IMG_URL;?>icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+                 <a href="<?php echo QUAN_URL . '/circle.php?cid=' . $circle->id;?>"><?php echo $circle->name;?></a>
+			  </dd>
+			</dl>
+                 <?php } ?>
+             <?php } ?>
+		  </div>
+          <script id="latestJoinedMemberTemp" type="text/mustache">
+              {{#members}}
+              <dl class="ob">
+                  <dt>
+                      <a href="<?php echo I_URL;?>/{{user_id}}">
+                          {{#logo_url}}
+                          <img src="<?php echo AVATAR_URL;?>{{logo_url}}" class="" alt="" />
+                          {{/logo_url}}
+                          {{^logo_url}}
+                          <img src="<?php echo IMG_URL;?>icon.png" class="" alt="" />
+                          {{/logo_url}}
+                      </a>
+                  </dt>
+                  <dd>
+                      <a href="<?php echo I_URL;?>/{{user_id}}">{{user_name}}</a>
+                  </dd>
+              </dl>
+              {{/members}}
+          </script>
+		  <div class="ui-box fn-clear" id="latestJoinedMembersDiv">
+			<div class="ui-box-title">最新加入</div>
+		  </div>
+               <?php if ($member_role == 'senator') { ?>
+		  <div class="ui-line">
+          <img src="<?php echo IMG_URL;?>likeicon.png" class="" alt="" /><a target="_blank" href="<?php echo QUAN_URL . '/member.php?cid=' . $circle_id;?>"><?php echo $circle->name;?> 元老会(<?php echo $senators_count;?>) >></a>
+		  </div>
+		  <div class="ui-line">
+			<img src="<?php echo IMG_URL;?>seticon.png" class="" alt="" /><a target="_blank" href="<?php echo QUAN_URL . '/information.php?cid=' . $circle_id ?>">圈子管理 >></a>
+		  </div>
+               <?php } else { ?>
+		  <div class="ui-line">
+          <img src="<?php echo IMG_URL;?>likeicon.png" class="" alt="" /><a target="_blank" href="<?php echo QUAN_URL . '/member.php?cid=' . $circle_id;?>">查看所以群成员(<?php echo $members_count;?>) >></a>
+		  </div>
+
+               <?php } ?>
+		  <div class="ui-ad">
+		  </div>
+
+          <script id="hottestCirclesTemp" type="text/mustache">
+          {{#circles}}
+          <dl class="ob">
+              <dt>
+                  <a href="<?php echo QUAN_URL . '/circle.php?cid=';?>{{id}}">
+                      {{#logo_url}}
+                      <img src="<?php echo ATTACHMENT_URL . '/';?>{{logo_url}}" class="" alt="" />
+                      {{/logo_url}}
+                      {{^logo_url}}
+                      <img src="<?php echo IMG_URL;?>icon.png" class="" alt="" />
+                      {{/logo_url}}
+                  </a>
+              </dt>
+              <dd>
+                  <a href="<?php echo QUAN_URL . '/circle.php?cid=';?>{{id}}">{{name}}</a>
+              </dd>
+          </dl>
+          {{/circles}}
+          </script>
+		  <div id="hottestCirclesDiv" class="ui-box fn-clear">
+			<div class="ui-box-title">该圈的人也喜欢去</div>
+		  </div>
+		</div>
+
+	  </div>
+
+	</div>
+    <script type="text/javascript">
+        function follow(oThis){
+            circleService.join(
+                function(data){
+                    var str = '<input type="button" value="" onclick="quit_follow_box()" class="quit_follow" />';
+                    $(oThis).parents(".follow-con").html(str);
+                    checkAutoUpgrade();
+                }
+            );
+        }
+
+        function quit_follow_box(){
+           $.colorbox({href:"quitauto.html", overlayClose: false, escKey: false});
+        }
+
+        circleService.getLatestJoinMembers(function(data){
+            var s = Mustache.render($("#latestJoinedMemberTemp").html(), {members: data});
+            $("#latestJoinedMembersDiv").append(s);
+        });
+        circleService.getHottestCircles(function(data){
+            var s = Mustache.render($("#hottestCirclesTemp").html(), {circles: data});
+            $("#hottestCirclesDiv").append(s);
+        });
+
+        function checkAutoUpgrade() {
+            circleService.canAutoUpgrade(
+                function(data){
+                    if (data.canAutoUpgrade) {
+                        $.colorbox({href:"auto.html", overlayClose: false, escKey: false});
+                    }
+                }
+            )
+        }
+        <?php if ($member != null && $member->role == "member") { ?>
+        checkAutoUpgrade();
+        <?php } ?>
+    </script>
+
+	<script type="text/javascript" src="http://passport.liba.com/feeds/comm/bottom_gb"></script>
+  </body>
+</html>

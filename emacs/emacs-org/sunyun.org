@@ -1,0 +1,51 @@
+ sunyun-Gtd
+* TODO 学习 node.js
+** DONE 购买 node.js 书籍
+   CLOSED: [2012-07-27 星期五 08:55] SCHEDULED: <2012-07-26 星期四>
+** TODO 完成 一个 node.js 应用
+   SCHEDULED: <2012-08-06 星期一>
+   note:有项目退后执行
+* TODO 设计方法构建
+** 研究文档PRD,MRD,BRD的撰写
+** 研究设计方法
+*** TODO 人物志
+    SCHEDULED: <2012-07-25 星期三>
+    note:有项目退后执行
+*** 其他
+*** TODO 人物志
+    note:有项目退后执行
+* 整理adc会议
+** node.方向
+   - Note taken on [2012-07-24 星期二 17:08] \\
+     随着node的书籍的观看和正式学习开始辅助浏览
+** 设计方向
+** 优化方向
+* excel学习
+** TODO 数据透视表学习
+   SCHEDULED: <2012-08-01 星期三>
+   note：并发执行
+* 整理完善工作
+** 整理SVN中的css和html
+   - Note taken on [2012-07-24 星期二 17:10] \\
+     随着组织架构调整可能要暂停
+** 优化兼容制作页面
+   - Note taken on [2012-07-24 星期二 17:10] \\
+     随着组织架构调整可能要暂停
+* 看js书籍研究js
+** DONE 滚动方法
+   CLOSED: [2012-07-27 星期五 08:55] SCHEDULED: <2012-07-24 星期二>
+** 拖动方法
+   SCHEDULED: <2012-07-26 星期四>
+** 看js书籍
+** 研究colorbox
+   SCHEDULED: <2012-07-30 星期一>
+** jalert研究
+   SCHEDULED: <2012-08-01 星期三>
+* 玩转github
+* TODO 网页设计竞赛
+  note：并发执行
+* emacs深入研究
+** emacs大神配置
+** DONE emacs-org
+   CLOSED: [2012-07-24 星期二 13:45]
+** 

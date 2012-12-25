@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>基本信息</title>
+	<link rel="stylesheet" href="<?php echo CDN_URL;?>/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo CSS_URL;?>quan.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo CSS_URL;?>management.css" type="text/css" />
+    <script type="text/javascript" src="<?php echo HOME_URL;?>/public/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo JS_URL;?>sidebar.js"></script>
+    <script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/mustache.js"></script>
+    <script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/circle.js"></script>
+    <script type="text/javascript">
+      var circleService = new CircleService(<?php echo $circle_id ?>);
+      var currentUserId = <?php echo $user_id ?>;
+    </script>
+  </head>
+
+  <body>
+	<script type="text/javascript" src="http://passport.liba.com/feeds/comm/top"></script>
+
+	<div class="container fn-clear">
+
+	  <div class="top">
+		<div class="ui-theme fn-clear">
+		<a  href="{:javascript://}"><b><?php echo $circle->name; ?></b></a>
+		<p>元老会管理</p>
+		<ul class="ui-top">
+		  <li class="ui-top-nav selected"><a href="<?php echo QUAN_URL . "/information.php?cid={$circle_id}"?>">基本信息</a></li>
+		  <li class="ui-top-nav"><a href="<?php echo QUAN_URL . "/member.php?cid={$circle_id}"?>">成员管理</a></li>
+		  <li class="ui-top-nav"><a href="<?php echo QUAN_URL . "/bannedtopic.php?cid={$circle_id}"?>" target="_blank">违禁话题</a></li>
+		  <li class="ui-top-nav"><a href="<?php echo QUAN_URL . "/log.php?cid={$circle_id}"?>" target="_blank">管理日志</a></li>
+		</ul>
+	  </div>
+	</div>
+
+	  <div class="wrapper fn-clear">
+
+        <form action="update_circle.php" method="post" enctype="multipart/form-data">
+		<div class="main">
+		  <div class="ui-forum"><b>圈子名称:</b><p><?php echo $circle->name; ?></p></div>
+		  <div class="ui-forum"><b>所属板块:</b><p>母婴亲子</p></div>
+		  <div class="ui-forum" >
+			<b>圈子介绍:</b>
+			<textarea name="description" class="ui-forum-text" rows = "5" cols="50" style="margin-left: 10px;"><?php echo $circle->description; ?></textarea>
+		  </div>
+		  <div class="ui-forum dotte fn-clear">
+			<b>圈子头像:</b>
+            <?php if($circle->logo_url) {?>
+              <img src="<?php echo $circle->logo_url;?>" class="" alt="" />
+            <?php } else { ?>
+              <img src="<?php echo IMG_URL;?>logo.png" class="" alt="" />
+            <?php } ?>
+			<div class="file">			  
+			  <input id="textfield" class="type-file-text" type="text" name="textfield">
+			  <input id="button" class="type-file-button" type="button" value="" name="button">
+			  <input class="type-file-logo" type="file" name="logo" value="" />
+			  <span>JPG、GIF、PNG格式，小于1M</span>
+			</div>
+		  </div>
+		  <div class="ui-save">
+            <input type="image" src="<?php echo IMG_URL;?>saveicon.png" />
+		  </div>
+		</div>
+        <input type="hidden" name="cid" value="<?php echo $circle_id ?>"/>
+        </form>
+
+
+		<div class="sidebar">
+		  <div class="ui-tip">
+			<div class="ui-tip-title">
+			  <b><?php echo $circle->name ?></b><span>的元老弹劾</span>
+			  <p>元老可以在这里发动弹劾机制，点击元老 用户名旁边K;即可开始对元老进行弹劾，弹劾机制一旦启动必须达到相应人数的半数以上“弹劾”，弹劾成功；不达到相应人数半数以上，弹劾失败。</p>
+               <?php if ($latest_activity) { ?>
+			  <img src="<?php echo IMG_URL;?>tipicon.png" class="" alt="" />
+              <a href="<?php echo QUAN_URL . '/topic.php?cid=' . $latest_activity->circle_id . '&tid=' . $latest_activity->topic_id;?>">你有一条协助弹劾指令需要响应</a>
+                   <?php } ?>
+			</div>
+
+		  </div>
+
+          <?php include_once(TEMPLATE_PATH . "silenced_member_widget.php") ?>
+
+		  <div class="ui-line">
+			<a target="_blank" href="<?php echo QUAN_URL . "/circle.php?cid={$circle_id}" ?>">回 <?php echo $circle->name; ?> 圈子 >></a>
+		  </div>
+
+		  <div class="ui-ad">
+		  </div>
+
+		</div>
+
+	  </div>
+
+	</div>
+	<script type=text/javascript src="http://passport.liba.com/feeds/comm/bottom_gb"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<?php
+include_once('functions.php');
+include_once('mysql.php');
+require_once ('client.php');
+
+//$sessionhash = $_COOKIE['sessionhash'];
+//$return = get_login_state($sessionhash);
+//$username = $return['result']['userName'];
+//$userid = $return['result']['userid'];
+
+/* $admin = array('Õë´ÌµÄÖ¸¼â', 'Ç×Ç×Æ»¹ûÊ÷-2'); */
+/* if(in_array($username, $admin)) { */
+/* 	$is_admin = true; */
+/* } else { */
+/* 	$is_admin = false; */
+/* } */
+
+$db = new database();
+$db->connect($guestbook);
+$db->query("SET NAMES UTF-8");
+
+?>

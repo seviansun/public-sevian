@@ -1,0 +1,107 @@
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Our Love Story</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital-7_mono.ttf') format("truetype");
+		}
+	</style>
+	<link href="love.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+				<span class="comments">/**</span><br />
+				<span class="space"/><span class="comments">* 如果明天就是世界末日</span><br />
+				<span class="space"/><span class="comments">* 我会写一些代码来表达我对你的爱.</span><br />
+				<span class="space"/><span class="comments">*/</span><br />
+				Boy i = <span class="keyword">new</span> Boy(<span class="string">"云宝"</span>);<br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">"未知"</span>);<br />
+				<span class="comments">// April 21, 2012, 如果问我还有什么事没做. </span><br />
+				i.love(u);<br />
+				<span class="comments">// 即使到时候一切也将烟消云散.</span><br />
+				u.sayOtherthing();<br />
+				<span class="comments">// 如果明天就是世界末日</span><br />
+				<span class="comments">// 我会珍惜和你在一起的最后一刻 .</span><br />
+				$("body").append(reason);<br />
+				<span class="comments">// 因为与你错过了太多.</span><br />
+				<span class="comments">// 希望我们来生还能再见面.</span><br />
+				i.takeCareOf(u);<br />
+				<span class="comments">// for永远.</span><br />
+				<span class="keyword">boolean</span> isAccept = <span class="keyword">false</span>;<br />
+				<span class="keyword">while</span> (isAccept) {<br />
+				<span class="placeholder"/>i.waitFor(u);<br />
+				<span class="placeholder"/><span class="comments">// 我认为这是一个重要的决定</span><br />
+				<span class="placeholder"/><span class="comments">// 虽然直到世界末日我才发出.</span><br />
+				<span class="placeholder"/>isAccept = u.thinkOver();<br />
+				}<br />
+				<span class="comments">// 请接受的声音后,我们将这一刻永久保存下去.</span><br />
+				u.accept(i);<br />
+				i.liveHappilyWith(u);<br />
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						未知, I will have fallen in love with you for
+						<div id="elapseClock" style="display:none"></div>
+						<a href='#' id="accept">click me if accept me</a>
+					</div>
+					<div id="loveu">
+						Love u forever and ever.<br/>
+						<div class="signature">- 云宝</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
+			Copyright ? 2012 <a href="#">boyname && girlname</a> 
+		</div>
+	</div>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				adjustWordsPosition();
+				startHeartAnimation();
+			}, 10000);
+			
+			$("#accept").click(function(){
+				$(this).hide();
+				$("#elapseClock").show();
+				var together = new Date();
+				timeElapse(together);
+				setInterval(function () {
+					timeElapse(together);
+				}, 500);
+			})
+
+			
+
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+</body>
+</html>

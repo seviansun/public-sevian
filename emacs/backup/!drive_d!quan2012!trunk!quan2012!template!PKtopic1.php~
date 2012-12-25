@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>圈子首页</title>
+	<link rel="stylesheet" href="<?php echo CDN_URL;?>/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo CSS_URL;?>quan.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo CSS_URL;?>circle.css" type="text/css" />
+    <link href="<?php echo CSS_URL;?>resect.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo CSS_URL;?>bbs2012.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo CSS_URL;?>layer.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="<?php echo CSS_URL;?>bbsquan.css" type="text/css" />
+	<script type="text/javascript" src="<?php echo HOME_URL;?>/public/js/jquery.js"></script>
+	<script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/bbs2012.js"></script>
+	<script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/jquery.imageauto.js"></script>
+	<script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/jquery.dialog.js"></script>
+    <script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/mustache.js"></script>
+    <script type="text/javascript" src="<?php echo QUAN_URL;?>/public/js/circle.js.js"></script>
+  </head>
+
+  <body>
+     <script type="text/javascript" src="http://passport.liba.com/feeds/comm/top"></script>
+     <div class="topic-main">
+     <input type="hidden" id="pppp">
+     <div class="topic-hd clearfix">
+     <div class="topic-theme clearfix">
+     <div class="menu">
+     <div class="menu-hd"><a href="<?php echo QUAN_URL . '/circle.php?cid=' . $circle_id;?>"><?php echo $circle->name;?></a><i></i></div>
+     <div class="menu-bd">
+     <div class="menu-bd-panel">
+     <div class="title">
+     <a href="<?php echo QUAN_URL;?>">
+     回到首页
+     </a>
+     </div>
+     <div class="desc">
+     <a href="#">
+     </a>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="topic-title"><div class="short-title"><i><?php echo $topic->title;?></i></div><span class="hover-title"><?php echo $topic->title;?></span></div>
+     </div>
+     <div class="topic-mana clearfix">
+           <ul>
+           <li class="share">
+           <div id="ckepop">
+           <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt" target="_blank"><img src="http://v2.jiathis.com/code_mini/images/btn/v1/jiathis1.gif" border="0" /></a>
+           <a class="jiathis_counter_style_margin:3px 0 0 2px"></a>
+           </div>
+           </li>
+           <li class="last"><a class="reply-btn" href="./create_reply.php?cid=<?php echo $circle_id . '&tid=' . $topic_id . '&act=' . SHOW_CREATE_REPLY;?>">回复</a></li>
+           </ul>
+           </div>
+           </div>
+           <div class="topic-list-hd clearfix">
+           <div class="topic-filter clearfix">
+           <ul>
+           <li><a href="<?php echo QUAN_URL . '/topic.php?cid=' . $circle_id . '&tid=' . $topic_id;?>">全部内容</a></li>
+           <li class="last"><a href="<?php echo QUAN_URL . '/topic.php?cid=' . $circle_id . '&tid=' . $topic_id . '&t=' . SHOW_THIS_PERSON_ONLY . '&uid=' . $topic->poster_id;?>">只看楼主</a></li>
+           <li class="change"><i></i><a href="#">切换至打印版</a></li>
+           </ul>
+           </div>
+           <div class="pager simple">
+           <?php echo $page_html;?>
+           </div>
+           </div>
+     <?php if (is_array($replies) && count($replies) > 0) { ?>
+     <?php foreach ($replies as $reply) {   ?>  
+           <div class="topic-list">
+           <a name="<?php echo $reply->id;?>"></a>
+           <div class="topic-content clearfix">
+           <div class="infor">
+           <a href="<?php echo I_URL . '/' . $reply->poster_id;?>"><p class="name"><?php echo $reply->poster_name;?></p></a>
+           <a href="<?php echo I_URL . '/' . $reply->poster_id;?>"><img onerror="this.onerror=null;this.src='<?php echo AVATAR_URL;?>/default/d_head.png';" src="<?php echo AVATAR_URL . get_avatar_path($reply->poster_id);?>"/></a>
+     <div class="item">注册日期: <span><?php echo date('Y-m-d H:i:s', $reply->register_time);?></span><br>
+           来自: <span><?php echo $reply->come_from;?></span><br>
+           工分: <em><?php echo $reply->workpoint;?></em></div>
+           </div>
+           <div class="topic-text">
+               <div class="impeachment">
+			  <div class="impeachment-hd">
+				<ul>
+				  <li class="impeachment-title"><b>弹劾元老</b></li>
+				  <li class="impeachment-time">结束时间: <em> 2012-11-11 18:25</em></li>
+				  <li class="impeachment-time">发起时间: <span> 2012-11-10 16:25</span></li>
+				</ul>
+			  </div>
+			  <div class="impeachment-bd">
+				<div class="impeachment-vs">
+				  <dl>
+					<dt><a href="{:javascript://}"><img src="<?php echo IMG_URL;?>icon.png" class="" alt="" /></a></dt>
+					<dd><a href="{:javascript://}">泡梨的泡梨</a><p>发起者</p></dd>
+				  </dl>
+				  <img class="vs-img" src="<?php echo IMG_URL;?>vs.png" class="vs" alt="" />
+				  <dl>
+					<dt><a href="{:javascript://}"><img src="<?php echo IMG_URL;?>icon.png" class="" alt="" /></a></dt>
+					<dd><a href="{:javascript://}">偶巴尔坦</a><p>被弹者</p></dd>
+				  </dl>
+				  <p>已有<em>165</em>个元老参与</p>
+				</div>
+				<div class="impeachment-vote">
+				  <table width="0" cellspacing="0" cellpadding="0" border="0">
+					<tbody>
+					  <tr class="topic-vote-bd">
+						<td class="vote-title">
+						  <input class="border0" type="radio"  value="" name="pollId"/>
+						  赞同弹他
+						</td>
+						<td>
+						  <div class="vote-length">
+							<b class="vbg1"></b>
+						  </div>
+						</td>
+						<td>
+						  <div class="vote-num">
+							(58%)
+						  </div>
+						</td>
+					  </tr>
+					  <tr class="topic-vote-bd">
+						<td class="vote-title">
+						  <input class="border0" type="radio"  value="" name="pollId"/>
+						  反对弹他
+						</td>
+						<td>
+						  <div class="vote-length">
+							<b class="vbg1"></b>
+						  </div>
+						</td>
+						<td>
+						  <div class="vote-num">
+							(32%)
+						  </div>
+						</td>
+					  </tr>
+					  <tr class="topic-vote-bd">
+						<td class="vote-title">
+						  <input class="border0" type="radio"  value="" name="pollId"/>
+						  弃权
+						</td>
+						<td>
+						  <div class="vote-length">
+							<b class="vbg1"></b>
+						  </div>
+						</td>
+						<td>
+						  <div class="vote-num">
+							(0%)
+						  </div>
+						</td>
+					  </tr>
+					</tbody>
+				  </table>
+				  <div class="topic-vote-ft">
+					<input class="vote-btn" type="submit" name="" value="我要投票" />
+				  </div>
+				</div>
+			  </div>
+			</div>
+           </div>
+           </div>
+           <div class="topic-list-bt clearfix">
+                <div class="topic-related">
+                <ul>
+                <li class="date"><?php echo $reply->create_time;?></li>
+                <li class="data"><a href="<?php echo I_URL . '/' . $reply->poster_id;?>" target="_blank" title="点这里查看 <?php echo $reply->poster_name;?> 的个人资料">TA的主页</a></li>
+                <li><a href="<?php echo I_URL . '/' . $reply->poster_id;?>" title="将 <?php echo $reply->poster_name;?> 添加到你的好友列表">加为好友</a></li>
+     <li class="last"><a href="<?php echo QUAN_URL . '/topic.php?cid=' . $circle_id . '&tid=' . $topic_id . '&t=' . SHOW_THIS_PERSON_ONLY . '&uid=' . $reply->poster_id;?>" target="_blank">只看此人</a></li>
+                </ul>
+                </div>
+                <?php if ($member_role == 'senator') { ?>
+                <div class="topic-detail-mana">
+                <ul>
+                <li class='manager'>
+                <div class='menu'>
+
+                <div class='menu-hd'>
+                <a href='#'>管理</a><i></i>
+                </div>
+     <?php if ($member_role == 'senator') { ?>
+                <div class='menu-bd'>
+                <div class='menu-bd-panel'>
+                <div class='desc'>
+                <a target="_blank" href="<?php echo I_URL . '/' . $reply->poster_id;?>">资料</a>
+                </div>
+                <div class='desc'>
+                <a href="<?php echo QUAN_URL . '/admin/ip.php?cid=' . $circle_id . '&tid=' . $topic_id . '&rid=' . $reply->id;?>">查IP</a>
+                </div>
+                <div class='desc'>
+                <a href="<?php echo QUAN_URL . '/admin/delete_reply.php?act=' . SHOW_DELETE_REPLY . '&cid=' . $circle_id . '&tid=' . $topic_id . '&rid=' . $reply->id;?>">删除该楼层</a>
+                </div>
+                <div class='desc'>
+                <a href="<?php echo QUAN_URL . '/admin/ban_user.php?act=' . SHOW_BAN_USER . '&cid=' . $circle_id;?>">对此人禁言</a>
+                </div>
+                </div>
+                </div>
+                     <?php } ?>
+                </div>
+                </li>
+                <li class="copy-address">
+                <input id="<?php echo $reply->id;?>" type="hidden" value='#'>
+                <span id="<?php echo $reply->id;?>"  title='复制本楼地址，可以直接定位到本楼'>复制本楼地址</span>
+                </li>
+                <li>
+                <a href="<?php echo QUAN_URL . '/edit_reply.php?act=' . SHOW_EDIT_REPLY . '&cid=' . $circle_id .  '&tid=' . $topic_id . '&rid=' . $reply->id;?>">编辑</a>
+                </li>
+                <li class="quote">
+                <a href="#">引用</a>
+                </li>
+                <li class="last"><?php echo $reply->floor;?></li>
+                </ul>
+                </div>
+                 <?php }?>
+                </div>
+                </div>
+            <?php } ?>
+            <?php } ?>
+                <div class="topic-list-ft clearfix">
+     <div class="menu">
+     <div class="menu-hd"><a href="javascript:;"><?php echo $circle->name;?></a><i></i></div>
+     <div class="menu-bd">
+     <div class="menu-bd-panel">
+     <div class="title">
+     <a href="#">
+     回到首页
+     </a>
+     </div>
+     </div>
+	 </div>
+     </div>
+     <div class="pager all-topic"><?php echo $page_html;?>
+     <span class="page-search">第<input type="text" class="page-input" onfocus="this.select()" value="1" name="fgopage">页</span><input type="submit" class="page-btn" title="跳转到指定页" value=""></div>
+     <input type="hidden" class="J_url" value="#" />
+     <a href="./create_reply.php?cid=<?php echo $circle_id . '&tid=' . $topic_id . '&act=' . SHOW_CREATE_REPLY;?>" target="_blank" class="reply-btn">回复</a>
+     </div>
+     <?php if ($member_role == 'senator') { ?>
+     <select id=manageb onchange="if(this.options[this.selectedIndex].value != '') {
+window.location=(this.options[this.selectedIndex].value) }">
+     <option value=''>=管理选项=</option>
+     <option value='<?php echo QUAN_URL . "/admin/log.php?cid=" . $circle_id;?>'>查看管理历史记录</option>
+     <option value='<?php echo QUAN_URL . "/admin/top.php?act=" . SHOW_TOP . "&cid={$circle_id}&tid={$topic_id}";?>'>置顶/消顶</option>
+     <option value='<?php echo QUAN_URL . "/admin/lock.php?act=" . SHOW_LOCK . "&cid={$circle_id}&tid={$topic_id}";?>'>锁定/解锁</option>
+     <option value='<?php echo QUAN_URL . "/admin/level.php?act=" . SHOW_MARROW . "&cid={$circle_id}&tid={$topic_id}";?>'>精华/普通</option>
+     <option value='<?php echo QUAN_URL . "/admin/level.php?act=" . SHOW_HIGHLIGHT . "&cid={$circle_id}&tid={$topic_id}";?>'>高亮/普通</option>
+     <option value='<?php echo QUAN_URL . "/admin/delete_topic.php?act=" . SHOW_DELETE_TOPIC . "&cid={$circle_id}&tid={$topic_id}";?>'>删除主题</option>
+     <option value='<?php echo QUAN_URL . "/admin/repair_floor.php?act=" . SHOW_REPAIR_FLOOR . "&cid={$circle_id}&tid={$topic_id}";?>'>修复主题</option>
+     </select>
+          <?php } ?>
+     <script src="{$imagePath}/bbcode.js"></script>
+     <script type="text/javascript">
+     $(function(){
+             //删除收藏
+             $('.J-delete-topic').click(function() {
+                     Dialog.ask("你确定要删除这条收收藏吗？", ["确定", "取消"], function(val) {
+                             if(val=="确定"){
+                                 location.href='fav.php?action=cancel_topic&topic_id={$topic_id}&forum_id={$forum_id}&page={$page}';
+                             }
+                         },{title:"取消收藏",width:"418px"});
+                     return false;
+                 });
+         });
+window.onload=function(){
+    $(".signature").each(function () {
+        	var $this = $(this);
+			$this.show();
+        	$this.prev().css({"margin-bottom": $this.outerHeight(true) + 10});
+        });
+}
+    function resend_mobile_code() {
+        var frm1 = document.form1;
+        frm1.onsubmit = '';
+        frm1.action = '/mobile_service.php';
+        frm1.formAction.value = 'resendMobileCode';
+        frm1.submit();
+    }
+</script>
+<div class="quick-reply clearfix">
+        <form action="./create_reply.php" method="post" name="form1" onSubmit="return checkForm(form1);">
+        <input type="hidden" name="act" value="<?php echo CREATE_REPLY;?>">
+        <input type="hidden" name="cid" value="<?php echo $circle_id;?>">
+        <input type="hidden" name="tid" value="<?php echo $topic_id;?>">
+        <div class="reply-content">
+        <div class="reply-hd">快速回复</div>
+        <div class="reply-bd">
+        <div><textarea name="content" id="textarea" onKeyDown="return ctlent(event,form1);"></textarea></div>
+        <div class="reply-submit clearfix">
+        <div class="reply-btn">
+        <input class="input-empty quick-reply-btn" name=Reset type=reset value="清空内容">
+        <input class="input-copy quick-reply-btn" id="copy-text" type=button value="复制到黏贴板" name=copy title='复制到剪贴板，提交不成功可以重新粘贴'>
+        <input class="submit-reply quick-reply-btn" type="submit" name="Submit" value="提交回复">
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="reply-rules">
+        <ul>
+        <li>·尊重网上道德，遵守《<a href="http://bbs.sh.liba.com/rules.php" target="_blank">篱笆论坛规则</a>》及《<a href="http://www.liba.com/article/article_show.php?article_id=60" target="_blank">互联网电子公告服务管理规<br>&nbsp;&nbsp;定</a>》等其他国家法规</li>
+        <li>·承担一切因您的行为而直接或间接导致的民事或刑事法律责任</li>
+        <li>·论坛管理人员有权保留或删除其管辖留言中的任意内容</li>
+        <li>·您在论坛发表的作品，篱笆网有权在网站内转载或引用</li>
+        <li>·任何个人或单位转载论坛文字、图片，须经网站和发帖人允许并注明出处</li>
+        <li>·用户承诺上传、发布的文字、图片等相关内容不侵犯第三方的权益，包括<br>&nbsp;&nbsp;但不限于隐私权、肖像权、名誉权、知识产权等</li>
+        <li>·在本论坛发表留言即表明您已经阅读并接受上述条款</li>
+        </ul>
+        </div>
+        </form>
+        </div>
+        <div class="add-tag">
+        <div class="inner-tag">
+        </div>
+        </div>
+        <script src="./public/js/zeroclipboard/ZeroClipboard.js"></script>
+       <script>
+                                                                                                 function getid(id) { return document.getElementById(id); }
+                                                                                                 function toClipboard(cid,tid,txt){
+                                                                                                     var clip = new ZeroClipboard.Client();
+                                                                                                     var copyText=getid(tid).value;
+                                                                                                     clip.setHandCursor(true);
+                                                                                                     clip.addEventListener('mouseOver', function (client) {
+                                                                                                             clip.setText(copyText);
+                                                                                                         });
+                                                                                                     clip.addEventListener('complete', function (client) {
+                                                                                                             alert(txt); //复制成功提示
+                                                                                                         });
+                                                                                                     clip.glue(cid);		
+                                                                                                 }
+$(function(){
+		$(".copy-address span").mouseover(function(){
+                var id=$(this).attr("id");
+                var pid=$(this).prev().attr("id");
+                toClipboard(id,pid,"复制成功，请粘贴到你的帖子、QQ、MSN上推荐给你的好友，可以直接跳转到本楼");
+			});	
+		$("#copy-text").mouseover(function(){
+                toClipboard("copy-text","textarea","复制到剪贴板成功！");										   
+            });
+	})
+</script>
+<script type="text/javascript" src="http://v2.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+                                                                                                     </div>
+
+	<script type="text/javascript" src="http://passport.liba.com/feeds/comm/bottom_gb"></script>
+  </body>
+</html>
+

@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head data-base='{"debug":true}'>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>母婴广场-首页</title>
+	 <meta name="keywords" content="孕检 , 叶酸, 排卵 ,基础体温 , 流产, 胎停 ,试管 , 输卵管堵塞, 多囊 ,建卡 , 见红, 孕吐 ,产检 ,BC 数据, 唐氏 ,糖耐 , 胎动, 顺产 ,剖腹产 , 宫缩, 妊娠纹 ,坐月子 , 喂养, 母乳 ,奶粉 , 辅食, 体检 ,抚触 , 新生儿, 早产儿 ,疫苗 , 麻疹, 发脾气 ,早教 , 阅读, 绘本 ,认字 , 亲子游戏, 入园 ,幼小衔接 , 入校适应"> 
+	 <meta name="description" content="这里有同学们真实全面的备孕知识、孕娩分享、育儿心得；也有热心解答咨询的同学们；是爸爸妈妈们分享育儿经，讨论亲子互动的真实平台。">
+	<link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $url['css']?>square_baby.css" type="text/css" />
+	<script type="text/javascript" src="http://www.liba.com/public/js/jquery.js"></script>
+  </head>
+  <body>
+<script type=text/javascript src="http://passport.liba.com/feeds/comm/top"></script>
+	
+
+	<div id="container">
+	  <div id="heading">
+			<a href="<?php  echo $url['site']; ?>baby">
+			  <img src="<?php echo $url['css']?>images/square_baby/liba.baby.jpg" />
+			</a>
+			<div class="heading-nav">
+				<a href="http://bbs.liba.com/f_545.htm" class="J-pop-login" target="_blank">
+				  <img src="<?php echo $url['css']?>images/square_baby/logo/1.png"/>
+				</a>
+				<a href="http://bbs.liba.com/f_38.htm" class="J-pop-login" target="_blank">
+				  <img src="<?php echo $url['css']?>images/square_baby/logo/2.png"/>
+				</a>
+				<a href="http://bbs.liba.com/f_123.htm" class="J-pop-login" target="_blank">
+				  <img src="<?php echo $url['css']?>images/square_baby/logo/3.png"/>
+				</a>
+				<a href="http://bbs.liba.com/f_296.htm" class="J-pop-login" target="_blank">
+				  <img src="<?php echo $url['css']?>images/square_baby/logo/4.png"/>
+				</a>
+				<a href="http://bbs.liba.com/f_1131.htm" class="J-pop-login" target="_blank">
+				  <img src="<?php echo $url['css']?>images/square_baby/logo/5.png"/>
+				</a>
+				<a href="http://bbs.liba.com/f_1132.htm" class="J-pop-login" target="_blank">
+				  <img src="<?php echo $url['css']?>images/square_baby/logo/6.png"/>
+				</a>
+				<a href="http://bbs.liba.com/f_786.htm" class="J-pop-login" target="_blank">
+				  <img src="<?php echo $url['css']?>images/square_baby/logo/7.png"/>
+				</a>
+				<a href="http://bbs.liba.com/f_302.htm" class="J-pop-login" target="_blank">
+				  <img src="<?php echo $url['css']?>images/square_baby/logo/8.png"/>
+				</a>
+			</div>
+	  </div>
+
+	  <div class="dateLine">
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="1000" height="49">
+		  <param name="wmode" value="transparent" />
+		  <param name="movie" value="<?php echo $url['site']?>public/css/images/square_baby/baby_dateline.swf" />
+		  <param name="quality" value="high" />
+		  <embed src="<?php echo $url['site']?>public/css/images/square_baby/baby_dateline.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="1000" height="49" wmode="transparent"></embed>
+		</object>
+	  </div>
+
+
+	  <div id="wrapper" class="fn-clear">
+		<div id="main">
+		  <div id="focus" class="ui-box">
+			<div class="ui-box-bd fn-clear">
+			  <div class="ui-focus fn-left" data-module="focus">
+				<div class="ui-focus-container">
+
+		   <!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_01首屏焦点图1 Begin -->
+		   <!-- <script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1344" ></script> -->
+		   <!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_01首屏焦点图1 End -->
+<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_01首屏焦点图3 Begin -->
+<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1344" ></script>
+<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_01首屏焦点图3 End -->
+		
+				</div>
+
+			  </div>
+			  <div class="fn-right">
+				<ul class="ui-list">
+
+				  <li class="ui-list-item ui-list-item-first fn-dashed ui-list-item-text">
+					<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-1推荐文字链独占1 End -->
+<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_05聚焦文字链 Begin --><script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1350" ></script><!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_05聚焦文字链 End -->
+
+				  </li>
+
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-1推荐文字链独占1 Begin --><script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1351" ></script><!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-1推荐文字链独占1 End -->
+
+
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-2推荐文字链独占2 Begin --><script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1352" ></script><!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-2推荐文字链独占2 End -->
+
+
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-3推荐文字链独占3 Begin --><script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1353" ></script><!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-3推荐文字链独占3 End -->
+
+
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+					
+					<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-4推荐文字链独占4 Begin --><script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1354" ></script><!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-4推荐文字链独占4 End -->
+
+				  </li>
+
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-5推荐文字链独占5 Begin --><script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1355" ></script><!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_06-5推荐文字链独占5 End -->
+
+				  </li>
+
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+		  <div id="category1" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">	
+			  <h2 class="ui-title">篱笆妈妈的备孕时间</h2>
+			  <div class="ui-category-item-name">备孕期</div>
+			</div>			
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">
+				
+				<?php foreach($prepare_pregnancy['tag'] as $val) {?>
+				<li class="ui-list-item">
+					<?php  if($prepare_pregnancy['has_img'] == 0){?>
+				  <a href="/baby/baby_list/category_id/<?php echo $prepare_pregnancy['category_id'] ?>/tag_id/<?php echo $val['tag_id'] ?>" target="_blank">
+					<?php }else {?>
+					 <a href="/waterfall/index/tag_id/<?php  echo $val['tag_id'] ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php echo $val['name']?>
+				  </a>
+				</li>
+				<?php };?>
+			  </ul>
+			</div>
+		  	<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+
+				<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_07备孕期方图 Begin --><script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1357" ></script><!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_07备孕期方图 End -->
+
+			  </div>
+			  <div class="ui-form-middle">
+				<ul class="ui-list">
+
+				  <?php foreach($prepare_pregnancy['topic']['left'] as $key => $val ) {?>
+				  <?php if ($key == 0) {?>
+				  <li class="ui-list-item-title">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 34) . '...'?></a>
+				  </li>
+				  <?php } else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 42) . '...'?></a>
+				  </li>
+				  <?php }?>
+				  <?php }?>
+
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<ul class="ui-list">
+				  <li class="ui-list-item ui-list-item-text"><br /></li>
+
+				  <?php foreach($prepare_pregnancy['topic']['right'] as $key => $val ) {?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']; ?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 28) . '...';?></a>
+				  </li>
+				  <?php }?>
+
+				</ul>
+			  </div>				
+			</div>
+		  </div>
+		<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_13-通栏一-切换1/2 Begin -->
+		<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1375" ></script>
+		<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_13-通栏一-切换1/2 End -->
+
+		  <div id="category2" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">	
+			  <h2 class="ui-title">篱笆妈妈的十月感动</h2>
+			  <div class="ui-category-item-name">怀孕期</div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">
+
+				<?php foreach($pregnancy['tag'] as $val) {?>
+				<li class="ui-list-item">
+					 <?php  if($pregnancy['has_img'] == 0){?>
+				<a href="/baby/baby_list/category_id/<?php echo $pregnancy['category_id'] ?>/tag_id/<?php echo $val['tag_id'] ?>" target="_blank">
+					<?php }else {?>
+					 <a href="/waterfall/index/tag_id/<?php  echo $val['tag_id'] ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php echo $val['name']?>
+				  </a>
+				</li>
+				<?php };?>
+
+			  </ul>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+
+				<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_08怀孕期方图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1358" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_08怀孕期方图 End -->
+
+			  </div>
+			  <div class="ui-form-middle">	
+				<ul class="ui-list">
+
+				  <?php foreach($pregnancy['topic']['left'] as $key => $val ) {?>
+				  <?php if ($key == 0) {?>
+				  <li class="ui-list-item-title">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 34) . '...'?></a>
+				  </li>
+				  <?php } else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 42) . '...'?></a>
+				  </li>
+				  <?php }?>
+				  <?php }?>
+
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<ul class="ui-list">
+				  <li class="ui-list-item ui-list-item-text"><br /></li>
+
+				  <?php foreach($pregnancy['topic']['right'] as $key => $val ) {?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']; ?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 28) . '...';?></a>
+				  </li>
+				  <?php }?>
+
+				</ul>
+			  </div>				
+			</div>
+		  </div>
+
+		<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_14-通栏二-切换1/2 Begin -->
+		<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1376" ></script>
+		<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_14-通栏二-切换1/2 End -->
+
+		  <div id="category3" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">
+			  <h2 class="ui-title">篱笆宝宝的初看世界</h2>
+			  <div class="ui-category-item-name">0-1岁</div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">
+
+				<?php foreach($from0to1years['tag'] as $val) {?>
+				<li class="ui-list-item">
+					 <?php  if($from0to1years['has_img'] == 0){?>
+				  <a href="/baby/baby_list/category_id/<?php echo $from0to1years['category_id'] ?>/tag_id/<?php echo $val['tag_id'] ?>" target="_blank">
+					<?php }else {?>
+					 <a href="/waterfall/index/tag_id/<?php  echo $val['tag_id'] ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php echo $val['name']?>
+				  </a>
+				</li>
+				<?php };?>
+
+
+			  </ul>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+
+				<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_09零至一岁方图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1359" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_09零至一岁方图 End -->
+			
+			  </div>
+			  <div class="ui-form-middle">	
+				<ul class="ui-list">
+
+				  <?php foreach($from0to1years['topic']['left'] as $key => $val ) {?>
+				  <?php if ($key == 0) {?>
+				  <li class="ui-list-item-title">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 34) . '...'?></a>
+				  </li>
+				  <?php } else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 42) . '...'?></a>
+				  </li>
+				  <?php }?>
+				  <?php }?>
+
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<ul class="ui-list">
+				  <li class="ui-list-item ui-list-item-text"><br /></li>
+
+				  <?php foreach($from0to1years['topic']['right'] as $key => $val ) {?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']; ?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 28) . '...';?></a>
+				  </li>
+				  <?php }?>
+
+				</ul>
+			  </div>				
+			</div>
+		  </div>
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_15-通栏三-切换1/2 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1377" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_15-通栏三-切换1/2 End -->
+		  <div id="category6" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">
+			  <h2 class="ui-title">篱笆宝宝的健康成长</h2>
+			  <div class="ui-category-item-name">1-3岁</div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">
+
+				<?php foreach($from1to3years['tag'] as $val) {?>
+				<li class="ui-list-item">
+					<?php  if($from1to3years['has_img'] == 0){?>
+				  <a href="/baby/baby_list/category_id/<?php echo $from1to3years['category_id'] ?>/tag_id/<?php echo $val['tag_id'] ?>" target="_blank">
+					<?php }else {?>
+					 <a href="/waterfall/index/tag_id/<?php  echo $val['tag_id'] ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php echo $val['name']?>
+				  </a>
+				</li>
+				<?php };?>
+
+
+			  </ul>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+				<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_10一至三岁方图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1360" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_10一至三岁方图 End -->
+
+			  </div>
+			  <div class="ui-form-middle">	
+				<ul class="ui-list">
+
+				  <?php foreach($from1to3years['topic']['left'] as $key => $val ) {?>
+				  <?php if ($key == 0) {?>
+				  <li class="ui-list-item-title">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 34) . '...'?></a>
+				  </li>
+				  <?php } else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 42) . '...'?></a>
+				  </li>
+				  <?php }?>
+				  <?php }?>
+
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<ul class="ui-list">
+				  <li class="ui-list-item ui-list-item-text"><br /></li>
+
+				  <?php foreach($from1to3years['topic']['right'] as $key => $val ) {?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']; ?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 28) . '...';?></a>
+				  </li>
+				  <?php }?>
+
+				</ul>
+			  </div>				
+			</div>
+		  </div>
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_16-通栏四-切换1/2 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1378" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_16-通栏四-切换1/2 End -->
+
+		  <div id="category4" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">
+			  <h2 class="ui-title">篱笆宝宝的好奇探索</h2>
+			  <div class="ui-category-item-name">3-6岁</div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">
+
+				<?php foreach($from3to6years['tag'] as $val) {?>
+				<li class="ui-list-item">
+					<?php  if($from3to6years['has_img'] == 0){?>
+				  <a href="/baby/baby_list/category_id/<?php echo $from3to6years['category_id'] ?>/tag_id/<?php echo $val['tag_id'] ?>" target="_blank">
+					<?php }else {?>
+					 <a href="/waterfall/index/tag_id/<?php  echo $val['tag_id'] ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php echo $val['name']?>
+				  </a>
+				</li>
+				<?php };?>
+			  </ul>
+			  </div>
+
+			  
+			  <div class="ui-category-item-bd fn-clear">
+				<div class="ui-form-left">
+				 
+				  <!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_11三至六岁方图 Begin -->
+				  <script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1361" ></script>
+				  <!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_11三至六岁方图 End -->
+
+				</div>
+				<div class="ui-form-middle">	
+				  <ul class="ui-list">
+
+
+				  <?php foreach($from3to6years['topic']['left'] as $key => $val ) {?>
+				  <?php if ($key == 0) {?>
+				  <li class="ui-list-item-title">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 34) . '...'?></a>
+				  </li>
+				  <?php } else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 42) . '...'?></a>
+				  </li>
+				  <?php }?>
+				  <?php }?>
+
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<ul class="ui-list">
+				  <li class="ui-list-item ui-list-item-text"><br /></li>
+
+				  <?php foreach($from3to6years['topic']['right'] as $key => $val ) {?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']; ?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 28) . '...';?></a>
+				  </li>
+				  <?php }?>
+
+				</ul>
+			  </div>				
+			</div>
+		  </div>
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_17-通栏五-切换1/2 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1379" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_17-通栏五-切换1/2 End -->
+		  <div id="category5" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">
+			  <h2 class="ui-title">篱笆宝宝的学习之旅</h2>
+			  <div class="ui-category-item-name">6岁</div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">
+
+				<?php foreach($over6years['tag'] as $val) {?>
+				<li class="ui-list-item">
+					<?php  if($over6years['has_img'] == 0){?>
+				  <a href="/baby/baby_list/category_id/<?php echo $over6years['category_id'] ?>/tag_id/<?php echo $val['tag_id'] ?>" target="_blank">
+					<?php }else {?>
+					 <a href="/waterfall/index/tag_id/<?php  echo $val['tag_id'] ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php echo $val['name']?>
+				  </a>
+				</li>
+				<?php };?>
+			  </ul>
+			  </div>		
+			  <div class="ui-category-item-bd fn-clear">
+				<div class="ui-form-left">
+
+				  <!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_12六岁以上方图 Begin -->
+				  <script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1362" ></script>
+				  <!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_12六岁以上方图 End -->
+
+				</div>
+				<div class="ui-form-middle">	
+				  <ul class="ui-list">
+
+				  <?php foreach($over6years['topic']['left'] as $key => $val ) {?>
+				  <?php if ($key == 0) {?>
+				  <li class="ui-list-item-title">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 34) . '...'?></a>
+				  </li>
+				  <?php } else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 42) . '...'?></a>
+				  </li>
+				  <?php }?>
+				  <?php }?>
+
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<ul class="ui-list">
+				  <li class="ui-list-item ui-list-item-text"><br /></li>
+
+				  <?php foreach($over6years['topic']['right'] as $key => $val ) {?>
+				  <li class="ui-list-item ui-list-item-text">
+					   <a href="http://bbs.liba.com/t_<?php echo $val['forum_id'] . '_' . $val['topic_id']; ?>_1.htm" target="_blank"><?php echo utf_substr($val['topic_name'], 28) . '...';?></a>
+				  </li>
+				  <?php }?>
+
+				  </ul>
+			  </div>				
+			</div>
+		  </div>
+		  
+		  <div class="ui-ad">
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_13底部通栏 Begin -->
+			<!--<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1363" ></script>-->
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_13底部通栏 End -->
+
+
+
+<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_18-底部通栏-切换1/2 Begin -->
+<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1380" ></script>
+<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_18-底部通栏-切换1/2 End -->
+
+
+
+
+
+
+
+
+
+		  </div>
+
+		</div>
+
+		<div id="sidebar">
+		  <div class="ui-ad">
+
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_02右侧首屏焦点图 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1347" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_02右侧首屏焦点图 End -->
+
+		  </div>
+		  
+		   <div id="enjoy" class="ui-box">
+			<div class="fn-boder">
+			  <div class="ui-box-bd">
+				<div class="ui-box-nav">
+				  <em>活动公告</em>
+				</div>
+				<ul class="ui-nav fn-clear">
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_1131_7122353_1.htm">有奖征集：夏季宝宝服饰搭配</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_1131_7125415_1.htm}">杂志征集：趣味照片秀——宝贝囧事</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_123_7117416_1.htm">征集分享：防止宝宝被拐骗的妙招</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_545_7097941_1.htm">投票讨论：孕前大家都补充哪个品牌的叶酸</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_38_7138269_1.htm">实用信息：最全面的上海生育津贴的领取信息</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_38_7132796_1.htm">分享总结：总结顺产疼痛最小化的办法</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_123_7117610_1.htm">实用信息：按年龄段管教孩子的最好方法</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_296_6439238_1.htm">实用信息：母乳妈妈用药指南</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_296_6737862_1.htm">资料典藏：《母乳喂养手册》在线阅读</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_1132_6535984_1.htm">分享总结：亲子游好去处</a></li>
+				  <li class="ui-nav-item fn-dashed"><a href="http://bbs.liba.com/t_786_6611047_1.htm">健康总结：会员亲身实践过的绿色疗法</a></li>
+
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+		  <div id="nav" class="ui-box">
+			<!-- 如果登录，则传userid进去  -->
+			<script type="text/javascript" src="http://www.liba.com/nut_baby.php<?php if($userid != ""){ ?>?userid=<?php echo $userid;} ?>">
+			</script>
+		  </div>
+<!--
+		  <div id="brand" class="ui-box fn-clear">
+			<div class="ui-box-hd">	
+			  <a href="{:javascript://}"><span class="ui-nav-item-name">品牌圈</span></a>
+			</div>
+			<div class="ui-box-bd">
+			  <ul class="ui-list">
+				<li class="ui-list-item fn-clear">
+				  <div class="ui-list-item-pic">
+					<img src="" class="" alt="" />
+				  </div>
+				  <div class="ui-list-item-text">
+					<a href="{:javascript://}">钻石小鸟</a>
+				  </div>
+				</li>
+				<li class="ui-list-item fn-clear">
+				  <div class="ui-list-item-pic">
+					<img src="" class="" alt="" />
+				  </div>
+				  <div class="ui-list-item-text">
+					<a href="{:javascript://}">YMH钻石体验站</a>
+				  </div>
+				</li>
+				<li class="ui-list-item fn-clear">
+				  <div class="ui-list-item-pic">
+					<img src="" class="" alt="" />
+				  </div>
+				  <div class="ui-list-item-text">
+					<a href="{:javascript://}">楼上楼闪耀翠友会</a>
+				  </div>
+				</li>
+				<li class="ui-list-item fn-clear">
+				  <div class="ui-list-item-pic">
+					<img src="" class="" alt="" />
+				  </div>
+				  <div class="ui-list-item-text">
+					<a href="{:javascript://}">魅力假期</a>
+				  </div>
+				</li>
+				<li class="ui-list-item fn-clear">
+				  <div class="ui-list-item-pic">
+					<img src="" class="" alt="" />
+				  </div>
+				  <div class="ui-list-item-text">
+					<a href="{:javascript://}">柯兰钻石天使之家</a>
+				  </div>
+				</li>
+				<li class="ui-list-item fn-clear">
+				  <div class="ui-list-item-pic">
+					<img src="" class="" alt="" />
+				  </div>
+				  <div class="ui-list-item-text">
+					<a href="{:javascript://}">天空星钻体验中心</a>
+				  </div>
+				</li>
+				<li class="ui-list-item fn-clear">
+				  <div class="ui-list-item-pic">
+					<img src="" class="" alt="" />
+				  </div>
+				  <div class="ui-list-item-text">
+					<a href="{:javascript://}">优优小王国摄影</a>
+				  </div>
+				</li>
+				<li class="ui-list-item fn-clear">
+				  <div class="ui-list-item-pic">
+					<img src="" class="" alt="" />
+				  </div>
+				  <div class="ui-list-item-text">
+					<a href="{:javascript://}">苏州美莱美容医院</a>
+				  </div>
+				</li>
+			  </ul>
+			</div>			
+		  </div>
+		  -->
+		  <!--  广告位暂时替换 结束-->
+
+		  <div class="ui-ad">
+
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_03-1右侧第二屏焦点图 Begin --><script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1348" ></script><!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_03-1右侧第二屏焦点图 End -->
+
+		  </div>
+		  <div class="ui-ad">
+		
+			<!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_03-2右侧第二屏焦点图 Begin --><script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1349" ></script><!-- AdSame ShowCode: 主题广场 / 母婴广场-首页 / MYAD_03-2右侧第二屏焦点图 End -->
+
+		  </div>
+
+		</div>
+	  </div>
+	  
+	</div>
+<?load_view("ga")?>
+	<script type="text/javascript" src="http://service.liba.com/feeds/comm/bottom"></script>
+  </body>
+  
+</html>

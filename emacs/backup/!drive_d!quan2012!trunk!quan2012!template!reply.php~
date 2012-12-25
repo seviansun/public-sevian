@@ -1,0 +1,719 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>圈子首页</title>
+	<link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="css/quan.css" type="text/css" />
+	<link rel="stylesheet" href="css/circle.css" type="text/css" />
+	<script type="text/javascript" src="http://www.liba.com/public/js/jquery.js"></script>
+  </head>
+
+  <body>
+	<script type="text/javascript" src="http://passport.liba.com/feeds/comm/top"></script>
+
+	<div class="container fn-clear">
+
+	  <div class="top">
+		<div class="ui-theme">
+		  <a  href="{:javascript://}"><b>假装不正经</b></a>
+		</div>
+	  </div>
+
+	  <div class="wrapper fn-clear">
+
+		<div class="main">
+		  <div class="ui-infobox fn-clear">
+			<div class="ui-infobox-text">
+			  <img src="img/logo.png" class="" alt="" />
+			  <div id="focus">
+				<a class="focus-btn" href="{:javascript://}">
+	<img src="img/focusicon.png" value="confirm" data-click="confirm" data-options='{"content":"&nbsp&nbsp亲~您符合成为元老会成员资格<br>&nbsp&nbsp&nbsp&nbsp&nbsp是否想成为元老会成员？"}'/></a>
+			  </div>
+			  <dl class="ui-category">
+				<dt>分享：</dt>
+				<dd> <a href="{:javascript://}">复制本群地址</a><a href="{:javascript://}">邀请朋友加入</a></dd>
+			  </dl>
+			  <br />
+			  <dl class="ui-category">
+				<dt>创建于:</dt>
+				<dd>2012-3-4</dd>
+			  </dl>
+			  <br />
+			  <br />
+			  <dl class="ui-category">
+				<dt>圈介绍：</dt>
+				<dd class="ui-category-item">
+			<p> 寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈寻找80后妈妈</p>
+				</dd>
+			  </dl>
+			  <br />
+			  <dl class="ui-category">
+				<dt>元老会：</dt>
+				<dd class="ui-category-item fn-clear">
+				  <p>哎哟喂呀啊哟七</p><p>哎哟喂呀啊哟七</p><p>哎哟喂呀啊哟七</p><p>哎哟喂呀啊哟七</p><p>哎哟喂呀啊哟七</p><p>abcabcabcabc</p><p>abcabcabcabc</p><p>abcabcabcabc</p><p>abcabcabcabc</p><p>abcabcabcabc</p>
+				</dd>
+			  </dl>
+			  <br />
+			  <dl class="ui-category">
+				<img src="img/Qicon.png" class="" alt="" />
+				我是元老会成员
+			  </dl>
+			</div>
+		  </div>
+		  <div class="ui-list-hd fn-clear">
+			 <div class="border-line-bd"></div>
+			<div class="ui-list-title">圈帖子</div>
+			<ul class="ui-list-nav">
+			  <li class="ui-list-nav-item"><a href="{:javascript://}">最新更新</a></li>
+			  <li class="ui-list-nav-item"><a href="{:javascript://}">我发布的</a></li>
+			  <li class="ui-list-nav-item selected"><a href="{:javascript://}">我回复的</a></li>
+			</ul>
+			<div class="ui-list-post">
+			  <a class="post-btn" href="{:javascript://}"><img src="img/posticon.png" class="" alt="" /></a>
+			</div>
+		  </div>
+		  <div class="ui-list-bd">
+			<table  cellspacing="0" cellpadding="0" border="0">
+			  <tbody>
+				<tr>
+				  <th class="topic">标题</th>
+				  <th class="author">发帖人</th>
+				  <th class="reply">回复/点击</th>
+				  <th class="public">最后回复</th>
+				</tr>
+				<!--if:topics-->
+				<!--loop:topics-->
+				<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+<tr>
+				  <td class="topic">
+					<a href="{:javascript://}">准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈准备再国妇婴寻找准备再国妇婴寻找80后妈妈寻找80后妈妈</a>
+				  </td>
+				  <td class="author">
+					<p><a href="{:javascript://}">amycatever</a></p>
+					<p class="date">2010-01-20</p>
+				  </td>
+				  <td class="reply">
+					57
+					<span class="slash">/</span>
+					6328
+				  </td>
+				  <td class="public">
+					<p><a href="{:javascript://}">哎哟喂呀啊哟</a></p>
+					<p class="time">08-18 1143</p>
+				  </td>
+				</tr>
+				 <!--/if:topics-->
+				<!--/loop:topics-->
+			  </tbody>
+			</table>
+			<div class="ui-list-bot">
+			  
+			  <div class="pager all-topic">
+				共5734页
+				<a href="{:javascript://}"><strong>1</strong></a>
+				<a href="{:javascript://}">2</a>
+				<a href="{:javascript://}">3</a>
+				<a href="{:javascript://}">下一页&gt;</a>
+				<a href="{:javascript://}">末页</a>
+				<span class="page-search">第<input type="text" class="page-input" onfocus="this.select()" value="1" name="fgopage">页</span>
+				  <input type="submit" class="page-btn" title="跳转到指定页" value="">
+			 </div>
+				  <input type="hidden" class="J_url" value="" />
+
+			</div>
+		  </div>
+		</div>
+
+		<div class="sidebar">
+		  <div class="ui-box fn-clear">
+			<div class="ui-box-title">同分类圈</div>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+		  </div>
+		  <div class="ui-box fn-clear">
+			<div class="ui-box-title">最新加入</div>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>	
+		  </div>
+		  <div class="ui-line">
+			<img src="img/likeicon.png" class="" alt="" /><a target="_blank" href="{:javascript://}">我们都爱小金毛 元老会(6089) >></a>
+		  </div>
+		  <div class="ui-line">
+			<img src="img/seticon.png" class="" alt="" /><a target="_blank" href="{:javascript://}">圈子管理 >></a>
+		  </div>
+
+		  <div class="ui-ad">
+		  </div>
+
+		  <div class="ui-box fn-clear">
+			<div class="ui-box-title">该圈的人也喜欢去</div>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>	
+		  </div>
+		</div>
+
+	  </div>
+
+	</div>
+
+	<script type=text/javascript src="http://passport.liba.com/feeds/comm/bottom_gb"></script>
+  </body>
+</html>

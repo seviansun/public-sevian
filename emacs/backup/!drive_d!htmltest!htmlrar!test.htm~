@@ -1,0 +1,625 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<meta charset="utf-8">
+	<title>篱笆网</title>
+	<meta content="" name="keywords">
+	<meta content="" name="description">
+	<link type="text/css" rel="stylesheet" href="http://www.liba.com/public/css/base-alice.css">
+	<link type="text/css" rel="stylesheet" href="http://css.liba.com/css/waterfall/waterfall.css">
+	
+	<script type="text/javascript" src="http://css.liba.com/js/waterfall/jquery.js"></script>
+<!--<script type="text/javascript" src="http://css.liba.com/js/waterfall/extends.js"></script>-->
+  </head>
+  <body>
+<script type=text/javascript src="http://service.liba.com/feeds/comm/top"></script>
+
+	<div class="main-content">
+	  <div class="breadcrumb">
+		<a href='http://www.liba.com/square' data-click="alert">装修广场</a>
+		&gt;
+<b>装修图赏</b>	  </div>
+		<div class="ui-nav fn-clear">
+
+	
+	 <ul class="ui-nav-item">          
+	
+		<li class="ui-nav-item-title">装修案例 </li>  
+			<li class="ui-subnav fn-clear">   
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/121" >婚房</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/1" >简约</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/2" >美式</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/3" >欧式</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/4" >地中海</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/5" >中式</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/6" >日式</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/7" >东南亚</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/8" >混搭</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/45" >复式、错层</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/46" >公寓</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/47" >小房型</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/48" >联排、独栋别墅</a></p>
+
+		</li>
+		  </ul>
+	
+	 <ul class="ui-nav-item">          
+	
+		<li class="ui-nav-item-title">家居装饰 </li>  
+			<li class="ui-subnav fn-clear">   
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/121" >婚房</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/35" >家具、沙发、床垫</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/1" >简约</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/36" >艺术灯具</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/2" >美式</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/37" >床上用品</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/3" >欧式</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/38" >园艺户外家具</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/4" >地中海</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/39" >窗帘地毯</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/5" >中式</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/6" >日式</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/40" >家电</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/7" >东南亚</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/42" >风水</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/8" >混搭</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/45" >复式、错层</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/46" >公寓</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/47" >小房型</a></p>
+
+			  <p class="ui-subnav-item"><a href="http://www.liba.com/waterfall/index/tag_id/48" >联排、独栋别墅</a></p>
+
+		</li>
+		  </ul>
+	
+		</div>
+		  <div class="snsContent fn-clear">
+			<div id="container_c" class="sC1 fn-clear">
+
+	        
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_8_5021935_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2009/12/31/14/25519564_205.jpg">
+					<li class="p">
+					  <span>CY的玫瑰森林闪亮登场--市区小复式</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/12/80/67/81/2806781_50.gif' style="width:32px; height:32px">
+					<em>chenyi158</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_4663198_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2009/10/11/22/24012088_205.jpg">
+					<li class="p">
+					  <span>90平2房2厅现代简洁风格，空间华丽</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/12/56/25/31/2562531_50.gif' style="width:32px; height:32px">
+					<em>hatschier</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_6958553_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2012/02/09/15/34473736_205.jpg">
+					<li class="p">
+					  <span>日式简约风^_^时光居家悠闲时光</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		 
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_3945695_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2009/04/21/22/20706772_205.jpg">
+					<li class="p">
+					  <span>顶层带阁楼+欧式简约+美式田园+超</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/11/12/90/76/1129076_50.gif' style="width:32px; height:32px">
+					<em>ada_hou</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_4780063_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2009/11/07/23/24576093_205.jpg">
+					<li class="p">
+					  <span>简约风格 建筑设计师的家</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/12/06/99/31/2069931_50.gif' style="width:32px; height:32px">
+					<em>zaqq1w2e3</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_4085700_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2009/06/02/09/21582103_205.jpg">
+					<li class="p">
+					  <span>【家，世界上最重要的地方】双城记</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/10/17/94/22/179422_50.gif' style="width:32px; height:32px">
+					<em>冰千儿</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_5809385_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2010/08/16/23/28953713_205.jpg">
+					<li class="p">
+					  <span>恬淡斯宅##简约风格联排##--P6上新</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/13/07/41/71/3074171_50.gif' style="width:32px; height:32px">
+					<em>杨柳遇春时</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_5874909_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2010/09/09/19/29249841_205.jpg">
+					<li class="p">
+					  <span>完工实景照片-----黑白色调  简约</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/13/76/91/88/3769188_50.gif' style="width:32px; height:32px">
+					<em>孤独爱琴海</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_6227000_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2011/01/28/10/30876832_205.jpg">
+					<li class="p">
+					  <span>{现代简约}温馨小屋已筑成，灰镜+</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/10/18/59/71/185971_50.gif' style="width:32px; height:32px">
+					<em>xinshangyu</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_6976832_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2012/02/03/12/34435923_205.jpg">
+					<li class="p">
+					  <span>小公寓的简约美式风</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_6607288_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2011/07/11/13/32661647_205.jpg">
+					<li class="p">
+					  <span>*****我家成初长成*****  现代简约</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/10/56/39/45/563945_50.gif' style="width:32px; height:32px">
+					<em>carriezq</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_6957045_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2012/01/11/11/34337220_205.jpg">
+					<li class="p">
+					  <span>新古典&欧式*紫奢炫影*菲菲&蒋小巍</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/14/35/30/66/4353066_50.gif' style="width:32px; height:32px">
+					<em>丁菲菲来也</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_5528241_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2010/05/15/18/27589770_205.jpg">
+					<li class="p">
+					  <span>shimoy</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/10/15/83/50/158350_50.gif' style="width:32px; height:32px">
+					<em>shimoy</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_6846258_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2011/11/08/15/33844980_205.jpg">
+					<li class="p">
+					  <span>■■2011.11.11■■自主设计.强悍</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/10/32/28/07/322807_50.gif' style="width:32px; height:32px">
+					<em>linz_f</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_6892011_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2011/12/05/18/34066805_205.jpg">
+					<li class="p">
+					  <span>●ω●温馨低调简约奢华风●ω●标�</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/14/33/17/63/4331763_50.gif' style="width:32px; height:32px">
+					<em>老房有喜2011</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_6253302_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2011/02/13/22/30987232_205.jpg">
+					<li class="p">
+					  <span>清新自然的奶咖小屋~*自主设计简约</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/14/00/67/65/4006765_50.gif' style="width:32px; height:32px">
+					<em>春色小妖</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_5850876_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2010/09/06/15/29208064_205.jpg">
+					<li class="p">
+					  <span>▋无地板、无墙地砖、无吊顶的三无</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/12/26/08/61/2260861_50.gif' style="width:32px; height:32px">
+					<em>卢飞飞</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_1786714_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2007/08/07/22/9106199_205.jpg">
+					<li class="p">
+					  <span>简约也可以很温馨～XX与JJ的温馨小</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/10/22/02/47/220247_50.gif' style="width:32px; height:32px">
+					<em>nyfujing</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_2680787_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2008/05/17/21/14048718_205.jpg">
+					<li class="p">
+					  <span>S & s 简约温馨小家（米色浅咖色系</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/11/36/65/48/1366548_50.gif' style="width:32px; height:32px">
+					<em>辣冰水</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+             <div class="sC1_list">
+				<div class="sC1_list_i">
+				  <a href="http://bbs.liba.com/t_447_4471972_1.htm" target="_blank">
+                  <ul class="pic">
+					<li>
+					  <img width="205px" src="http://clubfiles.liba.com/2009/09/01/22/23300764_205.jpg">
+					<li class="p">
+					  <span>“洁&伟”[简约时尚]3室2厅浪漫婚</span>
+					</li>
+					</li>
+				  </ul>
+	             </a>
+	     		  <div class="sC1_list_bt fn-clear">
+					<img onerror="src='http://www.liba.com/images/nopic.gif'" src='http://avatars.liba.com/11/61/46/73/1614673_50.gif' style="width:32px; height:32px">
+					<em>CXJ60402</em>
+					<div class="btn4">
+					<!--<span id="change" class="addLikeBtn" cid="123">
+						  <em class="count">0</em>
+						</span>-->
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div id="page-nav"><a href="http://www.liba.com/waterfall/index/page/2" ></a></div>
+	</div>
+    <div id="back-to-top"><span id="back-to-top-span">返回顶部</span></div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+ $(function () {
+  $("#back-to-top").click(function(){
+  $('body,html').animate({scrollTop:0},1500);
+  return false;
+  });
+ });
+});
+</script>
+
+	  <script type="text/javascript" src="http://css.liba.com/js/waterfall/jquery.masonry.js"></script> 
+	  <script type="text/javascript" src="http://css.liba.com/js/waterfall/jquery.infinitescroll.min.js"></script>
+
+	  <script type="text/javascript">
+		$(function(){    
+		var $container = $('#container_c');
+		$container.imagesLoaded(function(){
+		$container.masonry({
+		itemSelector: '.sC1_list',
+		columnWidth: 25
+
+		});
+		});
+		$container.infinitescroll(
+		{
+		navSelector  : "#page-nav",            
+		nextSelector : "#page-nav a:first",    
+		itemSelector : ".sC1_list",
+		bufferPx: 1200,
+		loading: {
+		msgText:'载入中...',
+		finishedMsg: '已到最后页.',
+		img: "http://www.liba.com/images/waterfall/loading.gif"
+		} 
+		},
+		// trigger Masonry as a callback
+		function( newElements ) {
+		setTimeout(function(){
+		var $newElems = $( newElements );
+		$container.masonry({itemSelector: '.sC1_list',columnWidth: 25});
+		$container.masonry( 'appended', $newElems );
+		$container.masonry({itemSelector: '.sC1_list',columnWidth: 25});
+		},1000);
+		}
+		); 
+		});
+	  </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2139a15bf304442682ec33665a43949e' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript"> 
+var pageTracker = _gat._getTracker("UA-5496041-1");
+pageTracker._setDomainName("liba.com");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script></script>
+<script type="text/javascript" src="http://service.liba.com/feeds/comm/bottom"></script>
+  </body>
+</html>

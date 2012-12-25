@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ȧؓ˗ҳ</title>
+	<link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="css/quan.css" type="text/css" />
+	<link rel="stylesheet" href="css/management.css" type="text/css" />
+	<script type="text/javascript" src="http://www.liba.com/public/js/jquery.js"></script>
+  </head>
+
+  <body>
+	<script type="text/javascript" src="http://passport.liba.com/feeds/comm/top"></script>
+
+	<div class="container fn-clear">
+
+	  <div class="top">
+		<div class="ui-theme fn-clear">
+		  <a  href="{:javascript://}">¼ڗ°²»ֽ¾­</a>
+		  <p>ԪO»ẜm</p>
+		  <ul class="ui-top">
+			<li class="ui-top-nav"><a href="{:javascript://}">»�Ϣ</a></li>
+			<li class="ui-top-nav  selected"><a href="{:javascript://}">³ʔ±¹݀뺯a></li>
+			<li class="ui-top-nav"><a href="{:javascript://}">Υ½�</a></li>
+			<li class="ui-top-nav"><a href="{:javascript://}">¹݀־</a></li>
+		  </ul>
+		</div>
+	  </div>
+
+	  <div class="wrapper fn-clear">
+
+		<div class="main">
+		  <div class="patriarch">
+			<div class="patriarch-hd">
+			  <img src="img/patriarch.png" class="" alt="" />
+			  <p>ԪO</p>
+			  <p></p>
+			</div>
+			<div class="patriarch-bd">
+			  	<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			</div>
+		  </div>
+		  <div class="members">
+			<div class="members-hd">
+			  <img src="img/likeicon.png" class="" alt="" />
+			  <p>³ʔ±</p>
+			  <p></p>
+			</div>
+			<div class="members-bd">
+			  <dl class="ob">
+				<dt>
+				  <a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				</dt>
+				<dd>
+				  <a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+				</dd>
+			  </dl>
+			</div>
+		  </div>
+		</div>
+
+
+		<div class="sidebar">
+		  <div class="ui-tip">
+			<div class="ui-tip-title">
+			  <b>¼ڗ°²»ֽ¾­</b><span>µŔªOµ¯܀</span> 
+			  <p>ԪO¿ʒՔەは·¢¶¯µ¯܀»�µ㼷ԪO ԃ»§ĻƔ±ދ;¼´¿ɿªʼ¶ՔªO½�܀£¬µ¯܀»�µ©Ǵ¶¯±ِ뵯µ½РӦɋ˽µİ싽Ӕʏ¡°µ¯܀¡±£¬µ¯܀³ɹ¦£»²»´ﵽРӦɋ˽°싽Ӕʏ£¬µ¯܀ʧ°ܡ£</p>
+			  <img src="" class="" alt="" /><a href="{:javascript://}">ţԐһ͵Э׺µ¯܀ָ®ѨҪЬӦ</a>
+			</div>
+
+		  </div>
+		  <div class="ui-box fn-clear">
+			<div class="ui-box-title">½�div>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">ϒć¶¼°®С½񃩼/a>
+			  </dd>
+			</dl>
+
+		  </div>
+
+		  <div class="ui-line">
+		<a target="_blank" href="{:javascript://}">»ؼڗ°²»ֽ¾­ Ȧؓ >></a>
+		  </div>
+
+
+		  <div class="ui-ad">
+		  </div>
+
+		</div>
+
+	  </div>
+
+	</div>
+
+	<script type=text/javascript src="http://passport.liba.com/feeds/comm/bottom_gb"></script>
+  </body>
+</html>

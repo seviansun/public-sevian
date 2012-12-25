@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>篱笆网</title>
+<meta name="keywords" content=""/>
+<meta name="description" content="" />
+<link href="http://css.liba.com/css/base.css" rel="stylesheet" type="text/css" />
+<link href="http://css.liba.com/css/comm_index.css" rel="stylesheet" type="text/css" />
+<link href="http://css.liba.com/css/myskin_1.css" rel="stylesheet" type="text/css" id="cssfile"/>
+<link href="http://css.liba.com/css/footer.css" rel="stylesheet" type="text/css" />
+<link rel="Shortcut  Icon" href="http://www.liba.com/images/favicon.ico" />
+<style type="text/css">
+  
+  .doing-1{background:url("1.png") no-repeat left top;height:405px;width:1000px;position:relative;}
+  .doing-icon{background:url("doing-icon.png") no-repeat left top;position:absolute;height:150px;width:360px;left:607px;top:186px;}
+  .doing-2{background:url("2.png") no-repeat left top;height:343px;width:1000px;}
+  .doing-3{background:url("3.png") no-repeat left top;height:290px;width:1000px;}
+  .doing-4{background:url("4.png") no-repeat left top;height:642px;width:1000px;}
+</style>
+</head>
+<body>
+<!--header begin-->
+<div id="header">
+    <div class="header-nav clearfix">
+    	<h1><a href="http://www.liba.com/myliba">liba</a></h1>
+		<div class="main-nav">
+        	<ul>
+            	<li class="my-index"><a href="http://www.liba.com/myliba" >我的首页</a></li>
+                <li class="deco"><a href="http://s.liba.com/deco" target="_blank"><i></i>装修</a></li>
+                <li class="marry"><a href="http://www.liba.com/subject/marry" target="_blank"><i></i>结婚</a></li>
+                <li class="baby"><a href="http://www.liba.com/subject/baby" target="_blank"><i></i>母婴</a></li>
+            </ul>
+        </div> 
+        <div class="sub-nav"><a href="http://www.liba.com/index">篱笆广场</a><a href="http://bang.liba.com/" >帮帮忙</a><a href="http://www.liba.com/subject/suzhou" target="_blank">苏州版块</a></div>
+    </div>
+</div>
+
+<!--main begin-->
+<div class="main-content">
+  <div class="doing-1">
+	<div class="doing-icon"></div> 
+  </div>
+  <div class="doing-2"></div>
+  <div class="doing-3"></div>
+  <div class="doing-4"></div>
+</div>
+<!--main end-->
+<input type="hidden" class="J-csspath" value="http://css.liba.com/css/"/>
+<input type="hidden" class="J-domain" value="http://www.liba.com/"/>
+<input type="hidden" class="J-frome-page" value="index"/>
+<div class="feedback"><a href="http://bbs.liba.com/t_13_6950925_1.htm" target="_blank" title="意见反馈">意见反馈</a><a href="http://clubfiles.liba.com/2012/liba/help/" target="_blank" title="新手帮助">新手帮助</a></div>
+<div class="select-skin">
+	<form>
+        <div class="inner-skin clearfix">
+				<label class="skin_1"><span>默认款</span><input type="radio" name="skin" value="1"  />默认款</label>
+				<label class="skin_2"><span>经典灰</span><input type="radio" name="skin" value="2"  />经典灰</label>
+				<label class="skin_3"><span>龙年吉祥</span><input type="radio" name="skin" value="3"  />龙年吉祥</label>
+				<label class="skin_4"><span>典雅浪漫</span><input type="radio" name="skin" value="4"  />典雅浪漫</label>
+        </div>
+        <div class="sel-skin-btn"><input type="button" class="form-btn confirm" value="保存" name=""></div>
+    </form>
+</div>
+<!--footer begin-->
+<div id="footer">
+	<div class="footer-inner">
+        <div class="footer-main">
+            <div class="footer-nav clearfix">
+                <ul>
+                    <li>
+                        <a href="http://help.liba.com/index.php?index_id=1
+" target="_blank">关于篱笆</a>
+                    </li>
+                    <li>
+                        <a href="http://help.liba.com/index.php?index_id=4
+" target="_blank">合作联系</a>
+                    </li>
+                    <li>
+                        <a href="http://help.liba.com/index.php?index_id=2
+" target="_blank">投资关系</a>
+                    </li>
+                    <li>
+                        <a href="http://help.liba.com/index.php?index_id=3" target="_blank">招贤纳士</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-logo clearfix">
+                <ul>
+                    <li class="footer-logo-icp">
+                        <a href="http://www.liba.com/countpv.php?serid=84&block=liba_footer&jumpurl=http://www.miibeian.gov.cn" target="_blank"></a>
+                    </li>
+                    <li class="footer-logo-pol">
+                        <a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20110307142522941" target="_blank"></a>
+                        <a href="http://www.liba.com/countpv.php?serid=84&block=liba_footer&jumpurl=http://www.itrust.org.cn/yz/pjwx.asp?wm=2753813073" target="_blank"></a>
+                        <a href="http://www.liba.com/countpv.php?serid=84&block=liba_footer&jumpurl=http://sh.cyberpolice.cn/" target="_blank"></a>
+                    </li>
+                    <li class="footer-logo-aci">
+                        <a href="http://www.adsame.com/" target="_blank"></a>
+                    </li>
+                    <li class="footer-logo-net"><a href="http://www.zx110.org/" target="_blank"></a></li>
+					<li class="footer-logo-Info"><a href="http://www.shjubao.cn/" target="_blank"></a></li>
+                </ul>
+            </div>
+            <div class="copyright clearfix"><span>Copyright 2003-2012 liba.com All rights reserved.</span>篱笆网 版权所有<br />本网站所有内容均受版权保护。未经版权所有人--liba.com 明确的书面许可， 任何机构和个人不得以任何方式翻印、转载或用于商业用途。</div>
+        </div>
+	</div>        
+</div>
+
+
+<!--footer end--><script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2139a15bf304442682ec33665a43949e' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript"> 
+var pageTracker = _gat._getTracker("UA-5496041-1");
+pageTracker._setDomainName("liba.com");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script></body>
+</html>

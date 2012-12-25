@@ -1,0 +1,22 @@
+﻿<script type="text/javascript" src="http://passport.liba.com/public/js/jquery-1.7.js"></script>
+<script type="text/javascript">
+	$(document).ready( function() { 
+    $("#greet-text").click(function(){
+    	$(this).next(".show").hide();
+    	});
+    });
+</script>
+<style>
+	h3{color:#10ABBB;margin-bottom:30px;}
+	h3 a{color:#10ABBB;}
+	p{font:normal 12px/1.5 arial,\5b8b\4f53; color:#ABABAB;}
+</style>
+<div style="width:320px;height:150px;background-color:#fff;padding:10px 20px;">
+   <form method="" id="" action="">
+	 <textarea name="" id="greet-text" rows="" cols="" tabindex=""></textarea>
+	 <span class="show">校验码</span>
+	 <div class="limit">还可以输入<span class="counter">140</span>个字</div>
+	 <input type="button" name="" value="" />
+   </form>
+</div>
+

@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>webSlide - PPT演示文档架           </title>
+	<link rel="stylesheet" href="src/css/webslide.css" />
+	<link rel="stylesheet" href="src/css/codecolorer.css" />
+</head>
+<body>
+
+<div id="slide" >
+<div class="slides">
+	<section id="cover" class="step" >
+		<section class="title">
+			<h1>“篱笆广场”设计方案</h1>
+			<h2><a href="www.liba.com" target="_blank">by 孙赟</a></h2>
+		</section>
+	</section>
+	<section id="slide2" class="step slide">
+		<h1 class="header">改版需求</h1>
+		<ul>
+			<li>需具备向“各大主题广场”导流量的作用</li>
+			<li>需向帮帮忙导入有效的用户</li>
+			<li>需要发挥导航的作用</li>
+			<li>需要向新用户阐述“篱笆是什么”</li>
+			<li>需要承载一定比例的品牌广告</li>
+		</ul>
+	</section>
+	
+	<section id="slide3" class="step slide rebuild">
+		<h1 class="header">需求应对</h1>
+		<div data-build><h2>各大主题广场</h2>
+		<ul>
+			<li>精准定位用户需求，合理区分用户人群向各大主题广场导入精准流量</li>
+		</ul>
+		<h2>帮帮忙</h2>
+		<ul>
+			<li>通过用户主动行为合理的区分诱导用户去帮帮忙购买</li>
+		</ul>
+		<h2>导航</h2>
+		<ul>
+		  <li>利用timeline进行导航，使用户更专注于某个点。</li>
+		</ul>
+		<h2>篱笆是什么</h2>
+		<ul>
+			<li>篱笆是上海人人生的一部分</li>
+		</ul>
+		<h2>品牌广告</h2>
+		<ul>
+			<li>在第一屏显眼的位置，通过用户自主的选择，进行推送</li>
+		</ul>
+		</div>
+		</ul>
+		</section>
+	<section id="slide4" class="step slide rebuild">
+		<h1>设计思路</h1>
+		<div data-build><h2>精准</h2>
+		<ul>
+			<li>强调精准定位，向不同需求用户推送不同广告</li>
+		</ul>
+		<h2>简单</h2>
+		<ul>
+			<li>只放置用户需求的信息。</li>
+		</ul>
+		<h2>用户</h2>
+		<ul>
+			<li>用户主动选择查看，个性化定制首屏。</li>
+		</ul>
+		<h2>友好</h2>
+		<ul>
+			<li>广场要负责让用户区适应篱笆首页模式。</li>
+		</ul>
+		</div>
+	</section>
+	<section id="grammar" class="step slide rebuild">
+		<h1>设计亮点</h1>
+		<div data-build><h2>timeline</h2>
+		<ul>
+		  	<li>timeline即人生。</li>
+			<li>篱笆的分类对应人生不同的经历</li>
+			<li>用户通过timeline导航自主选在自己所处的人生经历对网站浏览</li>
+		</ul>
+		<h2>限制timeline长度</h2>
+		<ul>
+			<li>只显示用户所需的内容</li>
+			<li>用户必须自主选择导航，通过cookies记录用户所处人生经历</li>
+			<li>通过用户自己的选择，推送给他相应的帮帮忙和品牌广告</li>
+		</ul>
+		
+		<h2>尾部导航</h2>
+		<ul>
+			<li>使那些还无法适应个性化定制浏览的用户更好的观看论坛</li>
+		</ul>
+		</div>
+	</section>
+	<section id="grammar2" class="step slide rebuild" >
+		<h1>交互展现</h1>
+		<div data-build>
+		<h2>拖拽</h2>
+		<ul>
+			<li>交互上采用拖拽的方式，通过良好的用户体验带给用户不一样的浏览方式</li>
+		</ul>	
+		<h2>动态信息流</h2>
+		<ul>
+			<li>通过即时的用户发帖和回帖的信息流展示，增加用户互动性，向本地化社交化方向发展</li>
+		</ul>
+	</section>
+
+	<section id="quetion" class="step" >
+         <section class="title"><h1>Question?<br/><b>Q&A</b></h1></section>
+    </section>
+	<section id="end" class="step" >
+        <section class="title"><h1>The End<br/><b>Thank You</b></h1></section>
+    </section>
+</div>
+<div class="progress"><span></span></div>
+</div>
+<canvas id="myCanvas" width="1024" height="768">您的浏览器不支持HTML5,请升级或更换您的浏览器,强烈推荐您使用chrome浏览器。</canvas>
+<menu class="controls" id="slideCtrl">
+	<span class="tool home" onclick="location.hash='#cover'">!</span>
+	<span class="tool paint">p</span>
+	<span class="tool clearIt">d</span>
+</menu>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript" src="src/js/webslide.js"></script>
+</body>
+</html>

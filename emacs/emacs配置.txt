@@ -1,0 +1,34 @@
+; (color-theme-sanityinc-solarized-dark)
+(color-theme-sanityinc-tomorrow-bright)
+;(color-theme-sanityinc-tomorrow-night)
+(defadvice my-ac-cc-mode-setup (after tweak-clang-flags activate compile)
+           "add some extra compile flags for clang"
+           (setq ac-clang-flags
+                 (append ac-clang-flags
+                         (list
+                           "-I../inc" ; better to use absolute path
+                           )))
+           )
+
+; Set up third party tags ===begin
+(setq wx-tags "~/tags/wx/osx/TAGS")
+
+(defun insert-into-tags-table-list(e)
+  (add-to-list 'tags-table-list e t)
+  )
+(defun delete-from-tags-table-list (e)
+  (setq tags-table-list (delete e tags-table-list))
+  )
+
+(defun add-wx-tags (&optional del)
+  "Add or delete(C-u) wxWidgets tags into tags-table-list"
+  (interactive "P")
+  (let (mytags)
+    ; here add your third party tags
+    (setq mytags (list wx-tags))
+    (if del (mapc 'delete-from-tags-table-list mytags)
+      (mapc 'insert-into-tags-table-list mytags)
+      )
+    )
+  )
+; === end

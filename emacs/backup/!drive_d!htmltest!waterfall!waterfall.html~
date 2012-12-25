@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>装修广场-装修图赏</title>
+	<meta content="" name="keywords">
+	<meta content="" name="description">
+	<link type="text/css" rel="stylesheet" href="http://www.liba.com/public/css/base-alice.css">
+	<link type="text/css" rel="stylesheet" href="css/waterfall.css">
+	
+	 <script type="text/javascript">
+        var Sys = {};
+        var ua = navigator.userAgent.toLowerCase();
+        window.ActiveXObject ? Sys.ie = ua.match(/msie ([\d.]+)/)[1] :
+        document.getBoxObjectFor ? Sys.firefox = ua.match(/firefox\/([\d.]+)/)[1] :
+        window.MessageEvent && !document.getBoxObjectFor ? Sys.chrome = ua.match(/chrome\/([\d.]+)/)[1] :
+        window.opera ? Sys.opera = ua.match(/opera.([\d.]+)/)[1] :
+        window.openDatabase ? Sys.safari = ua.match(/version\/([\d.]+)/)[1] : 0;
+        
+        //以下进行测试
+        if(Sys.ie) document.write('IE: '+Sys.ie);
+        if(Sys.firefox) document.write('Firefox: '+Sys.firefox);
+        if(Sys.chrome) document.write('Chrome: '+Sys.chrome);
+        if(Sys.opera) document.write('Opera: '+Sys.opera);
+        if(Sys.safari) document.write('Safari: '+Sys.safari);
+    </script>
+
+	<script type="text/javascript" src="<?php echo $url['js']?>waterfall/jquery.js"></script>
+<!--<script type="text/javascript" src="<?php echo $url['js']?>waterfall/extends.js"></script>-->
+<style>
+
+.topic_link a:hover {
+	text-decoration: underline;
+}
+
+
+</style>
+  </head>
+  <body>
+<script type=text/javascript src="http://service.liba.com/feeds/comm/top"></script>
+
+
+
+<div class = "topic_link">
+
+<a href="http://bbs.liba.com/t_447_7049711_1.htm" target="_blank" style = "padding-left:510px;">[温馨套房]《那一年 我们一起装修过的爱窝》</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://bbs.liba.com/t_4_7004322_1.htm" target="_blank">[装修讨论]【Liba装修知识大比拼】</a>
+
+</div>
+
+
+		
+		
+		  <div class="snsContent fn-clear">
+			<div id="container_c" class="sCl fn-clear">    
+     
+				<div class="pic pic-view">
+	                  <ul>
+					 		<img src="images/test.jpg">
+							<li class="mask">
+						  		<h2>hello,world</h2>
+						  		<a href="http://bbs.liba.com/.htm" target="_blank" class="info">Read More</a>
+							</li>
+					  </ul>
+				</div>
+
+			</div>
+		  </div>
+
+
+
+  </body>
+</html>
+>

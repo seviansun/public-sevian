@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head data-base='{"debug":true}'>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>女性广场-首页</title>
+	<link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $url['css']?>female.css" type="text/css" />
+	<script type="text/javascript" src="http://www.liba.com/public/js/jquery.js"></script>
+	<!--<script src="<?php echo $url['js']?>female_js/jquery/jquery.ba-hashchange.js"></script>
+    <script src="<?php echo $url['js']?>female_js/ajax/ajaxml.js"></script> -->
+  </head>
+  <body>
+	<script type="text/javascript" src="http://service.liba.com/feeds/comm/top"></script>
+	<style type="text/css">
+	  #header{
+	  background-image:url("<?php echo $url['css']?>images/female/bg.gif");
+	  }
+	  .c-main-header{
+	  background-image:url("<?php echo $url['css']?>images/female/bg.gif");
+	  }
+	  .c-main-header h1{
+	  background-image:url("<?php echo $url['css']?>images/female/libalogo.gif")
+	  }
+	  .c-header-nav li a:hover{
+	  background-image:url("<?php echo $url['css']?>images/female/HOVER.gif");
+	  }
+	  .c-header-nav li{
+	  background-image:url("<?php echo $url['css']?>images/female/Separator.gif")
+	  }
+	  .c-header-nav li a.mobile i, .loginer li.exit, .loginer li.set, .loginer li.email, .message .num {
+      background-image: url("<?php echo $url['css']?>images/female/icons.png");
+      background-repeat: no-repeat;
+	  }
+	  .loginer li a {
+      color: #FFD0D9 !important;
+	  }
+	</style>
+	<div id="container">
+	  <div id="heading">
+		<a href="<?php  echo $url['site']; ?>female">
+		  <img src="<?php echo $url['css']?>images/female/female-logo.jpg" />
+		</a>
+		<div class="ui-nav">
+		  <a href="http://bbs.liba.com/f_90.htm" target="_blank" class="Shopping J-pop-login"></a>
+		  <a href="http://bbs.liba.com/f_1126.htm" target="_blank" class="Fashion J-pop-login"></a>
+		  <a href="http://bbs.liba.com/f_35.htm" target="_blank" class="Collocation J-pop-login"></a>
+		  <a href="http://bbs.liba.com/f_97.htm" target="_blank" class="Skincare J-pop-login"></a>
+		</div>
+	  </div>
+	  <div id="wrapper" class="fn-clear">
+		<div id="main">
+		  <div id="focus" class="ui-box">
+			<div class="ui-box-bd fn-clear">
+			  <div class="ui-focus fn-left" data-module="focus">
+				<div class="ui-focus-container">
+
+				<!-- AdSame ShowCode: 主题广场 / 旅游广场-首页 / LYAD_01首屏焦点图 Begin -->
+				<iframe width="350" height="230" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://adsame.liba.com/s?z=liba&c=1405&op=1" ></iframe>
+				<!-- AdSame ShowCode: 主题广场 / 旅游广场-首页 / LYAD_01首屏焦点图 End -->
+				</div>
+			  </div>
+			  <div class="fn-right">
+				<ul class="ui-list">
+
+				<?php foreach($index_word_info as $k => $v){ ?>
+				<?php if($k == 0){ ?>
+				  <li class="ui-list-item ui-list-item-first fn-dashed ui-list-item-text">
+					<a target="_blank" href="<?php echo $v['title_alias']; ?>">
+						<span class="ui-list-item-title">
+							<?php echo $v['title']; ?>
+						</span>
+					</a>
+					<br>
+					<a target="_blank" href="http://bbs.liba.com/t_33_7136458_1.htm">
+						<span class="ui-list-item-text">
+							<?php echo $v['introtext']; ?>
+						</span>
+					</a>
+				  </li>
+				<?php } else{ ?>
+				  <li class="ui-list-item ui-list-item-text">
+					<a href = "<?php echo $v['title_alias']; ?>" target = "_blank">
+						<?php echo $v['title']; ?>
+					</a>
+				  </li>
+				<?php } ?>
+				<?php } ?>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+
+
+
+		  <div class="ui-ad">
+		  </div>
+
+		  <div id="category1" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">	
+			  <h2 class="ui-title">篱笆女福利社</h2>
+			  <a class="ui-nav-more fn-more" href="http://brand.liba.com/event_list.php?groupId=010205257" target = "_blank">更多>></a>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+<?php
+
+
+/*等比例压缩图片函数 START
+**$imgUrl:图片地址（相对路径）
+**$maxWidth:最大图片长度
+**$maxHeight:最大图片宽度
+*/
+function getImageNewSize($imgUrl,$maxWidth,$maxHeight){
+
+	$size = getimagesize($imgUrl);
+	$pic_width = $size[0];
+	$pic_height = $size[1];
+
+	if($maxWidth && $pic_width > $maxWidth){
+		$widthRatio = $maxWidth / $pic_width;
+		$resizeWidth_tag = true;
+	}
+
+	if($maxHeight && $pic_height > $maxHeight){
+		$heightRatio = $maxHeight / $pic_height;
+		$resizeHeight_tag = true;
+	}
+
+	if($resizeWidth_tag && $resizeHeight_tag){
+		if($widthRatio < $heightRatio) $ratio = $widthRatio;
+		else $ratio = $heightRatio;
+	}
+
+	if($ratio){
+		$newWidth = $pic_width * $ratio;
+		$newHeight = $pic_height * $ratio;
+		$newImageSize = array($newWidth,$newHeight);
+		return $newImageSize;
+	} else 	return false;
+}
+//END
+
+?>
+
+			<?php foreach($quanzi as $k => $v){ ?>
+			  <dl class="ui-category-item">
+				<a href="<?php echo $v['url'] ?>" target = "_blank">
+				<dt><img src="<?php echo $v['face_img'] ?>" class="" alt="" style = "width:200px;height:200px;"/></dt>
+				<dd><?php echo $v['event_name'] ?></dd>
+				</a>
+				<dd>剩余名额:<em><?php echo $v['remain'] ?></em></dd>
+				<dd><a class="join-btn" href="<?php echo $v['url'] ?>" target = "_blank"> </a></dd>
+			  </dl>
+			<?php } ?>
+
+
+
+
+			</div>
+		  </div>
+
+		  <div class="ui-ad">			
+		  </div>
+
+		</div>
+
+		<div id="sidebar">
+		  <div class="ui-ad">
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_02右侧首屏焦点图-独占 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1275" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_02右侧首屏焦点图-独占 End -->
+			<!--<img src="http://css.liba.com/css/images/deco/tmp-sidebar-ad1.jpg" /> -->
+		  </div>
+		  
+		  <!-- 精彩专题开始  -->
+		  <div class="ui-box">
+			<div class="ui-topic fn-clear">	
+			  <h2 class="ui-topic-title fn-clear">精彩专题</h2>
+			</div>
+				<!--<div class="ui-topic-wrap fn-clear">
+				  <ul class="ui-topic-list">
+					<li class="ui-topic-list-item">
+					  <div id="topic-img">
+						<img src="<?php echo $url['css']?>images/female/female-icon2.jpg" class="" alt="" />
+					  </div>
+					  <div class="ui-topic-list-item-cnt">
+						<a href="">百位新娘交流各类筹备经验11</a>
+					  </div>
+					</li>
+				  </ul>
+				 <ul class="topic-turn"><a href = "" into = ""  class="turn-left"></a></ul>
+				 <ul class="topic-turn"><a href = "" into = ""  class="turn-right"></a></ul> 
+				</div>-->	
+		 <script>
+		 //pn 0 | 1
+		  function sayHello(pn){
+			var page = parseInt($("#page").val());
+			var total = parseInt($("#total").val());
+			if (pn == 1) {
+				page = page + 1;
+			} else {
+				page = page -1;
+			}
+			if (page < 1) {
+				page = 1;
+			}
+			if (page > total) {
+				page = total;
+			}
+			$("#page").val(page);
+
+			$.ajax({
+				type: "POST",
+				 url: "http://s.liba.com/female/ajax/",
+				 //data: submitData,
+				 data:"page="+page,
+				dataType: "html",
+				 success: function(data){
+					  $("#target").html(data);
+					}
+			});
+		  }
+		</script>  
+		<div class="ui-topic-wrap fn-clear">
+			<div id="target" >
+
+			  <ul class="ui-topic-list">
+				<li class="ui-topic-list-item">
+				  <div id="topic-img">
+					<a href = "<?php echo $image_info[0]['title_alias']; ?>" target = "_blank">
+						<img src="<?php echo $image_info[0]['images']; ?>" class="" alt="" style = "width:240px;height:190px;" />
+					</a>
+						
+				  </div>
+				  <div class="ui-topic-list-item-cnt">
+					<a href = "<?php echo $image_info[0]['title_alias']; ?>" target = "_blank"><?php echo $image_info[0]['title']; ?></a>
+				  </div>
+				</li>
+			  </ul>	
+
+			</div>
+			<ul class="topic-turn"><a href="javascript:sayHello(0)" into = ""  class="turn-left"></a></ul>
+			<ul class="topic-turn"><a href="javascript:sayHello(1)" into = ""  class="turn-right"></a></ul>
+		</div>
+		<input type = "hidden" value = "1" id = "page" >
+		<input type = "hidden" value = "<?php  echo $num;?>" id = "total" >
+	</div>
+	 <!-- 精彩专题  结束  -->
+
+
+		  <div class="ui-ad">
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_03-1右侧第二屏焦点图1/2 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1276" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_03-1右侧第二屏焦点图1/2 End -->
+			<!--
+				<img src="http://css.liba.com/css/images/deco/tmp-sidebar-ad2.jpg" />
+				-->
+		  </div>
+		  <div class="ui-ad">
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_03-2右侧第二屏焦点图1/2 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1277" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_03-2右侧第二屏焦点图1/2 End -->
+			<!--<img src="http://css.liba.com/css/images/deco/tmp-sidebar-ad3.jpg" />-->
+		  </div>
+
+		</div>
+	  </div>
+	  
+	</div>
+	<?load_view("ga")?>
+	<script type="text/javascript" src="http://service.liba.com/feeds/comm/bottom"></script>
+  </body>
+  
+</html>

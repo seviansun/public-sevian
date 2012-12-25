@@ -1,0 +1,486 @@
+<!doctype html>
+<html>         
+  <head>
+	<meta charset="gbk">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="no-cache">
+	<meta name="google-site-verification" content="hOd0EgctClLpmw0P7k8eZ6SJ8Mh-TREoVBGLqtNmBJg" />
+	<title>{$topic_title} {$forumName} 篱笆论坛</title>
+	<script src="http://img1.liba.com/bbs/tabcontent/tabcontent.js"></script>
+	<script src="http://img1.liba.com/bbs/styles/main1202.js"></script>
+	<script src="./public/js/jquery/jquery.js"></script>
+	<script src="./public/js/jquery/bbs2012.js"></script>
+	<script src="./public/js/jquery/jquery.imageauto.js"></script>
+	<script src="./public/js/jquery/jquery.dialog.js"></script>
+	<link href="comm/resect.css" rel="stylesheet" type="text/css" />
+	<link href="bbs/bbs2012.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="css/bbsquan.css" type="text/css" />
+
+	<link href="bbs/layer.css" rel="stylesheet" type="text/css" />
+	<link href="http://i.liba.com/css/progressbar.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript"  src='http://data.liba.com/analyticstracking.php'></script>
+  </head>
+  <body>
+	<!--<script type=text/javascript src="{$home_service_url}feeds/comm/top_gb"></script>-->
+	<script type=text/javascript src="http://passport2012.liba.com/feeds/comm/top_gb"></script>
+
+
+	
+	<div class="topic-main">
+	  <!--贴子主题开始-->
+	  <input type="hidden" id="pppp">
+	  <div class="topic-hd clearfix">
+		<div class="topic-theme clearfix">
+		  <div class="menu">
+			<div class="menu-hd"><a href="{$bbs_url}f_{$forum_id}.htm">假装不正经</a><i></i></div>
+			<div class="menu-bd">
+              <!--if:cate_navigation-->
+              <div class="menu-bd-panel">
+				<div class="title">
+                  <a href="{$bbs_url}">
+                    回到首页
+                  </a>
+                </div>
+                <!--loop:cate_navigation-->
+				<div class="desc">
+                  <a href="{$bbs_url}f_{$cate_navigation[].forumId}.htm">
+                    {$cate_navigation[].forumName}
+                  </a>
+                </div>
+                <!--/loop:cate_navigation-->
+			  </div>
+              <!--/if:cate_navigation-->
+			</div>
+		  </div>
+		  <div class="topic-title"><div class="short-title"><i>假装不正经</i></div><span class="hover-title">{$topic_title}</span></div>
+		</div>
+		<div class="topic-mana clearfix">
+          <ul>
+            <li class="share">
+              <!-- JiaThis Button BEGIN -->
+              <div id="ckepop">
+                <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt" target="_blank"><img src="http://v2.jiathis.com/code_mini/images/btn/v1/jiathis1.gif" border="0" /></a>
+                <a class="jiathis_counter_style_margin:3px 0 0 2px"></a>
+              </div>
+			  
+              <!-- JiaThis Button END -->
+            </li>
+            <li class="collection"><i></i>☆加入收藏</li>
+            <li class="last"><a class="reply-btn" href="{$bbs_url}post_new.php?action=postReply&forumId={$forum_id}&topicId={$topic_id}">回复</a></li>
+          </ul>
+		</div>
+	  </div>
+	  <div class="topic-list-hd clearfix">
+		<div class="topic-filter clearfix">
+		  <ul>
+			<li>全部内容</li>
+			<li class="last"><a href="{$bbs_url}topic.php?forumId={$forum_id}&topicId={$topic_id}&action=only&only_userid={$topic_poster_id}">只看楼主</a></li>
+			<li class="change"><i></i><a href="{$bbs_url}topic.php?forumId={$forum_id}&topicId={$topic_id}&action=print">切换至打印版</a></li>
+		  </ul>
+		</div>
+		<div class="pager simple">
+		  
+		  <span class="prev disable">&lt; 上一页</span>
+		  <span class="current">1</span>
+		  <span class="slash">/</span>
+		  <a class="total" href="./t_13_7126191_2.htm">2</a>
+		  <a class="next" href="./t_13_7126191_2.htm">下一页 &gt;</a>
+
+		</div>
+	  </div>
+	  <!--贴子主题结束-->
+	  <!--贴子列表开始-->
+	  <!--if:replies-->
+	  <!--loop:replies-->
+	  <div class="topic-list">
+		<a name="{$replies[].postId}"></a>
+		<div class="topic-content clearfix">
+          <div class="infor">
+			<a href="{$i_url}/{$replies[].posterId}"><p class="name">泡梨的泡梨</p></a>
+			<p><img src="img/icon.png" class="" alt="" /></p>
+			<a href="{$i_url}/{$replies[].posterId}"><img onerror="this.onerror=null;this.src='{$avatar_url}/default/d_head.png';" src="{$avatar_url}{$replies[].avatar}"/></a>
+			<div class="item">注册日期: <span>2006-07-14</span><br>
+			  来自: <span>上海普陀区</span><br>
+			  工分: <em>6287</em></div>
+          </div>
+          <div class="topic-text">
+			<div class="impeachment">
+			  
+			  <div class="impeachment-hd">
+				<ul>
+				  <li class="impeachment-title"><b>弹劾元老</b></li>
+				  <li class="impeachment-time">结束时间: <em> 2012-11-11 18:25</em></li>
+				  <li class="impeachment-time">发起时间: <span> 2012-11-10 16:25</span></li>
+				</ul>
+			  </div>
+			  <div class="impeachment-bd">
+				<div class="impeachment-vs">
+				  <dl>
+					<dt><a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a></dt>
+					<dd><a href="{:javascript://}">泡梨的泡梨</a><p>发起者</p></dd>
+				  </dl>
+				  <img class="vs-img" src="img/vs.png" class="vs" alt="" />
+				  <dl>
+					<dt><a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a></dt>
+					<dd><a href="{:javascript://}">偶巴尔坦</a><p>被弹者</p></dd>
+				  </dl>
+				  <p>已有<em>165</em>个元老参与</p>
+				</div>
+				<div class="impeachment-vote">
+				  <table width="0" cellspacing="0" cellpadding="0" border="0">
+					<tbody>
+					  <tr class="topic-vote-bd">
+						<td class="vote-title">
+						  <input class="border0" type="radio"  value="" name="pollId"/>
+						  赞同弹他
+						</td>
+						<td>
+						  <div class="vote-length">
+							<b class="vbg1"></b>
+						  </div>
+						</td>
+						<td>
+						  <div class="vote-num">
+							(58%)
+						  </div>
+						</td>
+					  </tr>
+					  <tr class="topic-vote-bd">
+						<td class="vote-title">
+						  <input class="border0" type="radio"  value="" name="pollId"/>
+						  反对弹他
+						</td>
+						<td>
+						  <div class="vote-length">
+							<b class="vbg1"></b>
+						  </div>
+						</td>
+						<td>
+						  <div class="vote-num">
+							(32%)
+						  </div>
+						</td>
+					  </tr>
+					  <tr class="topic-vote-bd">
+						<td class="vote-title">
+						  <input class="border0" type="radio"  value="" name="pollId"/>
+						  弃权
+						</td>
+						<td>
+						  <div class="vote-length">
+							<b class="vbg1"></b>
+						  </div>
+						</td>
+						<td>
+						  <div class="vote-num">
+							(0%)
+						  </div>
+						</td>
+					  </tr>
+					</tbody>
+				  </table>
+				  <div class="topic-vote-ft">
+					<input class="vote-btn" type="submit" name="" value="我要投票" />
+				  </div>
+
+				</div>
+			  </div>
+
+			</div>
+          </div>
+		</div>
+		<div class="topic-list-bt clearfix">
+		  <div class="topic-related">
+			<ul>
+			  <li class="date">2012-04-24 1414</li>
+			  <li class="data"><a href="{$i_url}/{$replies[].posterId}" target="_blank" title="点这里查看 {$replies[].userName} 的个人资料">TA的主页</a></li>
+			  <li><a href="{$i_url}/{$replies[].posterId}" title="将 {$replies[].userName} 添加到你的好友列表">加为好友</a></li>
+			  <li><A href="{$bbs_url}message.php?action=write&receiverId={$replies[].posterId}">悄悄话</a></li>
+			  <li class="last"><a href="{$bbs_url}topic.php?forumId={$forum_id}&topicId={$topic_id}&action=only&only_userid={$replies[].posterId}" target="_blank">只看此人</a></li>
+			</ul>
+		  </div>
+          
+		  <div class="topic-detail-mana">
+			<ul>
+              {$replies[].manage}
+			  <li class="copy-address"><input id=post{$replies[].postId} type=hidden value='{$bbs_url}t_{$forum_id}_{$topic_id}_{$page}.htm#{$replies[].postId}'><span id=copy{$replies[].postId}  title='复制本楼地址，可以直接定位到本楼'>复制本楼地址</span></li>
+			  <li><a href={$bbs_url}post_new.php?action=edit&isTop={$replies[].isTop}&topicId={$topic_id}&postId={$replies[].postId}&forumId={$forum_id}&sortId={$sort_id}>编辑</a></li>
+			  <li class="quote"><a href=/post_new.php?action=quoteReply&topicId={$topic_id}&postId={$replies[].postId}&forumId={$forum_id}&sortId={$sort_id}&page={$page}>引用</a></li>
+			  <li class="last">楼主</li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="topic-list">
+		<a name="{$replies[].postId}"></a>
+		<div class="topic-content clearfix">
+          <div class="infor">
+			<a href="{$i_url}/{$replies[].posterId}"><p class="name">泡梨的泡梨</p></a>
+			<p><img src="img/icon.png" class="" alt="" /></p>
+			<a href="{$i_url}/{$replies[].posterId}"><img onerror="this.onerror=null;this.src='{$avatar_url}/default/d_head.png';" src="{$avatar_url}{$replies[].avatar}"/></a>
+			<div class="item">注册日期: <span>2006-07-14</span><br>
+			  来自: <span>上海普陀区</span><br>
+			  工分: <em>6287</em></div>
+          </div>
+          <div class="topic-text">
+			<div class="note-text">
+			  哈哈
+			</div>
+			娃娃
+          </div>
+		</div>
+		<div class="topic-list-bt clearfix">
+		  <div class="topic-related">
+			<ul>
+			  <li class="date">2012-04-24 1414</li>
+			  <li class="data"><a href="{$i_url}/{$replies[].posterId}" target="_blank" title="点这里查看 {$replies[].userName} 的个人资料">TA的主页</a></li>
+			  <li><a href="{$i_url}/{$replies[].posterId}" title="将 {$replies[].userName} 添加到你的好友列表">加为好友</a></li>
+			  <li><A href="{$bbs_url}message.php?action=write&receiverId={$replies[].posterId}">悄悄话</a></li>
+			  <li class="last"><a href="{$bbs_url}topic.php?forumId={$forum_id}&topicId={$topic_id}&action=only&only_userid={$replies[].posterId}" target="_blank">只看此人</a></li>
+			</ul>
+		  </div>
+          
+		  <div class="topic-detail-mana">
+			<ul>
+              {$replies[].manage}
+			  <li class="copy-address"><input id=post{$replies[].postId} type=hidden value='{$bbs_url}t_{$forum_id}_{$topic_id}_{$page}.htm#{$replies[].postId}'><span id=copy{$replies[].postId}  title='复制本楼地址，可以直接定位到本楼'>复制本楼地址</span></li>
+			  <li><a href={$bbs_url}post_new.php?action=edit&isTop={$replies[].isTop}&topicId={$topic_id}&postId={$replies[].postId}&forumId={$forum_id}&sortId={$sort_id}>编辑</a></li>
+			  <li class="quote"><a href=/post_new.php?action=quoteReply&topicId={$topic_id}&postId={$replies[].postId}&forumId={$forum_id}&sortId={$sort_id}&page={$page}>引用</a></li>
+			  <li class="last">楼主</li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="topic-list">
+		<a name="{$replies[].postId}"></a>
+		<div class="topic-content clearfix">
+          <div class="infor">
+			<a href="{$i_url}/{$replies[].posterId}"><p class="name">泡梨的泡梨</p></a>
+			<p><img src="img/icon.png" class="" alt="" /></p>
+			<a href="{$i_url}/{$replies[].posterId}"><img onerror="this.onerror=null;this.src='{$avatar_url}/default/d_head.png';" src="{$avatar_url}{$replies[].avatar}"/></a>
+			<div class="item">注册日期: <span>2006-07-14</span><br>
+			  来自: <span>上海普陀区</span><br>
+			  工分: <em>6287</em></div>
+          </div>
+          <div class="topic-text">
+			<div class="note-text">
+			  哈哈
+			</div>
+			娃娃
+          </div>
+		</div>
+		<div class="topic-list-bt clearfix">
+		  <div class="topic-related">
+			<ul>
+			  <li class="date">2012-04-24 1414</li>
+			  <li class="data"><a href="{$i_url}/{$replies[].posterId}" target="_blank" title="点这里查看 {$replies[].userName} 的个人资料">TA的主页</a></li>
+			  <li><a href="{$i_url}/{$replies[].posterId}" title="将 {$replies[].userName} 添加到你的好友列表">加为好友</a></li>
+			  <li><A href="{$bbs_url}message.php?action=write&receiverId={$replies[].posterId}">悄悄话</a></li>
+			  <li class="last"><a href="{$bbs_url}topic.php?forumId={$forum_id}&topicId={$topic_id}&action=only&only_userid={$replies[].posterId}" target="_blank">只看此人</a></li>
+			</ul>
+		  </div>
+          
+		  <div class="topic-detail-mana">
+			<ul>
+              {$replies[].manage}
+			  <li class="copy-address"><input id=post{$replies[].postId} type=hidden value='{$bbs_url}t_{$forum_id}_{$topic_id}_{$page}.htm#{$replies[].postId}'><span id=copy{$replies[].postId}  title='复制本楼地址，可以直接定位到本楼'>复制本楼地址</span></li>
+			  <li><a href={$bbs_url}post_new.php?action=edit&isTop={$replies[].isTop}&topicId={$topic_id}&postId={$replies[].postId}&forumId={$forum_id}&sortId={$sort_id}>编辑</a></li>
+			  <li class="quote"><a href=/post_new.php?action=quoteReply&topicId={$topic_id}&postId={$replies[].postId}&forumId={$forum_id}&sortId={$sort_id}&page={$page}>引用</a></li>
+			  <li class="last">楼主</li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="topic-list">
+		<a name="{$replies[].postId}"></a>
+		<div class="topic-content clearfix">
+          <div class="infor">
+			<a href="{$i_url}/{$replies[].posterId}"><p class="name">泡梨的泡梨</p></a>
+			<p><img src="img/icon.png" class="" alt="" /></p>
+			<a href="{$i_url}/{$replies[].posterId}"><img onerror="this.onerror=null;this.src='{$avatar_url}/default/d_head.png';" src="{$avatar_url}{$replies[].avatar}"/></a>
+			<div class="item">注册日期: <span>2006-07-14</span><br>
+			  来自: <span>上海普陀区</span><br>
+			  工分: <em>6287</em></div>
+          </div>
+          <div class="topic-text">
+			<div class="note-text">
+			  哈哈
+			</div>
+			娃娃
+          </div>
+		</div>
+		<div class="topic-list-bt clearfix">
+		  <div class="topic-related">
+			<ul>
+			  <li class="date">2012-04-24 1414</li>
+			  <li class="data"><a href="{$i_url}/{$replies[].posterId}" target="_blank" title="点这里查看 {$replies[].userName} 的个人资料">TA的主页</a></li>
+			  <li><a href="{$i_url}/{$replies[].posterId}" title="将 {$replies[].userName} 添加到你的好友列表">加为好友</a></li>
+			  <li><A href="{$bbs_url}message.php?action=write&receiverId={$replies[].posterId}">悄悄话</a></li>
+			  <li class="last"><a href="{$bbs_url}topic.php?forumId={$forum_id}&topicId={$topic_id}&action=only&only_userid={$replies[].posterId}" target="_blank">只看此人</a></li>
+			</ul>
+		  </div>
+          
+		  <div class="topic-detail-mana">
+			<ul>
+              {$replies[].manage}
+			  <li class="copy-address"><input id=post{$replies[].postId} type=hidden value='{$bbs_url}t_{$forum_id}_{$topic_id}_{$page}.htm#{$replies[].postId}'><span id=copy{$replies[].postId}  title='复制本楼地址，可以直接定位到本楼'>复制本楼地址</span></li>
+			  <li><a href={$bbs_url}post_new.php?action=edit&isTop={$replies[].isTop}&topicId={$topic_id}&postId={$replies[].postId}&forumId={$forum_id}&sortId={$sort_id}>编辑</a></li>
+			  <li class="quote"><a href=/post_new.php?action=quoteReply&topicId={$topic_id}&postId={$replies[].postId}&forumId={$forum_id}&sortId={$sort_id}&page={$page}>引用</a></li>
+			  <li class="last">楼主</li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <!--/loop:replies-->
+	  <!--/if:replies-->
+	  <!--贴子列表结束-->
+	  <!--贴子列表下方页码-->
+	  <div class="topic-list-ft clearfix">
+		<div class="menu">
+		  <div class="menu-hd"><a href="javascript:;">[{$forumName}]</a><i></i></div>
+		  <div class="menu-bd">
+			<!--if:cate_navigation_down-->
+			<div class="menu-bd-panel">
+			  <div class="title">
+				<a href="{$bbs_url}">
+				  回到首页
+				</a>
+			  </div>
+			  <!--loop:cate_navigation_down-->
+			  <div class="desc">
+				<a href="{$bbs_url}f_{$cate_navigation_down[].forumId}.htm">
+				  {$cate_navigation_down[].forumName}
+				</a>
+			  </div>
+			  <!--/loop:cate_navigation_down-->
+			</div>
+			<!--/if:cate_navigation_down-->
+		  </div>
+		</div>
+		<div class="pager all-topic">
+		  共2页
+		  <a href="#">
+			<font color="black">1</font>
+		  </a>
+		  <a href="./t_13_7126191_2.htm">2</a>
+		  <a class="next" href="./t_13_7126191_2.htm">尾页 &gt;</a>
+		  <span class="page-search">第<input type="text" class="page-input" onfocus="this.select()" value="1" name="fgopage">页</span><input type="submit" class="page-btn" title="跳转到指定页" value=""></div>
+		<input type="hidden" class="J_url" value="{$bbs_url}t_{$forum_id}_{$topic_id}_1.htm" />
+		<a href="{$bbs_url}post_new.php?action=postReply&forumId={$forum_id}&topicId={$topic_id}" target="_blank" class="reply-btn">回复</a>
+	  </div>
+	  
+	  <!--贴子列表下方页码结束-->
+	  <!--快速回复开始-->
+	  <script src="{$imagePath}/bbcode.js"></script>
+	  <script type="text/javascript">
+		$(function(){
+        //删除收藏
+        $('.J-delete-topic').click(function() {
+        Dialog.ask("你确定要删除这条收收藏吗？", ["确定", "取消"], function(val) {
+        if(val=="确定"){
+        location.href='fav.php?action=cancel_topic&topic_id={$topic_id}&forum_id={$forum_id}&page={$page}';
+        }
+        },{title:"取消收藏",width:"418px"});
+        return false;
+        });
+		});
+		window.onload=function(){
+		$(".signature").each(function () {
+        var $this = $(this);
+		$this.show();
+        $this.prev().css({"margin-bottom": $this.outerHeight(true) + 10});
+        });
+		}
+		function resend_mobile_code() {
+		var frm1 = document.form1;
+		frm1.onsubmit = '';
+		frm1.action = '/mobile_service.php';
+		frm1.formAction.value = 'resendMobileCode';
+		frm1.submit();
+		}
+	  </script>
+	  {$ad_code_topic_down}
+<div class="quick-reply clearfix">
+    <form action="{$bbs_url}post_new.php" method="post" name="form1" onSubmit="return checkForm(form1);">
+      <input type="hidden" name="action" value="saveReply">
+      <input type="hidden" name="forumId" value="{$forum_id}">
+      <input type="hidden" name="topicId" value="{$topic_id}">
+    <div class="reply-content">
+        <div class="reply-hd">快速回复</div>
+        <div class="reply-bd">
+        <div>{$limit_reply_html}<textarea name="content" id="textarea" onKeyDown="return ctlent(event,form1);"></textarea></div>
+        <div class="reply-submit clearfix">
+            <div class="ubb"><input type="checkbox" name="disableUbb" value="checked"><span onClick="checkBoxCheck(document.form1.disableUbb);">禁用UBB代码</span><a href={$bbs_url}ubb.php target=_blank>[帮助]</a></div>
+            <div class="reply-btn">
+            <input class="input-empty quick-reply-btn" name=Reset type=reset value="清空内容">
+            <input class="input-copy quick-reply-btn" id="copy-text" type=button value="复制到黏贴板" name=copy title='复制到剪贴板，提交不成功可以重新粘贴'>
+            <input class="submit-reply quick-reply-btn" type="submit" name="Submit" value="提交回复">
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="reply-rules">
+        <ul>
+        <li>·尊重网上道德，遵守《<a href="http://bbs.sh.liba.com/rules.php" target="_blank">篱笆论坛规则</a>》及《<a href="http://www.liba.com/article/article_show.php?article_id=60" target="_blank">互联网电子公告服务管理规<br>&nbsp;&nbsp;定</a>》等其他国家法规</li>
+        <li>·承担一切因您的行为而直接或间接导致的民事或刑事法律责任</li>
+        <li>·论坛管理人员有权保留或删除其管辖留言中的任意内容</li>
+        <li>·您在论坛发表的作品，篱笆网有权在网站内转载或引用</li>
+        <li>·任何个人或单位转载论坛文字、图片，须经网站和发帖人允许并注明出处</li>
+        <li>·用户承诺上传、发布的文字、图片等相关内容不侵犯第三方的权益，包括<br>&nbsp;&nbsp;但不限于隐私权、肖像权、名誉权、知识产权等</li>
+        <li>·在本论坛发表留言即表明您已经阅读并接受上述条款</li>
+        </ul>
+    </div>
+    </form>
+</div>
+	  
+	  <!--add tag begin-->
+	  <div class="add-tag">
+		<div class="inner-tag">
+          <form action="./fav.php?action=add_topic_new&forum_id={$forum_id}&topic_id={$topic_id}&page={$page}" method="post" name="fav_forum">
+			<div class="select-tag clearfix">
+			  {$fav_tags_html}
+			</div>
+			{$add_fav_html}
+			<div class="tag-btn"><input type="submit" name="fav_submit" value="确定" class="form-btn confirm"/></div>
+          </form>
+		</div>
+	  </div>
+	  <!--add tag end-->
+	  <script src="./public/js/zeroclipboard/ZeroClipboard.js"></script>
+	  <script>
+		function getid(id) { return document.getElementById(id); }
+		function toClipboard(cid,tid,txt){
+		var clip = new ZeroClipboard.Client();
+		var copyText=getid(tid).value;
+		clip.setHandCursor(true);
+		clip.addEventListener('mouseOver', function (client) {
+        clip.setText(copyText);
+    	});
+    	clip.addEventListener('complete', function (client) {
+        alert(txt); //复制成功提示
+    	});
+		clip.glue(cid);		
+		}
+		$(function(){
+		$(".copy-address span").mouseover(function(){
+		var id=$(this).attr("id");
+		var pid=$(this).prev().attr("id");
+		toClipboard(id,pid,"复制成功，请粘贴到你的帖子、QQ、MSN上推荐给你的好友，可以直接跳转到本楼");
+		});	
+		$("#copy-text").mouseover(function(){
+		toClipboard("copy-text","textarea","复制到剪贴板成功！");										   
+		});
+		})
+	  </script>
+	  <script type="text/javascript" src="http://v2.jiathis.com/code_mini/jia.js" charset="utf-8">
+	  </script>
+	</div>
+	<!--快速回复结束-->
+
+
+  </body>
+</html>

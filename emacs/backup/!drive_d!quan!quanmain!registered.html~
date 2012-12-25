@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>篱笆网</title>
+<meta name="keywords" content="篱笆,篱笆网,篱笆论坛,上海篱笆,苏州篱笆,篱笆女,装修,结婚,育儿,学车,培训"/>
+<meta name="description" content="篱笆网 - 伴你经历人生中的每个重要时刻！上海最大的家庭生活消费平台，已成功为超过50万户家庭提供装修、结婚、育儿等方面的服务。" />
+<link href="http://passport.liba.com/public/css/base.css" rel="stylesheet" type="text/css" />
+<link href="http://passport.liba.com/public/css/layer.css" rel="stylesheet" type="text/css" />
+<link rel="Shortcut  Icon" href="favicon.ico" />
+<script type="text/javascript" src="http://passport.liba.com/public/js/jquery-1.7.js"></script>
+<script type="text/javascript" src="http://passport.liba.com/public/js/index/jquery.dialog.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5496041-1']);
+  _gaq.push(['_setDomainName', 'liba.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript"  src='http://data.liba.com/analyticstracking.php'></script>
+<link href="http://passport.liba.com/public/css/passport.css?ver=1" rel="stylesheet" type="text/css" />
+<link href="http://passport.liba.com/public/css/form.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://passport.liba.com/public/js/passport.js"></script>
+<script type="text/javascript" src="http://passport.liba.com/public/js/Validform.js"></script>
+</head>
+<body>
+<!--header begin-->
+<div id="header">
+    <div class="c-main-header clearfix">
+    	<h1>liba家庭生活信息</h1>
+    </div>
+</div>
+<!--header end-->
+<!--main begin-->
+<div class="passport-main">
+	<form action="http://passport.liba.com/post.php"	method="post" name="" class="registerform" autocomplete="off">	
+        <div class="custom-nav"><span class="current">1、认证并订制关注内容</span></div>
+        <div class="code-title">你好，请输入手机收到的校验码</div>
+        <div class="code-desc">手机认证是为了鉴别用户的真实性，帮助你在篱笆获得更真实有效的信息</div>
+        <div class="code-write">手机号码：<i class="cellphone"></i> 
+        	<input type="text" value="" class="passport-input input-code"/><input type="button" value="确定" class="code-btn"/><span class="show">校验码</span>
+            <div class="send-success">
+            	恭喜你！认证成功！
+            </div>
+			<div class="Validform_checktip"></div>
+            <div class="validform-tips">
+                <p>请输入你手机收到的6位数字校验码</p>
+                <i class="sideline top"></i>
+                <i class="sideline bot"></i>
+            </div>            
+		</div>
+        <div class="code-mana"><span class="send-count"><i id="check-second">60</i>秒后可重新发送</span><a href="javascript:;" class="agin-send">重新发送校验码</a><a href="javascript:;" class="J-modify">修改号码</a></div>
+       <div class="photo-num modify-photo">
+        		<input type="text" name="" value="" class="passport-input J-mobile-inp" nullmsg="手机号不能为空" errormsg="手机号不存在"/><input type="button" value="" class="send-code-btn"/><span class="show">常用手机号码</span>
+                <div class="Validform_checktip"></div>
+                <div class="validform-tips">
+                    <p>该手机号将作为你的认证手机号</p>
+                    <i class="sideline top"></i>
+                    <i class="sideline bot"></i>
+                </div>
+        </div>
+        <div class="interest-tit">你好，这是你首次登录“新版篱笆”，请挑选感兴趣的内容:</div>
+        <div class="interest-desc">选择感兴趣的关键词，你将会从篱笆获得更优质的内容以及优惠信息。</div>
+        <div class="interest-list clearfix">
+            <ul>
+			  
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="1"/>装修</label>
+                	<div class="keyword-desc">
+	                    <p>装修中的所有事情,开心,苦恼,经验,疑问都能在这里跟大家分享，并找到你想要的答案…</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="2"/>结婚</label>
+                	<div class="keyword-desc">
+	                    <p>和大家一起交流结婚过程中的想法；为新人们提供了24个婚庆细分服务…</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="3"/>育儿</label>
+                	<div class="keyword-desc">
+	                    <p>专注为孕妇和新妈妈提供资讯、交流、记录及导购服务；更有“妈妈圈”等你加入…</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="4"/>闲聊</label>
+                	<div class="keyword-desc">
+	                    <p>这里有liba论坛最火爆的版块,每天有大量有趣、真实、实时的内容,“刷”到你手软…</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="5"/>房产</label>
+                	<div class="keyword-desc">
+	                    <p>聊一聊购房心得、聊一聊动拆迁的种种遭遇等；更有真实“业主圈”等待你的加入…</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="6"/>汽车</label>
+                	<div class="keyword-desc">
+	                    <p>学车、购车、玩车养车、自驾游面面俱到，与大家一起分享你和车的故事…</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="7"/>女性</label>
+                	<div class="keyword-desc">
+	                    <p>美体塑身、搭配、珠宝、美容美发美体等等，女性关注的就是我们关注的…</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="8"/>乐活</label>
+                	<div class="keyword-desc">
+	                    <p>爱玩的，爱美食的，爱旅游的，爱运动的，爱游戏的等等；一起开心生活在上海…</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="9"/>福利社</label>
+                	<div class="keyword-desc">
+	                    <p>社区里的交易区，买到更实惠的东西！</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+                <li>
+                	<label class="keyword-tit">
+                    <input type="checkbox" name="subject[]" value="10"/>培训</label>
+                	<div class="keyword-desc">
+	                    <p>英语角、韩语角、日语角、学习培训等，交流经验，分享资源！</p>
+                        <span class="bor-top"></span>
+                        <span class="bor-bot"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="concern-area"><i>选择关注的地区：</i>
+            <select name="area">
+            	<option value="1">上海</option>
+                <option value="2">苏州</option>
+            </select>
+            我们将根据你的选择，为你筛选出相应地区的内容。
+        </div>
+        
+        <div class="custom-nav"><span class="current">1、寻找和自己兴趣一样的朋友</span></div>
+        
+        <div class="circle-title">业主圈</div>
+        <div class="circle-search">
+        
+        </div>
+        
+        <div class="circle-list clearfix">
+        	<ul>
+        		<li class="circle-item">中远两湾城（一至四期）</li>
+        		<li class="circle-item">星河世纪城（一至三期）</li>
+        		<li class="circle-item">阳光威尼斯（一至四期）</li>
+        		<li class="circle-item">曹杨五村</li>
+        		<li class="circle-item">世纪同乐</li>
+        		<li class="circle-item">万邦都市花园（一至五期）</li>
+        		<li class="circle-item">大华锦绣华城</li>
+        		<li class="circle-item">上海康城（一至四期）</li>
+        		<li class="circle-item">静安新城（一至十二区）</li>
+        		<li class="circle-item">江南星城</li>
+        		<li class="circle-item">工农四村</li>
+        		<li class="circle-item">万科假日风景</li>
+        		<li class="circle-item">东方城市花园（一至二期）</li>
+        		<li class="circle-item">西雅图</li>
+        		<li class="circle-item">徐汇新城</li>
+        		<li class="circle-item">陆家嘴花园（一至二期）</li>
+					</ul>
+        </div>
+        
+        <div class="confirm-register">
+			<input type="button" value="" name="" class="con-reg-btn"/>
+			<input type="hidden" name="new_user" value="1">	
+		以后可在“我的篱笆”修改关注内容</div>
+		<input type="hidden" name="action" value="customize"/>
+    </form>	
+</div>
+<script>
+var send_code = false;
+var modify_phone=false;
+$(function(){
+	$('.con-reg-btn').click(function() {
+		isChecked();									 
+	});
+	$('.J-mobile-inp').blur(function(){
+		var reg=/^13[0-9]{1}[0-9]{8}$|15[0189]{1}[0-9]{8}$|18[2689]{1}[0-9]{8}$/;						 
+		var mobile=$(".J-mobile-inp").val();
+		if(mobile!=""){	
+			if(!reg.test(mobile)){
+				wrongTips($('.modify-photo .Validform_checktip'),'该手机号码不存在');	
+			}
+			else{
+				$(".J-mobile-inp").siblings(".Validform_checktip").removeClass("Validform_wrong").removeClass("Validform_right").text("");	
+			}
+		}else{
+				wrongTips($('.modify-photo .Validform_checktip'),'手机号码不能为空');				
+		}
+	});	
+	$(".send-code-btn").click(function(){
+		var cellphone=$(".modify-photo .passport-input").val();	
+        var action = 'register_reset_mobile';
+		$.post("http://passport.liba.com/post.php", {action : action, mobile: cellphone},
+		function(data){
+			var errorMsg="";
+			if(data=="s5"){
+				$(".modify-photo").hide();
+				$(".cellphone").text(cellphone);
+				$(".code-write").show();
+				$(".code-mana").show();
+				modify_phone=true;
+			}else{
+				if(data=="e13"){
+					errorMsg="手机格式错误";						
+				}
+				if(data=="e16"){
+					errorMsg="手机号被禁止";						
+				}
+				if(data=="e17"){
+					errorMsg="手机号用户数超过5个";						
+				}
+				if(data=="e24"){
+					errorMsg="超过短信数";						
+				}
+				if(data=="e25"){
+					errorMsg="超过注册短信数";						
+				}
+				if(data=="e21"){
+					errorMsg="手机号不能为空";						
+				}
+				$('.modify-photo .Validform_checktip').removeClass("Validform_right").addClass('Validform_wrong');
+				$('.modify-photo .Validform_checktip').html('<p>'+errorMsg+'</p><i class="sideline top"></i><i class="sideline bot"></i>');
+				$('.modify-photo .Validform_checktip').show();
+				$('.modify-photo').children(".validform-tips").hide();				
+			}
+		});
+	});
+	
+	$('.agin-send').click(function() {
+        var action = 'register_resend_sms';
+		$.post("http://passport.liba.com/post.php", {action : action},
+		   function(data) {
+			if(data == "s4"){
+				send();
+			}					
+		});
+	});
+	
+	//60秒倒计时
+	if($("#check-second").length > 0){
+		send();
+	}
+	$(".input-code").blur(function(){
+		checkCode($(".input-code"));
+	});	
+	$('.code-btn').click(function() {
+		var valcode = $('.input-code').attr('value');
+        var action = 'register_step_2';
+		$.post("http://passport.liba.com/post.php", { valcode: valcode, action:action},
+		   function(data) {
+			var errorMsg="";
+			if(data=="s3"||data=="e8"){
+				$('.input-code').remove();
+				$('.code-btn').remove();
+				$('.code-mana').remove();
+				$('.code-write .Validform_checktip').remove();
+				$('.send-success').show();
+				$(".show").hide();
+				send_code=true;
+			}else{
+				if(data=="e26"){
+					errorMsg="验证码输入有误";
+				}
+				if(data=="e27"){
+					errorMsg="创建失败";
+				}
+				$('.code-write .Validform_checktip').html(errorMsg);
+				wrongTips($('.code-write .Validform_checktip'),errorMsg);
+			}
+		});
+	});
+})
+function isChecked(){
+		var n= $(".interest-list").find("input:checked").length;
+		if(send_code){
+			if(n==0){
+				Dialog.popTip("","请至少选择一个主题",2000);
+			}else{
+				$(".registerform").submit();}
+		}else{
+			$(".input-code").focus();
+		}
+		if(!modify_phone){
+			$(".J-mobile-inp").focus();						
+		}
+}
+</script>
+<!--main end-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2139a15bf304442682ec33665a43949e' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--footer begin-->
+<script type=text/javascript src="http://passport.liba.com/feeds/comm/bottom"></script>
+<!--footer end-->
+</body>
+</html>

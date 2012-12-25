@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>圈子首页</title>
+	<link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="css/quan.css" type="text/css" />
+	<link rel="stylesheet" href="css/management.css" type="text/css" />
+	<script type="text/javascript" src="http://www.liba.com/public/js/jquery.js"></script>
+	<script type="text/javascript" src="js/sidebar.js"></script>
+  </head>
+
+  <body>
+	<script type="text/javascript" src="http://passport.liba.com/feeds/comm/top"></script>
+
+	<div class="container fn-clear">
+
+	  <div class="top">
+		<div class="ui-theme fn-clear">
+		  <a  href="{:javascript://}"><b>假装不正经</b></a>
+		  <p>元老会管理</p>
+		</div>
+	  </div>
+
+	  <div class="wrapper fn-clear">
+
+		<div class="main">
+		  <div class="patriarch fn-clear">
+			<div class="patriarch-hd">
+			  <img src="img/patriarch.png" class="" alt="" />
+			  <b>元老</b>
+			  <span></span>
+			</div>
+			<div class="patriarch-bd">
+			  <dl class="ob">
+				<dt>
+				  <a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				</dt>
+				<dd>
+				  <a href="{:javascript://}">我们都爱小金毛</a>
+				</dd>
+			  </dl>
+			  <dl class="ob">
+				<dt>
+				  <a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				</dt>
+				<dd>
+				  <a href="{:javascript://}">我们都爱小金毛</a>
+				</dd>
+			  </dl>
+			  <dl class="ob">
+				<dt>
+				  <a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				   
+				</dt>
+				<dd>
+				  <a href="{:javascript://}">我们都爱小金毛</a>
+				</dd>
+			  </dl>
+			  <dl class="ob">
+				<dt>
+				  <a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				   
+				</dt>
+				<dd>
+				  <a href="{:javascript://}">我们都爱小金毛</a>
+				</dd>
+			  </dl>
+			  <dl class="ob">
+				<dt>
+				  <a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				   
+				</dt>
+				<dd>
+				  <a href="{:javascript://}">我们都爱小金毛</a>
+				</dd>
+			  </dl>
+			  <dl class="ob">
+				<dt>
+				  <a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				   
+				</dt>
+				<dd>
+				  <a href="{:javascript://}">我们都爱小金毛</a>
+				</dd>
+			  </dl>
+			</div>
+		  </div>
+		  <div class="members fn-clear">
+			<div class="members-hd">
+			  <img src="img/likeicon.png" class="" alt="" />
+			  <b>成员</b>
+			  <span></span>
+			  <a href="{:javascript://}">全部</a>
+			</div>
+			<div class="members-bd">
+			  <dl class="ob">
+				<dt>
+				  <a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				   
+				</dt>
+				<dd>
+				  <a href="{:javascript://}">我们都爱小金毛</a>
+				</dd>
+			  </dl>
+			</div>
+		  </div>
+		</div>
+		
+
+		<div class="sidebar">	  
+		  <div class="ui-ad">
+		  </div>	  
+		  <div class="ui-ad">
+		  </div>
+		  <div class="ui-line">
+			<a target="_blank" href="{:javascript://}">回假装不正经 圈子 >></a>
+		  </div>
+		  <div class="ui-ad">
+		  </div>
+		</div>
+
+	  </div>
+
+	</div>
+
+	<script type=text/javascript src="http://passport.liba.com/feeds/comm/bottom_gb"></script>
+  </body>
+</html>

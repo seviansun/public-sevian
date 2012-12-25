@@ -1,0 +1,14 @@
+﻿<script type="text/javascript">
+    
+</script>
+<style>
+	h3{color:#10ABBB;margin-bottom:30px;}
+	h3 a{color:#10ABBB;}
+	p{font:normal 12px/1.5 arial,\5b8b\4f53; color:#ABABAB;}
+</style>
+<div style="width:320px;height:150px;background-color:#fff;padding:10px 20px;">
+  <form method="" id="" action="">
+	<input type="text" name="" value="" />
+	<input type="button" name="" value="" />
+  </form>
+</div>

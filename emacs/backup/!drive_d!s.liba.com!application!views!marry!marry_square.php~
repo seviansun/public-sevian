@@ -1,0 +1,821 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head data-base='{"debug":true}'>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>结婚广场-首页</title>
+	 <meta name="keywords" content="结婚 , 筹备, 新婚 ,喜糖 , 蛋糕, 酒水 ,喜宴 , 裸钻, 对戒 ,戒指 , 婚纱照, 婚纱 ,礼服 , 西装, 西服 ,试妆 , 跟妆, 婚庆 ,四大 , 司仪, 摄影 ,摄像 , 蜜月, 旅游"> 
+	 <meta name="description" content="结婚广场聚集了最具人气结婚信息，涵盖了篱笆结婚论坛中的各类筹备步骤和婚完的内容分享，是正在筹备婚礼的 TX 了解筹备信息最佳的选择。">
+	<link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $url['css']?>marry.css" type="text/css" />
+	<script type="text/javascript" src="http://www.liba.com/public/js/jquery.js"></script>
+	<script type="text/javascript" src="<?php echo $url['js']?>square_marry.js"></script>
+
+  </head>
+  <body>
+<script type=text/javascript src="http://passport.liba.com/feeds/comm/top"></script>
+		<!--<style type="text/css">
+	  #header{
+	  background-image:url("<?php echo $url['css']?>images/square_marry/bg.gif");
+	  }
+	  .c-main-header{
+	  background-image:url("<?php echo $url['css']?>images/square_marry/bg.gif");
+	  }
+	  .c-main-header h1{
+	  background-image:url("<?php echo $url['css']?>images/square_marry/libalogo.gif")
+	  }
+	  .c-header-nav li a:hover{
+	  background-image:url("<?php echo $url['css']?>images/square_marry/HOVER.gif");
+	  }
+	  .c-header-nav li{
+	  background-image:url("<?php echo $url['css']?>images/square_marry/Separator.gif")
+	  }
+	  .c-header-nav li a.mobile i, .loginer li.exit, .loginer li.set, .loginer li.email, .message .num {
+      background-image: url("<?php echo $url['css']?>images/square_marry/icons.png");
+      background-repeat: no-repeat;
+	  }
+	  .loginer li a {
+      color: #FFD0D9 !important;
+	  }
+	</style>-->
+	<div id="container">
+	  <div id="heading">
+		<a href="<?php  echo $url['site']; ?>marry">
+		  <img src="<?php echo $url['css']?>images/square_marry/marry-logo.gif" />
+		</a>
+
+	 <div class="heading-nav"> 
+		<a href="<?php echo $url['site']?>waterfall/index/sid/2/" class="J-pop-login" target="_blank">
+		  <img src="<?php echo $url['css']?>images/square_marry/logo/0.png"/>
+		</a>
+		<a href="http://bbs.liba.com/f_23.htm" class="J-pop-login" target="_blank">
+		  <img src="<?php echo $url['css']?>images/square_marry/logo/1.png"/>
+		</a>
+		<a href="http://bbs.liba.com/f_553.htm" class="J-pop-login" target="_blank">
+		  <img src="<?php echo $url['css']?>images/square_marry/logo/2.png"/>
+		</a>
+		<a href="http://bbs.liba.com/f_338.htm" class="J-pop-login" target="_blank">
+		  <img src="<?php echo $url['css']?>images/square_marry/logo/3.png"/>
+		</a>
+		<a href="http://bbs.liba.com/f_444.htm" class="J-pop-login" target="_blank">
+		  <img src="<?php echo $url['css']?>images/square_marry/logo/4.png"/>
+		</a>
+		<a href="http://bbs.liba.com/f_442.htm" class="J-pop-login" target="_blank">
+		  <img src="<?php echo $url['css']?>images/square_marry/logo/5.png"/>
+		</a>
+		<a href="http://bbs.liba.com/f_734.htm" class="J-pop-login" target="_blank">
+		  <img src="<?php echo $url['css']?>images/square_marry/logo/6.png"/>
+		</a>
+		<a href="http://bbs.liba.com/f_93.htm" class="J-pop-login" target="_blank">
+		  <img src="<?php echo $url['css']?>images/square_marry/logo/7.png"/>
+		</a>
+		<a href="http://bbs.liba.com/f_445.htm" class="J-pop-login" target="_blank">
+		  <img src="<?php echo $url['css']?>images/square_marry/logo/8.png"/>
+		</a>
+		</div>
+
+
+
+<!--dataline-->
+		<div id="dataline">
+		  <div class="thermo data-thermo">
+			<div class="ui-thermo">
+
+			  <div class="ui-thermo-nav">
+				<div class="nav-hover">
+				  <a class="" href="http://bbs.liba.com/f_338.htm" target = "_blank" class="J-pop-login">
+					<span class="">定酒店</span>
+				  </a>
+				  <em>&nbsp</em>
+				</div>
+				<div class="label-1 label-hover">
+				  <span class="label-icon"></span>
+				  <span class="label-hover-left">	  
+					<ul class="label-hover-right">
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_338_1033_1.htm" target = "_blank" class="J-pop-login">普陀</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_338_621_1.htm" target = "_blank" class="J-pop-login">黄浦卢湾</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_338_620_1.htm" target = "_blank" class="J-pop-login">静安长宁</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_338_619_1.htm" target = "_blank" class="J-pop-login">徐汇闵行</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_338_618_1.htm" target = "_blank" class="J-pop-login">虹口闸北</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_338_617_1.htm" target = "_blank" class="J-pop-login">浦东新区</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_338_616_1.htm" target = "_blank" class="J-pop-login">杨浦宝山</a></li>
+					</ul>
+				  </span>
+				</div>
+			  </div>
+
+			  <div class="ui-thermo-nav">
+				<div class="nav-hover">
+				  <a class="" href="http://bbs.liba.com/f_48.htm" target = "_blank" class="J-pop-login">
+					<span class="">拍婚纱照</span>
+				  </a>
+				  <em>&nbsp</em>
+				</div>
+				<div class="label-2 label-hover">
+				  <span class="label-icon"></span>
+				  <span class="label-hover-left">	  
+					<ul class="label-hover-right">
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_48_97_1.htm" target = "_blank" class="J-pop-login">传统婚纱照</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_48_97_1.htm" target = "_blank" class="J-pop-login">旅游婚纱照</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_443.htm" target = "_blank" class="J-pop-login">情侣写真</a></li>
+					</ul>
+				  </span>
+				</div>
+			  </div>
+
+			  <div class="ui-thermo-nav">
+				<div class="nav-hover">
+				  <a class="" href="http://bbs.liba.com/f_444.htm" target = "_blank" class="J-pop-login">
+					<span class="">选对戒</span>
+				  </a>
+				  <em>&nbsp</em>
+				</div>
+				<div class="label-3 label-hover">
+				  <span class="label-icon"></span>
+				  <span class="label-hover-left">	  
+					<ul class="label-hover-right">
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_444_832_1.htm" target = "_blank" class="J-pop-login">黄金嫁妆</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_444_594_1.htm" target = "_blank" class="J-pop-login">裸钻对戒</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_444_1036_1.htm" target = "_blank" class="J-pop-login">PT铂金</a></li>
+					</ul>
+				  </span>
+				</div>
+			  </div>
+
+			  <div class="ui-thermo-nav">
+				<div class="nav-hover">
+				  <a class="" href="http://bbs.liba.com/f_553.htm" target = "_blank" class="J-pop-login"><span class="">寻婚庆</span></a>
+				  <em>&nbsp</em>
+				</div>
+				<div class="label-4 label-hover">
+				  <span class="label-icon"></span>
+				  <span class="label-hover-left">	  
+					<ul class="label-hover-right">
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_553_876_1.htm" target = "_blank" class="J-pop-login">正统婚礼秀</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_553_875_1.htm" target = "_blank" class="J-pop-login">创意婚礼秀</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_553_874_1.htm" target = "_blank" class="J-pop-login">草坪婚礼秀</a></li>
+					</ul>
+				  </span>
+				</div>
+			  </div>
+
+			  <div class="ui-thermo-nav">
+				<div class="nav-hover">
+				  <a class="" href="http://bbs.liba.com/f_23.htm" target = "_blank" class="J-pop-login"><span class="">找四大</span></a>
+				  <em>&nbsp</em>
+				</div>
+				<div class="label-5 label-hover">
+				  <span class="label-icon"></span>
+				  <span class="label-hover-left">	  
+					<ul class="label-hover-right">
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_23.htm" target = "_blank" class="J-pop-login">司仪</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_734.htm" target = "_blank" class="J-pop-login">彩妆</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_553_1114_1.htm" target = "_blank" class="J-pop-login">跟拍</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_23_94_1.htm" target = "_blank" class="J-pop-login">摄影</a></li>
+					</ul>
+				  </span>
+				</div>
+			  </div>
+
+			  <div class="ui-thermo-nav">
+				<div class="nav-hover">
+				  <a class="" href="http://bbs.liba.com/f_442.htm" target = "_blank" class="J-pop-login"><span class="">选婚纱</span></a>
+				  <em>&nbsp</em>
+				</div>
+				<div class="label-6 label-hover">
+				  <span class="label-icon"></span>
+				  <span class="label-hover-left">	  
+					<ul class="label-hover-right">
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_442_587_1.htm" target = "_blank" class="J-pop-login">婚纱礼服</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_442_588_1.htm" target = "_blank" class="J-pop-login">新郎着装</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_442_611_1.htm" target = "_blank" class="J-pop-login">伴娘礼服</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_442_818_1.htm" target = "_blank" class="J-pop-login">苏州采纱</a></li>				  
+					</ul>
+				  </span>
+				</div>
+			  </div>
+
+			  <div class="ui-thermo-nav">
+				<div class="nav-hover">
+				  <a class="" href="http://bbs.liba.com/f_23.htm" target = "_blank" class="J-pop-login"><span class="">婚礼小商品</span></a>
+				  <em>&nbsp</em>
+				</div>
+				<div class="label-7 label-hover">
+				  <span class="label-icon"></span>
+				  <span class="label-hover-left">	  
+					<ul class="label-hover-right">
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_23_596_1.htm" target = "_blank" class="J-pop-login">喜帖</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_23_596_1.htm" target = "_blank" class="J-pop-login">喜糖</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_23_585_1.htm" target = "_blank" class="J-pop-login">婚车</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_442_589_1.htm" target = "_blank" class="J-pop-login">婚鞋配饰</a></li>			  
+					</ul>
+				  </span>
+				</div>
+			  </div>
+
+			  <div class="ui-thermo-nav">
+				<div class="nav-hover">
+				  <a class="" href="http://bbs.liba.com/f_445.htm" target = "_blank" class="J-pop-login"><span class="">度蜜月</span></a>
+				</div>
+				<div class="label-8 label-hover">
+				  <span class="label-icon"></span>
+				  <span class="label-hover-left">	  
+					<ul class="label-hover-right">
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_445_704_1.htm" target = "_blank" class="J-pop-login">国内</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_445_705_1.htm" target = "_blank" class="J-pop-login">欧洲</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_445_703_1.htm" target = "_blank" class="J-pop-login">马尔代夫</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_445_702_1.htm" target = "_blank" class="J-pop-login">巴厘塞班</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_445_701_1.htm" target = "_blank" class="J-pop-login">新马泰菲</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_445_700_1.htm" target = "_blank" class="J-pop-login">北美澳新</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_445_699_1.htm" target = "_blank" class="J-pop-login">日韩</a></li>
+					  <em>&nbsp</em>
+					  <li class="label-item fn-clear"><a href="http://bbs.liba.com/f_445_698_1.htm" target = "_blank" class="J-pop-login">另类蜜月</a></li>
+					</ul>
+				  </span>
+				</div>
+			  </div>
+
+			</div>
+		  </div>
+		</div>
+		<!--dataline-->
+
+
+
+
+
+
+
+
+	 </div>
+	  <div id="wrapper" class="fn-clear">
+		<div id="main">
+		  <div id="focus" class="ui-box">
+			<div class="ui-box-bd fn-clear">
+			  <div class="ui-focus fn-left" data-module="focus">
+				<div class="ui-focus-container">
+
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_01首屏焦点图 Begin -->
+				<!--<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1305" ></script>-->
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_01首屏焦点图 End -->
+<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_01首屏焦点图 Begin -->
+<iframe width="350" height="230" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://adsame.liba.com/s?z=liba&c=1304&op=1" ></iframe>
+<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_01首屏焦点图 End -->
+
+
+				</div>
+
+			  </div>
+			  <div class="fn-right">
+				<ul class="ui-list">
+
+				  <li class="ui-list-item ui-list-item-first fn-dashed ui-list-item-text">
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_05聚焦文字链 Begin -->
+					<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1311" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_05聚焦文字链 End -->
+				  </li>
+
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链1 Begin -->
+					<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1312" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链1 End -->
+
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链2 Begin -->
+					<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1313" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链2 End -->
+
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+
+
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链3 Begin -->
+					<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1314" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链3 End -->
+
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链4 Begin -->
+					<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1315" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链4 End -->
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链5 Begin -->
+					<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1316" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_06推荐文字链5 End -->
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+		  <div id="category1" class="ui-box fn-clear">
+			<h2 class="ui-title fn-clear">篱笆JMS的最爱</h2>
+			<div class="ui-box-img">
+			  <div class="ui-box-img-left">
+<!--
+				<img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" />
+				<img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" />
+				<img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" />
+				<img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" /> -->
+				<div class = "ui-box-img-left-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_07-1最爱区小图1 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1317" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_07-1最爱区小图1 End -->
+				</div>
+				<div class = "ui-box-img-left-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_07-2最爱区小图2 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1318" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_07-2最爱区小图2 End -->
+				</div>
+				<div class = "ui-box-img-left-item">					
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_07-3最爱区小图3 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1319" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_07-3最爱区小图3 End -->
+				</div>
+				<div class = "ui-box-img-left-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_07-4最爱区小图4 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1320" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_07-4最爱区小图4 End -->
+				</div>
+		  </div>
+			  <div class="ui-box-img-right">
+
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_08最爱区大图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1321" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_08最爱区大图 End -->
+			<!--	<img src="<?php echo $url['css']?>images/square_marry/item1-image5.png" /> -->
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+		  <div id="category2" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">	
+			  <h2 class="ui-title">篱笆JMS的结婚筹备</h2>
+			  <div class="ui-category-item-name">婚礼筹备</div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">
+				<?php foreach($wedding_prepare[0] as $k => $v){?>
+				<li class="ui-list-item">
+					<?php  if($wedding_prepare[2] == 0){?>
+					<a href="/marry/marry_list/category_id/<?php echo $wedding_prepare[1];?>/tag_id/<?php  echo $v['tag_id']  ?>" target="_blank">
+					<?php }else {?>
+					<a href="/waterfall/index/tag_id/<?php  echo $v['tag_id'] ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php  echo $v['name']?>
+					</a>
+				</li>				
+				<?php }?>
+			  </ul>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+				<!-- <img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" />-->
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_13结婚筹备小图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1328" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_13结婚筹备小图 End -->
+			  </div>
+			  <div class="ui-form-middle">	
+				<ul class="ui-list">
+
+				<?php foreach($wedding_prepare[3] as $k => $v){?>
+				 <?php if($k == 0){ ?>
+				  <li class="ui-list-item-title">
+				  <?php }else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+				  <?php }?>
+					<a href="/marry/redirect/topic_id/<?php echo $v['topic_id'];?>/forum_id/<?php echo $v['forum_id'];?>" target = "_blank">
+					<?php $a = $v['topic_name'];echo utf_substr($a, 35);?>
+				  </a>
+				  </li>
+				<?php }?>
+
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<!-- <img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />
+				<img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />-->
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_14-1结婚筹备标签图 Begin -->
+				<div class="ui-form-right-item">
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1329" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_14-1结婚筹备标签图 End -->
+				</div>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_14-2结婚筹备标签图 Begin -->
+				<div class="ui-form-right-item">
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1330" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_14-2结婚筹备标签图 End -->
+				</div>
+			  </div>				
+			</div>
+		  </div>
+
+
+
+
+
+
+		<div id="category3" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">
+			  <h2 class="ui-title">篱笆JMS的美丽瞬间</h2>
+			  <div class="ui-category-item-name">婚礼类型 </div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">	
+				<?php foreach($wedding_type[0] as $k => $v){?>
+				<li class="ui-list-item">
+					<?php  if($wedding_type[2] == 0){?>
+					<a href="/marry/marry_list/category_id/<?php echo $wedding_type[1];?>/tag_id/<?php  echo $v['tag_id']  ?>" target="_blank">
+					<?php }else {?>
+					<a href="/waterfall/index/tag_id/<?php  echo $v['tag_id']  ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php  echo $v['name']?>
+					</a>
+				</li>				
+				<?php }?>
+			  </ul>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+				<!--<img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" />-->
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_20美丽瞬间小图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1364" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_20美丽瞬间小图 End -->
+			  </div>
+			  <div class="ui-form-middle">
+				<ul class="ui-list">
+				<?php foreach($wedding_type[3] as $k => $v){?>
+				 <?php if($k == 0){ ?>
+				  <li class="ui-list-item-title">
+				  <?php }else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+				  <?php }?>
+					<a href="/marry/redirect/topic_id/<?php echo $v['topic_id'];?>/forum_id/<?php echo $v['forum_id'];?>" target = "_blank">
+					<?php $a = $v['topic_name'];echo utf_substr($a, 35);?>
+				  </a>
+				  </li>
+				<?php }?>
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<!--<img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />
+				<img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />-->
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_21-1美丽瞬间标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1365" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_21-1美丽瞬间标签图 End -->
+				</div>
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_21-2美丽瞬间标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1366" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_21-2美丽瞬间标签图 End -->
+				</div>
+
+			  </div>				
+			</div>
+		  </div>
+
+
+
+		  <div id="category4" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">
+			  <h2 class="ui-title">篱笆JMS的幸福时刻</h2>
+			  <div class="ui-category-item-name">个性写真</div>
+			  <div class="ui-category-item-name">订婚纱照</div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">	
+				<?php foreach($wedding_photo[0] as $k => $v){?>
+				<li class="ui-list-item">
+					<?php  if($wedding_photo[2] == 0){?>
+					<a href="/marry/marry_list/category_id/<?php echo $wedding_photo[1];?>/tag_id/<?php  echo $v['tag_id']  ?>" target="_blank">
+					<?php }else {?>
+					<a href="/waterfall/index/tag_id/<?php  echo $v['tag_id']  ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php  echo $v['name']?>
+					</a>
+				</li>				
+				<?php }?>
+				<?php foreach($wedding_personal[0] as $k => $v){?>
+				<li class="ui-list-item">
+					<?php  if($wedding_personal[2] == 0){?>
+					<a href="/marry/marry_list/category_id/<?php echo $wedding_personal[1];?>/tag_id/<?php  echo $v['tag_id']  ?>" target="_blank">
+					<?php }else {?>
+					<a href="/waterfall/index/tag_id/<?php  echo $v['tag_id']  ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php  echo $v['name']?>
+					</a>
+				</li>				
+				<?php }?>
+			  </ul>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+				<!-- <img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" />-->
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_09幸福时刻小图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1322" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_09幸福时刻小图 End -->
+			  </div>
+			  <div class="ui-form-middle">
+				<ul class="ui-list">
+				<?php foreach($wedding_personal_photo as $k => $v){?>
+				 <?php if($k == 0){ ?>
+				  <li class="ui-list-item-title">
+				  <?php }else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+				  <?php }?>
+					<a href="/marry/redirect/topic_id/<?php echo $v['topic_id'];?>/forum_id/<?php echo $v['forum_id'];?>" target = "_blank">
+					<?php $a = $v['topic_name'];echo utf_substr($a, 35);?>
+				  </a>
+				  </li>
+				<?php }?>
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<!-- <img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />
+				<img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />-->
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_10-1幸福时刻标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1323" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_10-1幸福时刻标签图 End -->
+				</div>
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_10-2幸福时刻标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1324" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_10-2幸福时刻标签图 End -->
+				</div>
+
+		  </div>				
+			</div>
+		  </div>
+
+
+
+
+
+
+
+
+		  <div id="category5" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">	
+			  <h2 class="ui-title">篱笆JMS的心动喜宴</h2>
+			  <div class="ui-category-item-name">酒店类型</div>
+			</div>			
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">			 
+				<?php foreach($wedding_reception[0] as $k => $v){?>
+				<li class="ui-list-item">
+					<?php  if($wedding_reception[2] == 0){?>
+					<a href="/marry/marry_list/category_id/<?php echo $wedding_reception[1];?>/tag_id/<?php  echo $v['tag_id']  ?>" target="_blank">
+					<?php }else {?>
+					<a href="/waterfall/index/tag_id/<?php  echo $v['tag_id']  ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php  echo $v['name']?>
+					</a>
+				</li>				
+				<?php }?>
+			  </ul>
+			</div>
+		  	<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+				<!-- <img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" />-->
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_11心动喜宴小图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1325" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_11心动喜宴小图 End -->
+			  </div>
+			  <div class="ui-form-middle">
+				<ul class="ui-list">
+				<?php foreach($wedding_reception[3] as $k => $v){?>
+				 <?php if($k == 0){ ?>
+				  <li class="ui-list-item-title">
+				  <?php }else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+				  <?php }?>
+					<a href="/marry/redirect/topic_id/<?php echo $v['topic_id'];?>/forum_id/<?php echo $v['forum_id'];?>" target = "_blank">
+					<?php $a = $v['topic_name'];echo utf_substr($a, 35);?>
+				  </a>
+				  </li>
+				<?php }?>
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<!-- <img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />
+				<img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />-->
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_12-1心动喜宴标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1326" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_12-1心动喜宴标签图 End -->
+				</div>
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_12-2心动喜宴标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1327" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_12-2心动喜宴标签图 End -->
+				</div>
+			  </div>				
+			</div>
+		  </div>
+
+
+
+
+
+
+		  <div id="category6" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">
+			  <h2 class="ui-title">篱笆JMS的璀璨梦幻</h2>
+			  <div class="ui-category-item-name">戒指选择</div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">
+				<?php foreach($wedding_jewel[0] as $k => $v){?>
+				<li class="ui-list-item">
+					<?php  if($wedding_jewel[2] == 0){?>
+					<a href="/marry/marry_list/category_id/<?php echo $wedding_jewel[1];?>/tag_id/<?php  echo $v['tag_id']  ?>" target="_blank">
+					<?php }else {?>
+					<a href="/waterfall/index/tag_id/<?php  echo $v['tag_id']  ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php  echo $v['name']?>
+					</a>
+				</li>				
+				<?php }?>
+			  </ul>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+				<!-- <img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" />-->
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_15璀璨梦幻小图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1331" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_15璀璨梦幻小图 End -->
+			  </div>
+			  <div class="ui-form-middle">	
+				<ul class="ui-list">
+				<?php foreach($wedding_jewel[3] as $k => $v){?>
+				 <?php if($k == 0){ ?>
+				  <li class="ui-list-item-title">
+				  <?php }else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+				  <?php }?>
+					<a href="/marry/redirect/topic_id/<?php echo $v['topic_id'];?>/forum_id/<?php echo $v['forum_id'];?>" target = "_blank">
+					<?php $a = $v['topic_name'];echo utf_substr($a, 35);?>
+				  </a>
+				  </li>
+				<?php }?>
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<!--<img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />
+				<img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />-->
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_16-1璀璨梦幻标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1332" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_16-1璀璨梦幻标签图 End -->
+				</div>
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_16-2璀璨梦幻标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1333" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_16-2璀璨梦幻标签图 End -->
+				</div>
+			  </div>				
+			</div>
+		  </div>
+
+		  <div id="category7" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">
+			  <h2 class="ui-title">篱笆JMS的蜜月之行</h2>
+			  <div class="ui-category-item-name">蜜月旅行</div>
+			</div>
+			<div class="ui-category-item-option fn-clear">
+			  <ul class="ui-list">
+				<?php foreach($wedding_travel[0] as $k => $v){?>
+				<li class="ui-list-item">
+					<?php  if($wedding_travel[2] == 0){?>
+					<a href="/marry/marry_list/category_id/<?php echo $wedding_travel[1];?>/tag_id/<?php  echo $v['tag_id']  ?>" target="_blank">
+					<?php }else {?>
+					<a href="/waterfall/index/tag_id/<?php  echo $v['tag_id']  ?>/sid/<?php echo $subject_id?>" target="_blank">
+					<?php }?>
+					<?php  echo $v['name']?>
+					</a>
+				</li>				
+				<?php }?>
+			  </ul>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+			  <div class="ui-form-left">
+				<!--<img src="<?php echo $url['css']?>images/square_marry/item1-image1.png" />-->
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_17蜜月之行小图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1334" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_17蜜月之行小图 End -->
+			  </div>
+			  <div class="ui-form-middle">	
+				<ul class="ui-list">
+				<?php foreach($wedding_travel[3] as $k => $v){?>
+				 <?php if($k == 0){ ?>
+				  <li class="ui-list-item-title">
+				  <?php }else { ?>
+				  <li class="ui-list-item ui-list-item-text">
+				  <?php }?>
+					<a href="/marry/redirect/topic_id/<?php echo $v['topic_id'];?>/forum_id/<?php echo $v['forum_id'];?>" target = "_blank">
+					<?php $a = $v['topic_name'];echo utf_substr($a, 35);?>
+				  </a>
+				  </li>
+				<?php }?>
+				</ul>
+			  </div>
+			  <div class="ui-form-right">
+				<!--<img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />
+				<img src="<?php echo $url['css']?>images/square_marry/item2-image2.png" />-->
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_18-1蜜月之行标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1335" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_18-1蜜月之行标签图 End -->
+				</div>
+				<div class="ui-form-right-item">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_18-2蜜月之行标签图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1336" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_18-2蜜月之行标签图 End -->
+				</div>
+			  </div>				
+			</div>
+		  </div>
+
+
+			<div class="ui-ad">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_19底部通栏 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1337" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_19底部通栏 End -->			  
+			</div>
+		  </div>
+
+
+
+
+
+
+
+
+
+		  <div id="sidebar">
+			<div class="ui-ad">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_02右侧首屏焦点图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1308" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_02右侧首屏焦点图 End -->
+			</div>
+			<!-- 如果登录，则传userid进去  -->
+			<script type="text/javascript" src="http://www.liba.com/nut_marry.php<?php if($userid != ""){ ?>?userid=<?php echo $userid;} ?>">
+			</script>
+	
+
+			<div class="ui-ad">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_03-1右侧第二屏焦点图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1309" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_03-1右侧第二屏焦点图 End -->
+			</div>
+			<div class="ui-ad">
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_03-2右侧第二屏焦点图 Begin -->
+				<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1310" ></script>
+				<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / JHAD_03-2右侧第二屏焦点图 End -->
+			</div>
+
+		  </div>
+		</div>
+		
+	  </div>
+<?load_view("ga")?>
+	  <script type="text/javascript" src="http://service.liba.com/feeds/comm/bottom"></script>
+	</body>
+	
+  </html>

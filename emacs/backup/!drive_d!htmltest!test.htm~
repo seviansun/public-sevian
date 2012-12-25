@@ -1,0 +1,121 @@
+<!DOCTYPE html><html>
+  <head>
+	<meta charset="utf-8">
+	<title>篱笆网</title>
+	<meta content="" name="keywords">
+	<meta content="" name="description">
+	<link type="text/css" rel="stylesheet" href="css/test.css">
+  </head>
+  <body>
+	<div id="header">
+	</div>
+	<div class="main-content">
+	  <div class="breadcrumb">
+		<a href='#'>装修广场</a>
+		>
+		<b>装修图赏</b>
+	  </div>
+	  <div class="square-nav">
+		<span class="category-item">
+		 <h5> </h5>
+		</span>
+		<ul class="clearfix">
+		  <li class="style">
+			<h5> </h5>
+			<span>
+			  全部
+			  中式 
+			  现代                                                                               
+    	      简约
+			  乡村
+			  混搭
+			  北欧
+			  古典
+			  美式田园
+			  地中海</span>
+		  </li>
+		  <li class="unit">
+			<h5> </h5>
+			<span>
+			  全部 
+			  一房
+			  两房
+			  三房 
+			  四房
+			  别墅
+			  复式</span>
+		  </li>
+		  <li class="space">
+			<h5> </h5>
+			<span>
+			  全部
+			  玄关
+			  客厅
+			  卧室
+			  书房
+			  餐厅
+			  厨房
+			  儿童房 
+			  健身房
+			  卫生间
+			  工作间 
+			  出租房 
+			  老人房
+			  阳台化妆间</span>
+		  </li>
+		</ul> 
+	  </div>
+	  <div class="waterfall-container">
+		<div id="waterfall">
+		  <div class="col1">
+			<div class="signwall">
+			  <div class="wallimg">
+				<img width="200px" height="200px" src="test.jpg">
+			  </div>
+			  <div class="wallshare">
+				分享标题分享标题分享标题分享标题
+			  </div>
+			  <div class="wallinfo">
+				
+			  </div>
+			  <div class="bottom"></div>
+			</div>
+		  </div>
+		  <div class="col2">
+			<div class="signwall">
+			  <div class="wallimg">
+			  </div>
+			  <div class="wallshare">
+			  </div>
+			  <div class="wallinfo">
+			  </div>
+			  <div class="bottom"></div>
+			</div>
+		  </div>
+		  <div class="col3">
+			<div class="signwall">
+			  <div class="wallimg">
+			  </div>
+			  <div class="wallshare">
+			  </div>
+			  <div class="wallinfo">
+			  </div>
+			  <div class="bottom"></div>
+			</div>
+		  </div>
+		  <div class="col4">
+			<div class="signwall">
+			  <div class="wallimg">
+			  </div>
+			  <div class="wallshare">
+			  </div>
+			  <div class="wallinfo">
+			  </div>
+			  <div class="bottom"></div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  </div>
+  </body>
+</html>

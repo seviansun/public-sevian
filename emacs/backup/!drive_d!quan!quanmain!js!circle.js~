@@ -1,0 +1,95 @@
+/**
+* module in the global variable "g"
+* construction module
+*/
+g.guide = new Object();
+g.guide.run = function ($self) {
+//required css with loadCss
+$.loadCss(["alerts/init.css"], g.BasePath);
+//required javascript with LABjs
+$LAB.script(["alerts/jquery.alerts.js"])
+.wait(function () {
+g.guide.init($self);
+});
+}
+/* */
+g.guide.init = function ($self) {
+var options = $.extend({}, $self.data("options"));
+var $key = $("#key");
+var $id = $("#id");
+var $select = $("#select");
+var area;
+//textbox tip
+$(":text[data-tip]").each(function () {
+var $this = $(this);
+var tip = $this.data("tip");
+if (!$this.val() || $this.val() == tip) {
+$this.addClass("textboxtip").val(tip);
+}
+$this.focus(function () {
+if ($this.val() == tip) {
+$this.removeClass("textboxtip").val("");
+}
+}).blur(function () {
+if (!$this.val()) {
+$this.addClass("textboxtip").val(tip);
+}
+});
+});
+//init
+$.getJSON("app/owner/searchList.php", function(json){
+area = json;
+$key.keyup(function (e) {
+if ($.inArray(e.keyCode, [13, 37, 38, 39, 40]) == -1) {
+$id.val('');
+filter($key.val());
+}
+var $li = $select.children();
+var l = $li.length - 1;
+var i = $li.filter(".hover").index();
+if (l >= 0) {
+if (e.keyCode == 38) {
+if (i > 0) {
+i--;
+} else {
+i = 0;
+}
+$li.eq(i).addClass("hover").siblings().removeClass("hover");
+} else if (e.keyCode == 40) {
+if (i == -1) {
+i = 0;
+} else if(i < l) {
+i++;
+} else {
+i = l;
+}
+$li.eq(i).addClass("hover").siblings().removeClass("hover");
+} else if (e.keyCode == 13) {
+$li.eq(i).click();
+}
+}
+}).focus();
+});
+//check
+$select.delegate("li", "click", function () {
+$id.val($(this).data("id"));
+$key.val($(this).text());
+$select.hide();
+});
+//filter
+function filter(s) {
+$select.hide().empty();
+if (s) {
+var f = $.grep(area, function(n, i){
+return n[1].indexOf(s) > -1;
+});
+if (f.length > 0) {
+$.each(f, function(i, n) {
+if (i < 10) {
+$select.append('<li data-id="' + n[0] + '">' + n[1] + '</li>');
+}
+});
+$select.show();
+}
+}
+}

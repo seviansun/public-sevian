@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<link href="http://css.liba.com/css/base-alice.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/index.css">
+  </head>
+
+  <body>
+	<div class="ui-focus-btn">
+
+	<h2> 亲~您符合成为元老会成员资格</h2>
+	<p> 是否想成为元老会成员？</p>
+	<div class="focus-btn-no"><a href="{:javascript://}">	<img src="img/no-btn.png" class="" alt="" /></a></div>
+	<div class="focus-btn-yes"><a href="{:javascript://}">	<img src="img/yes-btn.png" class="" alt="" /></a></div>
+	
+	</div>
+  </body> 
+</html>

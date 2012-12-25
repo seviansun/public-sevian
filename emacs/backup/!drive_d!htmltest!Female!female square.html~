@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head data-base='{"debug":true}'>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>女性广场-首页</title>
+	<link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="css/female.css" type="text/css" />
+	<script type="text/javascript" src="http://www.liba.com/public/js/jquery.js"></script>
+	<script src="js/jquery/jquery.ba-hashchange.js"></script>
+    <script src="js/ajax/ajaxml.js"></script>
+  </head>
+  <body>
+	<script type="text/javascript" src="http://service.liba.com/feeds/comm/top"></script>
+	<style type="text/css">
+	  #header{
+	  background-image:url("images/bg.gif");
+	  }
+	  .c-main-header{
+	  background-image:url("images/bg.gif");
+	  }
+	  .c-main-header h1{
+	  background-image:url("images/libalogo.gif")
+	  }
+	  .c-header-nav li a:hover{
+	  background-image:url("images/HOVER.gif");
+	  }
+	  .c-header-nav li{
+	  background-image:url("images/Separator.gif")
+	  }
+	  .c-header-nav li a.mobile i, .loginer li.exit, .loginer li.set, .loginer li.email, .message .num {
+      background-image: url("images/icons.png");
+      background-repeat: no-repeat;
+	  }
+	  .loginer li a {
+      color: #FFD0D9 !important;
+	  }
+	</style>
+	<div id="container">
+	  <div id="heading">
+		<a href=":javascript://">
+		  <img src="images/female-logo.jpg" />
+		</a>
+		<div class="ui-nav">
+		  <a href="{:javascript://}" target="_blank" class="Shopping"></a>
+		  <a href="{:javascript://}" target="_blank" class="Fashion"></a>
+		  <a href="{:javascript://}" target="_blank" class="Collocation"></a>
+		  <a href="{:javascript://}" target="_blank" class="Skincare"></a>
+		</div>
+	  </div>
+	  <div id="wrapper" class="fn-clear">
+		<div id="main">
+		  <div id="focus" class="ui-box">
+			<div class="ui-box-bd fn-clear">
+			  <div class="ui-focus fn-left" data-module="focus">
+				<div class="ui-focus-container">
+				  <!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_01首屏焦点图 Begin -->
+				  <script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1274" ></script>
+				  <!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_01首屏焦点图 End -->
+				</div>
+
+			  </div>
+			  <div class="fn-right">
+				<ul class="ui-list">
+
+				  <li class="ui-list-item ui-list-item-first fn-dashed ui-list-item-text">
+
+				  </li>
+
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链1-独占 Begin -->
+					<script type="text/javascript" src="javascript://" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链1-独占 End -->
+
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+
+
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链2-独占 Begin -->
+					<script type="text/javascript" src="javascript://" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链2-独占 End -->
+
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+
+
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链3-独占 Begin -->
+					<script type="text/javascript" src="javascript://" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链3-独占 End -->
+
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链4-独占 Begin -->
+					<script type="text/javascript" src="javascript://"></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链4-独占 End -->
+				  </li>
+				  <li class="ui-list-item ui-list-item-text">
+
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链5-独占 Begin -->
+					<script type="text/javascript" src="javascript://" ></script>
+					<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_06推荐文字链5-独占 End -->
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="ui-ad">
+		  </div>
+
+		  <div id="category1" class="ui-box fn-clear">
+			<div class="ui-category-item-hd fn-clear">	
+			  <h2 class="ui-title">篱笆女福利社</h2>
+			  <a class="ui-nav-more fn-more" href="{:javascript://}">更多>></a>
+			</div>
+			<div class="ui-category-item-bd fn-clear">
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>参赛即得千元大啦寻找准妈咪，参赛即得千元大啦啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>参赛即得千元大啦寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+			  <dl class="ui-category-item">
+				<dt><img src="images/female-icon.jpg" class="" alt="" /></dt>
+				<dd>参赛即得千元大啦寻找准妈咪，参赛即得千元大啦</dd>
+				<dd>剩余:<em>100份</em><a class="join-btn" href="{:javascript://}"> </a></dd>
+			  </dl>
+
+			</div>
+		  </div>
+
+		  <div class="ui-ad">			
+		  </div>
+
+		</div>
+
+		<div id="sidebar">
+		  <div class="ui-ad">
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_02右侧首屏焦点图-独占 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1275" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_02右侧首屏焦点图-独占 End -->
+			<!--<img src="http://css.liba.com/css/images/deco/tmp-sidebar-ad1.jpg" /> -->
+		  </div>
+		  
+		  <div class="ui-box">
+			<div class="ui-topic fn-clear">	
+			  <h2 class="ui-topic-title fn-clear">精彩专题</h2>
+			</div>
+			<div class="ui-topic-wrap fn-clear">
+			  <ul class="ui-topic-list">
+				<li class="ui-topic-list-item">
+				  <div id="topic-img">
+					<img src="images/female-icon2.jpg" class="" alt="" />
+				  </div>
+				  <div class="ui-topic-list-item-cnt">
+					<a href="{:javascript://}">百位新娘交流各类筹备经验</a>
+				  </div>
+				</li>
+			  </ul>
+			 <ul class="topic-turn"><a href="" into="topic-img" class="turn-left"></a></ul>
+			 <ul class="topic-turn"><a href="" into="topic-img" class="turn-right"></a></ul>
+			</div>
+		  </div>
+		  
+		  <div id="nav" class="ui-box">
+			<div class="fn-border">
+			  <div class="ui-box-bd">
+				<ul class="ui-nav fn-clear">
+				  <li class="ui-nav-item fn-dashed">
+					<a href="{:javascript://}"><span class="ui-nav-item-name">摄影</span></a>
+					<ul class="ui-subnav">
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">影楼(6)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+
+					  </li>
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">婚纱摄影(41)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">个性写真(24)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </li>
+				  <li class="ui-nav-item fn-dashed">
+					<a href="{:javascript://}"><span class="ui-nav-item-name">喜宴</span></a>
+					<ul class="ui-subnav">
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">星级酒店(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">社会饭店(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">特色餐饮(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </li>
+
+				  <li class="ui-nav-item">
+					<a href="{:javascript://}"><span class="ui-nav-item-name">钻戒</span></a>
+					<ul class="ui-subnav">
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">婚戒指(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </li>
+				  <!--添加家具 -->
+				  <li class="ui-nav-item fn-dashed">
+					<a href="{:javascript://}"><span class="ui-nav-item-name">婚礼服务</span></a>
+					<ul class="ui-subnav">
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">婚礼策划(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">彩妆(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">司仪(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">跟拍(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">婚车(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">婚礼多媒体(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </li>
+
+				  <li class="ui-nav-item fn-dashed">
+					<a href="{:javascript://}"><span class="ui-nav-item-name">婚礼商品</span></a>
+					<ul class="ui-subnav">
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">喜糖喜酒(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">婚礼蛋糕(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">婚礼小商品(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </li>
+				  <li class="ui-nav-item fn-dashed">
+					<a href="{:javascript://}"><span class="ui-nav-item-name">天下喜宴</span></a>
+					<ul class="ui-subnav-item">
+					  <div class="fn-clear">
+						<div class="fn-left">
+						</div>
+						<div class="fn-right">
+						</div>
+					  </div>
+					</ul>
+				  </li>
+				  <li class="ui-nav-item fn-dashed">
+					<a href="{:javascript://}"><span class="ui-nav-item-name">结婚服饰</span></a>
+					<ul class="ui-subnav">
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">婚纱(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+
+					  <li class="ui-subnav-item">
+						<div class="fn-clear">
+						  <div class="fn-left">
+							<a href="{:javascript://}"><span class="ui-subnav-item-name">西服定制(12)</span></a>
+						  </div>
+						  <div class="fn-right">
+							<a href="{:javascript://}" class="fn-more">累计预约：6870</a>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </li>
+				  <li class="ui-nav-more">
+					<a href="{:javascript://}" class="fn-more">查看近期活动</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		  <!--  广告位暂时替换 结束-->
+
+		  <div class="ui-ad">
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_03-1右侧第二屏焦点图1/2 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1276" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_03-1右侧第二屏焦点图1/2 End -->
+			<!--
+				<img src="http://css.liba.com/css/images/deco/tmp-sidebar-ad2.jpg" />
+				-->
+		  </div>
+		  <div class="ui-ad">
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_03-2右侧第二屏焦点图1/2 Begin -->
+			<script type="text/javascript" src="http://adsame.liba.com/s?z=liba&c=1277" ></script>
+			<!-- AdSame ShowCode: 主题广场 / 结婚广场-首页 / PAD_03-2右侧第二屏焦点图1/2 End -->
+			<!--<img src="http://css.liba.com/css/images/deco/tmp-sidebar-ad3.jpg" />-->
+		  </div>
+
+		</div>
+	  </div>
+	  
+	</div>
+	<script type="text/javascript" src="http://service.liba.com/feeds/comm/bottom"></script>
+  </body>
+  
+</html>

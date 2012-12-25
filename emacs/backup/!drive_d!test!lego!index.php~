@@ -1,0 +1,215 @@
+<?php
+include_once('./header/header.php');
+$sql = "SELECT * FROM `lego`.`user`";
+$result = $db->query($sql, 'all');
+
+?>
+<html>
+<head>
+<title>Home_120608</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+
+#Table_01 tr td {
+	color: #333;
+}
+table{font-size:12px;}
+</style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (Home_120608.psd) -->
+<table id="Table_01" width="1201" height="1260" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="19">
+			<img src="images/Home_120608_01.jpg" width="1200" height="154" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="154" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="8">
+			<img src="images/Home_120608_02.jpg" width="146" height="693" alt=""></td>
+		<td><a href="#"><img src="images/Home_120608_03.jpg" alt="" width="162" height="52" border="0"></a></td>
+		<td colspan="4" rowspan="3">
+			<img src="images/Home_120608_04.jpg" width="87" height="121" alt=""></td>
+		<td colspan="2"><a href="#"><img src="images/Home_120608_05.jpg" alt="" width="161" height="52" border="0"></a></td>
+		<td rowspan="3">
+			<img src="images/Home_120608_06.jpg" width="87" height="121" alt=""></td>
+		<td colspan="2" rowspan="2"><a href="#"><img src="images/Home_120608_07.jpg" alt="" width="162" height="53" border="0"></a></td>
+		<td colspan="4" rowspan="3">
+			<img src="images/Home_120608_08.jpg" width="86" height="121" alt=""></td>
+		<td rowspan="2"><a href="#"><img src="images/Home_120608_09.jpg" alt="" width="163" height="53" border="0"></a></td>
+		<td colspan="2" rowspan="9">
+			<img src="images/Home_120608_10.jpg" width="146" height="791" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="52" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="7">
+			<img src="images/Home_120608_11.jpg" width="162" height="641" alt=""></td>
+		<td colspan="2" rowspan="2">
+			<img src="images/Home_120608_12.jpg" width="161" height="69" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/Home_120608_13.jpg" width="162" height="68" alt=""></td>
+		<td rowspan="7">
+			<img src="images/Home_120608_14.jpg" width="163" height="738" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="68" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="5">
+			<img src="images/Home_120608_15.jpg" width="65" height="572" alt=""></td>
+		<td height="244" colspan="9">&nbsp;</td>
+		<td colspan="2" rowspan="6">
+	    <img src="images/Home_120608_17.jpg" width="69" height="670" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="244" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="9">
+			<img src="images/Home_120608_18.jpg" width="449" height="23" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="23" alt=""></td>
+	</tr>
+	<tr>
+		<td height="23" colspan="9" bgcolor="#FAFFF6" bordercolor="#91B29A"> <div style="padding-left:20px; font-family: Arial, Helvetica, sans-serif; "> <strong>作品搜索:</strong>
+<select name="select" id="select" style="width:100px;height:20px;">
+  <option>作者姓名</option>
+</select>
+		&nbsp;
+		<label for="text"></label>
+		<input type="text" name="text" id="text" style="height:20px;width:200px;">
+		&nbsp;<img src="images/search-icon.jpg" width="16" height="18" alt="" style="vertical-align:middle;"></div> </td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="23" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="9">
+			<img src="images/Home_120608_20.jpg" width="449" height="63" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="63" alt=""></td>
+	</tr>
+	<tr>
+<?php	foreach($result as $val) { ?>
+		<td rowspan="8">
+			<img src="images/Home_120608_21.jpg" width="9" height="631" alt=""></td>
+		<td height="370" colspan="7" rowspan="4" style="background-color:#FAEEDF;">
+        <div style="float:left;height:180px;">
+        <p style="margin:2px 0"><img src="images/upload-icon.jpg" width="140" height="110"></p>
+        <p style="margin:2px 0;text-align:center;">幸福风车</p>
+        <p style="margin:2px 0;text-align:center;">票数:<em style="color:#F00">7</em></p>
+        <p style="margin:2px 0;text-align:center;"><img src="images/vote-icon.jpg" width="70" height="27"></p>
+        </div>
+	<?php }?>
+
+
+        
+        </td>
+		<td rowspan="8">
+      <img src="images/Home_120608_23.jpg" width="6" height="631" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="219" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="7">
+			<img src="images/Home_120608_24.jpg" width="136" height="412" alt=""></td>
+		<td height="149" colspan="3" rowspan="2">&nbsp;</td>
+		<td rowspan="7">
+<img src="images/Home_120608_26.jpg" width="17" height="412" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="98" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="6">
+			<img src="images/Home_120608_27.jpg" width="19" height="314" alt=""></td>
+		<td colspan="3" rowspan="3"><a href="#"><img src="images/Home_120608_28.jpg" alt="" width="221" height="65" border="0"></a></td>
+		<td rowspan="6">
+			<img src="images/Home_120608_29.jpg" width="138" height="314" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="51" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3" rowspan="5">
+			<img src="images/Home_120608_30.jpg" width="220" height="263" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="2" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="2">
+			<img src="images/Home_120608_31.jpg" width="434" height="16" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="12" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3" rowspan="3">
+			<img src="images/Home_120608_32.jpg" width="221" height="249" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="4" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">
+			<img src="images/Home_120608_33.jpg" width="159" height="245" alt=""></td>
+		<td colspan="3"><a href="#"><img src="images/Home_120608_34.jpg" alt="" width="134" height="61" border="0"></a></td>
+		<td colspan="2" rowspan="2">
+	    <img src="images/Home_120608_35.jpg" alt="" width="141" height="245" border="0" usemap="#Map"></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="61" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="images/Home_120608_36.jpg" width="134" height="184" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="184" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/spacer.gif" width="136" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="10" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="162" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="48" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="17" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="9" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="13" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="146" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="15" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="87" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="32" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="130" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="11" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="6" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="19" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="163" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="8" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="138" height="1" alt=""></td>
+		<td></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+
+<map name="Map">
+  <area shape="rect" coords="28,14,128,60" href="#">
+</map>
+</body>
+</html>

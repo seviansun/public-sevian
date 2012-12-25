@@ -1,0 +1,22 @@
+﻿<script type="text/javascript">
+    
+</script>
+<style>
+	h3{color:#10ABBB;margin-bottom:30px;}
+	h3 a{color:#10ABBB;}
+	p{font:normal 12px/1.5 arial,\5b8b\4f53; color:#ABABAB;}
+</style>
+<div style="width:320px;height:150px;background-color:#fff;padding:10px 20px;">
+    <h3>推荐给我的朋友</h3>
+    <h3><a href="javascript://" onclick="">通过Email邀请</a><p>向对方的邮箱发送邀请邮件</p></h3>   
+    <h3><a href="javascript://" onclick="">导入MSN联系人至邀请名单</a><p>可导入你的MSN上的联系人名单</p></h3>
+    
+</div>
+
+<form method="" id="" action="">
+  	
+</form>
+
+<form method="" id="" action="">
+  
+</form>

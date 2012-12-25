@@ -1,0 +1,13 @@
+<script>
+function fun1() {  
+    return
+ {  
+        Title: "title",  
+        Style: "style",  
+        Value: "Value"  
+    }
+}  
+  
+alert(typeof fun1())
+;  
+</script>

@@ -1,0 +1,87 @@
+﻿<link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+<link rel="stylesheet" href="http://css.liba.com/css/base.css" type="text/css" />
+<link rel="stylesheet" href="css/homepage.css" type="text/css" />
+<div id="quan">
+  <div class="quan-title fn-clear">
+	<em>圈子列表</em>
+  </div>
+  <div class="quanlist">
+	<div class="quanlist-hd">
+	  <span class="quanlist-name">业主圈</span>
+	  <span class="quanlist-count">
+		<ul>
+		  <li class="count">0</li>
+		  <li class="count">0</li>
+		  <li class="count">0</li>
+		  <li class="count">9</li>
+		  <li class="count">9</li>
+		  <li class="count">9</li>
+		  <li class="count">9</li>
+		</ul>
+	  </span>
+	</div>
+	<div class="quanlist-bd">
+	  <div id="search">
+          <input type="hidden" name="search_area" value="1" />
+		  <input id="id" type="hidden" name="id" value="" />
+		  <input id="key" type="text" name="searchWord" size="20" maxlength="16" default="" value="" />
+		  <input class="search-btn" type="submit" name="" value="进入小区" />
+		  <!--
+		  <ul id="select" style="display:block;">
+			<li>浦江世博园</li>
+			<li>浦发绿城</li>
+			<li>虹浦新城</li>
+			<li>彭浦新村</li>
+			<li>浦东世纪花园</li>
+			<li>莲浦府邸</li>
+			<li>黄浦新苑</li>
+		  </ul>
+		  -->
+        </div>
+	  <dl class="Region fn-clear">
+		<dt class="circle-title">按区域开始：</div>
+		<dd class="quanlist-category">
+		  <span class="quanlist-item"><a href="{:javascript://}">浦东新区</span>
+		  <span class="quanlist-item"><a href="{:javascript://}">闵行区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">徐汇区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">普陀区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">静安区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">卢湾区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">虹口区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">昆山</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">闸北区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">杨浦区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">宝山区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">长宁区</a></span>
+		</ul>
+	  </div>
+	  <div class="Business-circle fn-clear">
+		<div class="circle-title">按商圈开始：</div>
+		<ul class="quanlist-category">
+		  <span class="quanlist-item"><a href="{:javascript://}">淮海路</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">人民广场</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">陆家嘴</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">徐家汇</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">南京西路</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">五角场/大学区</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">中山公园</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">静安寺</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">八佰伴</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">打浦桥</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">南京东路</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">万体馆</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">虹桥</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">火车站</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">音乐学院</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">长寿路</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">天山</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">世纪公园</a></span>
+		  <span class="quanlist-item"><a href="{:javascript://}">昆山</a></span>
+		</ul>
+	  </div>
+	</div>
+  </div>
+  <div class="ad">
+	
+  </div>
+</div>

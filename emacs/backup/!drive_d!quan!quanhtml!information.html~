@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>圈子首页</title>
+	<link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+	<link rel="stylesheet" href="css/quan.css" type="text/css" />
+	<link rel="stylesheet" href="css/management.css" type="text/css" />
+	<script type="text/javascript" src="http://www.liba.com/public/js/jquery.js"></script>
+	<script type="text/javascript" src="js/sidebar.js"></script>
+  </head>
+
+  <body>
+	<script type="text/javascript" src="http://passport.liba.com/feeds/comm/top"></script>
+
+	<div class="container fn-clear">
+
+	  <div class="top">
+		<div class="ui-theme fn-clear">
+		<a  href="{:javascript://}"><b>假装不正经</b></a>
+		<p>元老会管理</p>
+		<ul class="ui-top">
+		  <li class="ui-top-nav selected"><a href="{:javascript://}">基本信息</a></li>
+		  <li class="ui-top-nav"><a href="{:javascript://}">成员管理</a></li>
+		  <li class="ui-top-nav"><a href="{:javascript://}">违禁话题</a></li>
+		  <li class="ui-top-nav"><a href="{:javascript://}">管理日志</a></li>
+		</ul>
+	  </div>
+	</div>
+
+	  <div class="wrapper fn-clear">
+
+		<div class="main">
+		  <div class="ui-forum"><b>圈子名称:</b><p>假装不正经</p></div>
+		  <div class="ui-forum"><b>所属板块:</b><p>母婴亲子</p></div>
+		  <div class="ui-forum">
+			<b>圈子介绍:</b>
+			<div class="ui-forum-text">
+			  寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长寻找80后妈妈分享孩子与你的共同成长
+			</div>
+		  </div>
+		  <div class="ui-forum dotte fn-clear">
+			<b>圈子头像:</b>
+			<img src="img/logo.png" class="" alt="" />
+			<div class="file">
+			  <span>JPG、GIF、PNG格式，小于1M</span>
+			  <input class="type-file-button" type="button" name="button" value="" />
+			</div>
+		  </div>
+		  <div class="ui-save">
+			<a href="{:javascript://}"><img src="img/saveicon.png" class="" alt="" /></a>
+		  </div>
+		</div>
+
+
+		<div class="sidebar">
+		  <div class="ui-tip">
+			<div class="ui-tip-title">
+			  <b>假装不正经</b><span>的元老弹劾</span> 
+			  <p>元老可以在这里发动弹劾机制，点击元老 用户名旁边K;即可开始对元老进行弹劾，弹劾机制一旦启动必须达到相应人数的半数以上“弹劾”，弹劾成功；不达到相应人数半数以上，弹劾失败。</p>
+			  <img src="img/tipicon.png" class="" alt="" /><a href="{:javascript://}">你有一条协助弹劾指令需要响应</a>
+			</div>
+
+		  </div>
+		  <div class="ui-box fn-clear">
+			<div class="ui-box-title">禁言</div>
+			<dl class="ob">
+			  <dt>
+				<a  href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+			<dl class="ob">
+			  <dt>
+				<a href="{:javascript://}"><img src="img/icon.png" class="" alt="" /></a>
+				<a class="ui-ob" href="{:javascript://}"><img src="img/banicon.png" class="" alt="" /></a>
+			  </dt>
+			  <dd>
+				<a href="{:javascript://}">我们都爱小金毛</a>
+			  </dd>
+			</dl>
+
+		  </div>
+
+		  <div class="ui-line">
+			<a target="_blank" href="{:javascript://}">回假装不正经 圈子 >></a>
+		  </div>
+
+		  <div class="ui-ad">
+		  </div>
+
+		</div>
+
+	  </div>
+
+	</div>
+
+	<script type=text/javascript src="http://passport.liba.com/feeds/comm/bottom_gb"></script>
+  </body>
+</html>

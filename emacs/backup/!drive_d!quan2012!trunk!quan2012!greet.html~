@@ -1,0 +1,62 @@
+﻿<script type="text/javascript">
+	function greet(oThis){
+			circleService.join(
+                function(data){
+                    var str = '<input type="button" value="" onclick="quit_follow_box()" class="quit_follow" />';
+                     $(".follow-con").html(str);                    
+                    checkAutoUpgrade();
+                    $.colorbox.close();
+                }
+            );
+        }
+    function checkAutoUpgrade() {
+            circleService.canAutoUpgrade(
+                function(data){
+                    if (data.canAutoUpgrade) {
+                        $.colorbox({href:"auto.html", overlayClose: false, escKey: false});
+                    }
+                }
+            )
+        }    
+    function recount(){
+	var maxlen=140;
+	var current = maxlen-$('#saytxt').val().length;
+	$('.counter').html(current);
+
+	if(current<1 || current>maxlen){
+		$('.counter').css('color','#D40D12');
+		$('input.sub_btn').attr('disabled','disabled');
+	}
+	else
+		$('input.sub_btn').removeAttr('disabled');
+
+	if(current<10)
+		$('.counter').css('color','#D40D12');
+
+	else if(current<20)
+		$('.counter').css('color','#5C0002');
+
+	else
+		$('.counter').css('color','#cccccc');
+
+}
+</script>
+<style>
+	#cboxClose{display:none;} 
+    .bg{background:url("public/img/greet-bg.png");position:relative;}
+	#greeting{position:absolute;left:250px;top:200px;width:370px;}
+	.greet-text{width:370px;height:150px;}
+	h3{font:700 14px/2.0 arial,\5b8b\4f53; }
+	.limit{float:right;font-size:12px;color:#ccc;}
+	.greet-btn{float:right;clear:right;margin-top:20px;background:url("public/img/greet-btn.png");width:69px;height:28px;border:0;}
+</style>
+<div style="width:608px;height:441px;padding:10px 20px;" class="bg">
+   <form method="" id="greeting" action="">
+   	 
+	 <h3><div class="limit">还可以输入<span class="counter">140</span>个字</div>噶么大家一道去讲一讲</h3>
+	 <textarea id="saytxt" name="greet-text" class="greet-text" rows="2" cols="40" tabindex="1"></textarea>
+	 <input type="button" name="" value="" class="greet-btn" id="sub_btn" onclick="greet(this)" />
+
+   </form>
+</div>
+

@@ -1,0 +1,416 @@
+<!doctype html>
+<html>         
+<head>
+<meta charset="gbk">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="no-cache">
+<meta name="google-site-verification" content="hOd0EgctClLpmw0P7k8eZ6SJ8Mh-TREoVBGLqtNmBJg" />
+<title>{$topic_title} {$forumName} 篱笆论坛</title>
+<script src="http://img1.liba.com/bbs/tabcontent/tabcontent.js"></script>
+<script src="http://img1.liba.com/bbs/styles/main1202.js"></script>
+<script src="./public/js/jquery/jquery.js"></script>
+<script src="./public/js/jquery/bbs2012.js"></script>
+<script src="./public/js/jquery/jquery.imageauto.js"></script>
+<script src="./public/js/jquery/jquery.dialog.js"></script>
+<link href="comm/resect.css" rel="stylesheet" type="text/css" />
+<link href="bbs/bbs2012.css" rel="stylesheet" type="text/css" />
+<link href="bbs/layer.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/bbsquan.css" type="text/css" />
+<link href="http://i.liba.com/css/progressbar.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript"  src='http://data.liba.com/analyticstracking.php'></script>
+</head>
+<body>
+<!--<script type=text/javascript src="{$home_service_url}feeds/comm/top_gb"></script>-->
+<script type=text/javascript src="http://passport2012.liba.com/feeds/comm/top_gb"></script>
+
+<div style="behavior:url(#default#userdata)" id="oPersistObject"></div>
+<script language="javascript">
+	function getPersistProperty(oPersist, strProperty, strDefault)
+	{
+			var value = oPersist.getAttribute(strProperty);
+
+			if (value == null)
+					if (strDefault)
+							value = strDefault;
+					else
+							value = "";
+
+			return value;
+	}
+
+	function setPersistProperty(oPersist, strProperty, strValue)
+	{
+			oPersist.setAttribute(strProperty, strValue);
+	}
+
+	function loadData()
+	{
+			var oPersist = oPersistObject;
+			oPersist.load("PersonData");
+			form1.content.value = getPersistProperty(oPersist, "content");
+	}
+
+	function saveData()
+	{
+			var oPersist = oPersistObject;
+
+			setPersistProperty(oPersist, "content", form1.content.value);
+
+			oPersist.save("PersonData");
+	}
+
+	function resend_mobile_code() {
+		var frm1 = document.form1;
+		frm1.onsubmit = '';
+		frm1.action = '/mobile_service.php';
+		frm1.formAction.value = 'resendMobileCode';
+		frm1.submit();
+	}
+</script>
+<script language="JavaScript" src="http://img1.liba.com/bbsimage/bbcode.js"></script>
+<div class="bbs-main clearfix">
+	<div class="bbs-content">
+    	<div class="posts-hd clearfix">
+        	<div class="menu">
+                <div class="menu-hd"><a href="javascript:;">[{$forumName}]</a><i></i></div>
+                <div class="menu-bd">
+				  <!--if:cate_navigation-->
+				  <div class="menu-bd-panel">
+					<div class="title">
+					  <a href="{$bbs_url}">
+						回到首页
+					  </a>
+					</div>
+					<!--loop:cate_navigation-->
+					<div class="desc">
+					  <a href="{$bbs_url}f_{$cate_navigation[].forumId}.htm">
+						{$cate_navigation[].forumName}
+					  </a>
+					</div>
+					<!--/loop:cate_navigation-->
+				  </div> 
+				  <!--/if:cate_navigation-->
+                </div>
+        	</div>
+            <div class="category-tit">回复贴子</div>
+        </div>
+		<form enctype="multipart/form-data" action="post_new.php?forumId={$forum_id}&topicId={$topic_id}" method="post" name="form1" onSubmit="return checkForm(form1);">
+        	<input type="hidden" name="action" value="saveReply">
+    		<input type="hidden" name="forumId" value="{$forum_id}">
+    		<input type="hidden" name="topicId" value="{$topic_id}">
+        	<input type="hidden" name="replyType" value="fullReply">
+            <div class="posts-tit"><a href="{$bbs_url}t_{$forum_id}_{$topic_id}_1.htm" target="_blank">{$topic_title}</a></div>
+            <div class="posts-bd clearfix">
+                <div class="textarea-area">
+                    <div class="textarea-hd">
+                        <select name="select" onChange=showsize(this.options[this.selectedIndex].value)>
+                            <option value="">大小</option>
+                            <option value="1">small</option>
+                            <option value="3">large</option>
+                            <option value="4">huge</option>
+                        </select>
+                        <select onChange=showfont(this.options[this.selectedIndex].value) name=select2 style="width:72px;">
+                              <option value="宋体" selected>宋体</option>
+                              <option value="楷体_GB2312">楷体</option>
+                              <option value="新宋体">新宋体</option>
+                              <option value="黑体">黑体</option>
+                              <option value="隶书">隶书</option>
+                              <option value="Andale Mono">Andale Mono</option>
+                              <option value="Arial">Arial</option>
+                              <option value="Arial Black">Arial Black</option>
+                              <option value="Book Antiqua">Book Antiqua</option>
+                              <option value="Century Gothic">Century Gothic</option>
+                              <option value="Comic Sans MS">Comic Sans MS</option>
+                              <option value="Courier New">Courier New</option>
+                              <option value="Georgia">Georgia</option>
+                              <option value="Impact">Impact</option>
+                              <option value="Tahoma">Tahoma</option>
+                              <option value="Times New Roman" >Times New Roman</option>
+                              <option value="Trebuchet MS">Trebuchet MS</option>
+                              <option value="Script MT Bold">Script MT Bold</option>
+                              <option value="Stencil">Stencil</option>
+                              <option value="Verdana">Verdana</option>
+                              <option value="Lucida Console">Lucida Console</option>
+                        </select>
+                        <select onChange=showcolor(this.options[this.selectedIndex].value) name=color style="width:72px;">
+                              <option value="skyblue" style="background-color:skyblue;color:skyblue" selected>天蓝</option>
+                              <option value="royalblue" style="color:royalblue">品蓝</option>
+                              <option value="blue" style="color:blue">蓝</option>
+                              <option value="darkblue" style="color:darkblue">暗蓝</option>
+                              <option value="orange" style="color:orange">橙</option>
+                              <option value="orangered" style="color:orangered">桔红</option>
+                              <option value="crimson" style="color:crimson">深红</option>
+                              <option value="red" style="color:red">红</option>
+                              <option value="firebrick" style="color:firebrick">棕</option>
+                              <option value="darkred" style="color:darkred">暗红</option>
+                              <option value="green" style="color:green">绿色</option>
+                              <option value="limegreen" style="color:limegreen">灰绿</option>
+                              <option value="seagreen" style="color:seagreen">海绿</option>
+                              <option value="deeppink" style="color:deeppink">粉</option>
+                              <option value="tomato" style="color:tomato">西红柿色</option>
+                              <option value="coral" style="color:coral">珊瑚色</option>
+                              <option value="purple" style="color:purple">紫色</option>
+                              <option value="indigo" style="color:indigo">靛青</option>
+                              <option value="burlywood" style="color:burlywood">棕木</option>
+                              <option value="sandybrown" style="color:sandybrown">沙褐</option>
+                              <option value="sienna" style="color:sienna">土黄</option>
+                              <option value="chocolate" style="color:chocolate">巧克力色</option>
+                              <option value="teal" style="color:teal">土绿</option>
+                              <option value="silver" style="color:silver">银</option>
+                        </select>
+                        <span onClick=bold() class="editor1" title="粗体字">粗体字</span>
+                        <span onClick=italicize() class="editor2" title="斜体字">斜体字</span>
+                        <span onClick=underline() class="editor3" title="下划线">下划线</span>
+                        <span onClick=center() class="editor4" title="居中">居中</span>
+                        <span onClick=hyperlink() class="editor5" title="插入超级链接">插入超级链接</span>
+                        <span onClick=email() class="editor6" title="插入邮件地址">插入邮件地址</span>
+                        <span onClick=image() class="editor7" title="插入图片">插入图片</span>
+                        <span onClick=showcode() class="editor8" title="插入代码">插入代码</span>
+                        <span onClick=quoteme() class="editor9" title="插入引用">插入引用</span>
+                        <span onClick=list() class="editor10" title="插入列表">插入列表</span>
+                    </div>
+                    <div class="textarea-bd"><!--{$reply_vcode}-->
+						<textarea name="content" cols="80" rows="20" id="content" onKeyDown="return ctlent(event,form1);" onKeyUp="javascript: storeCaret(this);" onClick="javascript: storeCaret(this);">{$quote_content}</textarea>
+					</div>
+                    <div class="textarea-ft">
+                    	<input type="checkbox" name="disableUbb"  value=" checked"$disableUbb  class="check-ubb"/><span onClick="checkBoxCheck(document.form1.disableUbb);" style="cursor: hand;">禁用UBB代码</span><a href=ubb.php target=_blank>[帮助]</a>
+                    	<select name="mode" onChange=thelp(this.options[this.selectedIndex].value) class="select-code">
+                            <option value="2" checked>提示插入代码</option>
+                            <option value="0">直接插入代码</option>
+						</select><a href="ubb.php" target="_blank">[帮助]</a>
+                        <div class="post-length">
+                            <span class="tips">内容最多:{$max_reply_content_len}字节</span>
+                            <input name="button" type=button onClick="checklength(form1.content);" value="查看当前字节数" class="check-length">
+                        </div>
+                    </div>
+                </div>
+                <div class="expression">
+                	<div class="expression-hd clearfix">
+                    	<ul>
+                        	<li class="selected">新版表情</li>
+                            <li>旧版表情</li>
+                        </ul>
+                    </div>
+                    <div class="expression-bd">
+                    	<div class="expression-list new-face clearfix">
+                        	<table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td><a href="javascript:smilie('#n001#')"><img src="img/face/001.gif" alt="NO"/></a><br>NO</td>
+                                    <td><a href="javascript:smilie('#n002#')"><img src="img/face/002.gif" alt="ok"/></a><br>ok</td>
+                                    <td><a href="javascript:smilie('#n003#')"><img src="img/face/003.gif" alt="爱心"/></a><br>爱心</td>
+                                    <td><a href="javascript:smilie('#n004#')"><img src="img/face/004.gif" alt="棒"/></a><br>棒</td>
+                                    <td><a href="javascript:smilie('#n005#')"><img src="img/face/005.gif" alt="爆炸"/></a><br>爆炸</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#n006#')"><img src="img/face/006.gif" alt="鄙视"/></a><br>鄙视</td>
+                                    <td><a href="javascript:smilie('#n007#')"><img src="img/face/007.gif" alt="闭嘴"/></a><br>闭嘴</td>
+                                    <td><a href="javascript:smilie('#n008#')"><img src="img/face/008.gif" alt="不要"/></a><br>不要</td>
+                                    <td><a href="javascript:smilie('#n009#')"><img src="img/face/009.gif" alt="蛋糕"/></a><br>蛋糕</td>
+                                    <td><a href="javascript:smilie('#n010#')"><img src="img/face/010.gif" alt="电扇"/></a><br>电扇</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#n011#')"><img src="img/face/011.gif" alt="干杯"/></a><br>干杯</td>
+                                    <td><a href="javascript:smilie('#n012#')"><img src="img/face/012.gif" alt="感冒"/></a><br>感冒</td>
+                                    <td><a href="javascript:smilie('#n013#')"><img src="img/face/013.gif" alt="哈哈"/></a><br>哈哈</td>
+                                    <td><a href="javascript:smilie('#n014#')"><img src="img/face/014.gif" alt="哈且"/></a><br>哈且</td>
+                                    <td><a href="javascript:smilie('#n015#')"><img src="img/face/015.gif" alt="害羞"/></a><br>害羞</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#n016#')"><img src="img/face/016.gif" alt="喝茶"/></a><br>喝茶</td>
+                                    <td><a href="javascript:smilie('#n017#')"><img src="img/face/017.gif" alt="黑线"/></a><br>黑线</td>
+                                    <td><a href="javascript:smilie('#n018#')"><img src="img/face/018.gif" alt="嘿嘿"/></a><br>嘿嘿</td>
+                                    <td><a href="javascript:smilie('#n019#')"><img src="img/face/019.gif" alt="红唇"/></a><br>红唇</td>
+                                    <td><a href="javascript:smilie('#n020#')"><img src="img/face/020.gif" alt="坏笑"/></a><br>坏笑</td>
+                                </tr>
+							</table>
+                            <table border="0" cellspacing="0" cellpadding="0" class="dis-none">
+                                <tr>
+                                    <td><a href="javascript:smilie('#n021#')"><img src="img/face/021.gif" alt="惊讶"/></a><br>惊讶</td>
+                                    <td><a href="javascript:smilie('#n022#')"><img src="img/face/022.gif" alt="囧"/></a><br>囧</td>
+                                    <td><a href="javascript:smilie('#n023#')"><img src="img/face/023.gif" alt="撅嘴"/></a><br>撅嘴</td>
+                                    <td><a href="javascript:smilie('#n024#')"><img src="img/face/024.gif" alt="可怜"/></a><br>可怜</td>
+                                    <td><a href="javascript:smilie('#n025#')"><img src="img/face/025.gif" alt="抠鼻"/></a><br>抠鼻</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#n026#')"><img src="img/face/026.gif" alt="哭"/></a><br>哭</td>
+                                    <td><a href="javascript:smilie('#n027#')"><img src="img/face/027.gif" alt="酷"/></a><br>酷</td>
+                                    <td><a href="javascript:smilie('#n028#')"><img src="img/face/028.gif" alt="冷汗"/></a><br>冷汗</td>
+                                    <td><a href="javascript:smilie('#n029#')"><img src="img/face/029.gif" alt="礼物"/></a><br>礼物</td>
+                                    <td><a href="javascript:smilie('#n030#')"><img src="img/face/030.gif" alt="怒火"/></a><br>怒火</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#n031#')"><img src="img/face/031.gif" alt="怒骂"/></a><br>怒骂</td>
+                                    <td><a href="javascript:smilie('#n032#')"><img src="img/face/032.gif" alt="哦耶"/></a><br>哦耶</td>
+                                    <td><a href="javascript:smilie('#n033#')"><img src="img/face/033.gif" alt="钱"/></a><br>钱</td>
+                                    <td><a href="javascript:smilie('#n034#')"><img src="img/face/034.gif" alt="色"/></a><br>色</td>
+                                    <td><a href="javascript:smilie('#n035#')"><img src="img/face/035.gif" alt="睡"/></a><br>睡</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#n036#')"><img src="img/face/036.gif" alt="思考"/></a><br>思考</td>
+                                    <td><a href="javascript:smilie('#n037#')"><img src="img/face/037.gif" alt="送花"/></a><br>送花</td>
+                                    <td><a href="javascript:smilie('#n038#')"><img src="img/face/038.gif" alt="太阳"/></a><br>太阳</td>
+                                    <td><a href="javascript:smilie('#n039#')"><img src="img/face/039.gif" alt="舔舌"/></a><br>舔舌</td>
+                                    <td><a href="javascript:smilie('#n040#')"><img src="img/face/040.gif" alt="挑逗"/></a><br>挑逗</td>
+                                </tr>
+							</table>
+                            <table border="0" cellspacing="0" cellpadding="0" class="dis-none">
+                                <tr>
+                                    <td><a href="javascript:smilie('#n041#')"><img src="img/face/041.gif" alt="偷笑"/></a><br>偷笑</td>
+                                    <td><a href="javascript:smilie('#n042#')"><img src="img/face/042.gif" alt="晚安"/></a><br>晚安</td>
+                                    <td><a href="javascript:smilie('#n043#')"><img src="img/face/043.gif" alt="委屈"/></a><br>委屈</td>
+                                    <td><a href="javascript:smilie('#n044#')"><img src="img/face/044.gif" alt="问号"/></a><br>问号</td>
+                                    <td><a href="javascript:smilie('#n045#')"><img src="img/face/045.gif" alt="握手"/></a><br>握手</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#n046#')"><img src="img/face/046.gif" alt="心碎"/></a><br>心碎</td>
+                                    <td><a href="javascript:smilie('#n047#')"><img src="img/face/047.gif" alt="嘘"/></a><br>嘘</td>
+                                    <td><a href="javascript:smilie('#n048#')"><img src="img/face/048.gif" alt="眩晕"/></a><br>眩晕</td>
+                                    <td><a href="javascript:smilie('#n049#')"><img src="img/face/049.gif" alt="眼镜"/></a><br>眼镜</td>
+                                    <td><a href="javascript:smilie('#n050#')"><img src="img/face/050.gif" alt="摇头"/></a><br>摇头</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#n051#')"><img src="img/face/051.gif" alt="耶"/></a><br>耶</td>
+                                    <td><a href="javascript:smilie('#n052#')"><img src="img/face/052.gif" alt="阴险"/></a><br>阴险</td>
+                                    <td><a href="javascript:smilie('#n053#')"><img src="img/face/053.gif" alt="贼笑"/></a><br>贼笑</td>
+                                    <td><a href="javascript:smilie('#n054#')"><img src="img/face/054.gif" alt="篱笆"/></a><br>篱笆</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+							</table>
+                            <div class="pager simple"><a class="prev disable" href="javascript:;">&lt; 上一页</a><span class="current">1</span><span class="slash">/</span><a class="total" href="#">3</a><a class="next" href="javascript:;">下一页 &gt;</a></div>
+                        </div>
+                        <div class="expression-list old-face dis-none">
+							<table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td><a href="javascript:smilie('#003#')"><img src="{$old_smile_url}003.gif" alt="口水"/></a></td>
+                                    <td><a href="javascript:smilie('#030#')"><img src="{$old_smile_url}030.gif" alt="摇头"/></a></td>
+                                    <td><a href="javascript:smilie('#036#')"><img src="{$old_smile_url}036.gif" alt="挖鼻孔"/></a></td>
+                                    <td><a href="javascript:smilie('#040#')"><img src="{$old_smile_url}040.gif" alt="hoho~"/></a></td>
+                                    <td><a href="javascript:smilie('#041#')"><img src="{$old_smile_url}041.gif" alt="汗"/></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#044#')"><img src="{$old_smile_url}044.gif" alt="拍手"/></a></td>
+                                    <td><a href="javascript:smilie('#001#')"><img src="{$old_smile_url}001.gif" alt="-v-"/></a></td>
+                                    <td><a href="javascript:smilie('#002#')"><img src="{$old_smile_url}002.gif" alt="无视"/></a></td>
+                                    <td><a href="javascript:smilie('#009#')"><img src="{$old_smile_url}009.gif" alt="晕"/></a></td>
+                                    <td><a href="javascript:smilie('#024#')"><img src="{$old_smile_url}024.gif" alt="哭"/></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#027#')"><img src="{$old_smile_url}027.gif" alt="潜水"/></a></td>
+                                    <td><a href="javascript:smilie('#028#')"><img src="{$old_smile_url}028.gif" alt="吐"/></a></td>
+                                    <td><a href="javascript:smilie('#031#')"><img src="{$old_smile_url}031.gif" alt="撞墙"/></a></td>
+                                    <td><a href="javascript:smilie('#032#')"><img src="{$old_smile_url}032.gif" alt="得意"/></a></td>
+                                    <td><a href="javascript:smilie('#034#')"><img src="{$old_smile_url}034.gif" alt="失意体前曲"/></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:smilie('#035#')"><img src="{$old_smile_url}035.gif" alt="亲"/></a></td>
+                                    <td><a href="javascript:smilie('#039#')"><img src="{$old_smile_url}039.gif" alt="抱"/></a></td>
+                                    <td><a href="javascript:smilie('#045#')"><img src="{$old_smile_url}045.gif" alt="吐血"/></a></td>
+                                    <td><a href="javascript:smilie(':)')"><img src="{$old_smile_url}smile.gif" alt="微笑"/></a></td>
+                                    <td><a href="javascript:smilie(':(')"><img src="{$old_smile_url}frown.gif" alt="皱眉"/></a></td>
+                                </tr>
+							</table>  
+                        </div>
+                    </div>
+                </div>       
+            </div>
+            <div class="post-ft">
+              <span id="span_attachment">
+				<input id="textfield" class="type-file-text" type="text" name="textfield">
+				<input id="button" class="type-file-button" type="button" value="上传附件" name="button">
+				<input type="file" name="attachment" id="attachment" onChange="check_water();" size="28">
+			  </span>
+                <div class="upload-explain">有效的文件扩展名：gif、jpg、png、zip、rar（若上传的是图片文件将在在贴子尾部直接显示出来）[最大600K]</div>
+				{$verify_code_html}
+            </div>
+            <div class="post-ft-btn"><input class="copy-past" type=button value="复制到黏贴板" name=copy title='复制到剪贴板，提交不成功可以重新粘贴' onClick="js=content.createTextRange();js.execCommand('Copy');"><input class="load-btn" type=button value="载入上次发言内容" name=recopy title='提交不成功或者像载入上次发言内容点这里可以立即载入' onClick="loadData();"><input name="Submit" type="submit" class="save-btn" id="Submit" accesskey="s" tabindex="3" value="发布回复" onclick="saveData();"></div>
+        </form>
+        <script>
+<!--
+function file_size()
+         {if (document.getElementById('prv').complete==true)
+             {if (document.getElementById('prv').fileSize>1024*{$max_upload_size})
+                 {document.getElementById('span_attachment').innerHTML=document.getElementById('span_attachment').innerHTML;
+                  hide_water();
+                  alert('图片大小超过{$max_upload_size}KB!  请重新选择!');
+                 }
+                 else
+                     {show_water();
+                     }
+             }
+           else
+               {setTimeout("file_size()",500);
+               }
+         }
+function check_water(){
+        var torrentLen = document.getElementById("attachment").value.length;
+        var ext = file_ext(document.getElementById("attachment").value);
+        if (ext!='gif' && ext!='jpg' && ext!='png' && ext!='zip' && ext!='rar')
+           {document.getElementById('span_attachment').innerHTML=document.getElementById('span_attachment').innerHTML;
+            hide_water();
+            alert('上传的图片格式错误,只能上传gif,jpg,png,zip或rar文件!');
+            return;
+           }
+        if ( ext=="jpg" || ext=="gif"  || ext=="png" ){
+                        show_water();
+        }else{
+                        hide_water();
+        }
+        if (navigator.userAgent.indexOf('Firefox') < 0 && navigator.userAgent.indexOf('MSIE 7.0') < 0)
+           {document.getElementById('prv').src=document.getElementById("attachment").value;
+            //alert(document.getElementById('prv').fileSize);
+            setTimeout("file_size()",1000);
+           }
+        else
+            {document.getElementById('prv').style.display='none';
+            }
+}
+function file_ext(s){
+        d=s.split(".");
+        return d[d.length-1].toLowerCase();
+}
+function show_water(){
+//document.getElementById("do_water").checked=true;
+show("water");
+}
+function hide_water(){
+document.getElementById("do_water").checked=false;
+hide("water");
+}
+function show(a){
+document.getElementById(a).style.display='block';
+}
+function hide(a){
+document.getElementById(a).style.display='none';
+}
+//-->
+</script>
+    </div>
+    <div class="bbs-siderbar">
+<!--
+    	<div class="post-notice">
+        	<div class="notice-hd">发贴须知</div>
+            <div class="notice-bd">
+            	<ul>
+                	<li><i></i>近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的</li>
+                    <li><i></i>近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的近期清理商家粉丝和所谓的</li>
+                </ul>
+            </div>
+        </div>
+-->
+        <!-- 分客送广告右部广告 begin -->
+		<script language="javascript" type="text/javascript" charset="gbk" src="{$focus_url}service/ads/messages.php?code=forum_newreply_{$forum_id}&encoding=gbk"></script>
+        <!-- 分客送广告右部广告 end -->
+    </div>
+</div>
+</body>
+</html>
+
+
+

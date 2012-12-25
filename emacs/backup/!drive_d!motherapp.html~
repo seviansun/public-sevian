@@ -1,0 +1,27 @@
+﻿<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>母婴小应用</title>
+<style type="text/css">
+p{color:red;}
+</style>
+</head>
+
+<body>
+<caption>待产包</caption>
+<table border="1">
+  <TR>
+  <TD>怀孕周期</TD>
+  <TD>产检次数</TD>
+  <TD>定期检查/特殊检查<p>(够攒参加过的项目)</p></TD>
+  <TD>备注</TD>
+  <TD>胎儿发育状态</TD>
+</TR>
+</table>
+
+
+
+<hr>
+<address><a href="your_URL">your_name &lt;your_e-mail_address&gt;</a></address>
+<!-- hhmts start --> Last modified: Tue Feb 28 14:40:12 +0800 2012 <!-- hhmts end -->
+</body> </html>
