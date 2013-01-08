@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+        <head>
+                <title>功能:点击一个按钮显示一个元素,点击这个按钮和这个元素以外的其他元素,这个元素消失.</title>
+                <style>
+                        #userMod{
+                                display:none;
+                                padding:30px;
+                                margin-top:20px;
+                                border:1px solid #ccf;
+
+                        }
+                </style>
+        </head>
+        <body>
+                <div id="uerContainer">
+                        <button id="userNav">用户导航</button>
+                        <div id="userMod">
+                                我是用户模块呀,没错,大家都知道我.
+                        </div>
+                </div>
+        
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+                <script>
+                        var practice = {
+
+                                $userMod:$("#userMod"),
+                                init:function(){
+                                        var self = this;
+                                        self.bind();
+                                },
+                                bind:function(){
+                                        var self = this;
+                                        $("#userNav").click(function(){
+                                                if(self.$userMod.is(":hidden")){ //当用户模块已经被隐藏的时候就显示而且绑定事件
+                                                        self.$userMod.show();
+                                                        $(document).bind("click.practiceUserMod",function(event){
+                                                                var $target = $(event.target);
+                                                                if(! $target.closest("#uerContainer").length){
+                                                                        self.$userMod.hide();
+                                                                        $(document).unbind("click.practiceUserMod",function(){
+                                                                                console.log("解绑定");
+                                                                                
+                                                                        });
+                                                                }
+                                                        })
+                                                }else{ //当
+                                                        self.$userMod.hide();
+                                                        //再给它绑定事件
+                                                
+                                                }
+                                        })
+                                }
+                        }
+                        practice.init();
+                </script>
+        </body>
+</html>

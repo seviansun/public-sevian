@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type='text/javascript' src="jquery.js"></script>
+<script type='text/javascript'>
+function ajax_vote(id) {
+	$.get('ajax.php?id='+id+'&'+Math.random(), function(data){
+		$('#vote_'+id).html(data);
+		alert('投票成功');
+	})
+}
+</script>
+</head>
+<body>
+当前投票数：<span id='vot_52'>0</span>
+<input type='button' value='投票' onclick='ajax_vote(1);'/>
+</body>
+</html>

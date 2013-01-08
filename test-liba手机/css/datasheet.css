@@ -1,0 +1,23 @@
+/* global */
+body{font:normal 12px/1.5 "ËÎÌו";color:#949494;}
+a:link{text-decoration:none;color:#333;}
+a:visited{text-decoration:none;color:#333;}
+a:hover{color:#333;}
+a:active{color:#333;}
+input[type=submit]::-moz-focus-inner,input[type=button]::-moz-focus-inner{border : 0px;}
+input[type=submit]:focus, input[type=button]:focus{outline : none;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clearfix{zoom:1;}
+/* decoration center */
+#container{height:77%;background:url(../images/propaganda-bg.png) center 0 no-repeat;background-color:#fff;margin:0;overflow:hidden;clear:both;}
+#main{margin:0 auto;width:960px;background:url(../images/propa-content.png) no-repeat;width:1002px;height:608px;}
+#rolling{float:left;position:relative;left:106px;top:193px;width:200px;height:300px;overflow:hidden;}
+.rolling-img{}
+	.rolling-img ul{height:300px;width:3000px;overflow:hidden;}
+	.rolling-img ul li{float:left;display:inline;}
+.ui-button-load{float:right;position:relative;left:-298px;top:391px;height:80px;width:190px;display:block;}
+.ui-button-play{float:right;position:relative;left:88px;top:391px;height:80px;width:190px;display:block;}
+.ui-version{}
+	.ui-version-iphone{float:right;position:relative;left:25px;top:465px;}
+	.ui-version-Android{float:right;position:relative;left:360px;top:465px;}
+	.ui-version ul li{margin:4px;}

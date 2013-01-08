@@ -1,0 +1,78 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $("#topslider").slider({
+    animate: true,
+    change: handleSliderChange,
+    slide: handleSliderSlide,
+    stop:handleTopSliderStop
+    });
+    $("#bottomslider").slider({
+    animate: true,
+    change: handleSliderChange,
+    slide: handleSliderSlide,
+    stop:handleBottomSliderStop
+    });
+    });
+    function handleSliderChange(e, ui)
+    {
+    var maxScroll = $("#scroll").attr("scrollWidth") - $("#scroll").width();
+    $("#scroll").animate({scrollLeft: ui.value * (maxScroll / 100) }, 1000);
+    }
+    function handleSliderSlide(e, ui)
+    {
+    var maxScroll = $("#scroll").attr("scrollWidth") - $("#scroll").width();
+    $("#scroll").attr({scrollLeft: ui.value * (maxScroll / 100) });
+    }
+    function handleTopSliderStop(e, ui)
+    {
+    $("#bottomslider").slider('value',$("#topslider").slider('value'));
+    }
+    function handleBottomSliderStop(e, ui)
+    {
+    $("#topslider").slider('value',$("#bottomslider").slider('value'));
+    } 
+  </script>
+  <style type="text/css" media="screen">
+    #topslider {
+    width: 98%;
+    height: 6px;
+    background: #BBBBBB;
+    position: relative;
+    }
+    #bottomslider {
+    width: 98%;
+    height: 6px;
+    background: #BBBBBB;
+    position: relative;
+    }
+    .ui-slider-handle {
+    width: 8px;
+    height: 14px;
+    position: absolute;
+    top: -4px;
+    background: #478AFF;
+    border: solid 1px black;
+    }
+    #scroll {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    }
+    #holder {
+    width: 100%;
+    } 
+  </style>
+</html>
+<body>
+  <div id="topslider" runat="server"></div>
+  <div id="scroll" runat="server">
+    <div id="holder">
+      ¹ö¶¯ÄÚÈÝ
+    </div>
+    <div id="bottomslider" style="margin-top:10px;margin-bottom:10px;" runat="server">
+    </div> 
+</body>
+</html>

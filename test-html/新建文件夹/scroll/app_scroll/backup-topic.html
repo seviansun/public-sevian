@@ -1,0 +1,734 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=gbk"><script src="topic_files/list.htm"></script>
+      <meta charset="gbk">
+	<meta http-equiv="Pragma" content="no-cache">
+	  <meta http-equiv="no-cache">
+	    <meta name="google-site-verification" content="hOd0EgctClLpmw0P7k8eZ6SJ8Mh-TREoVBGLqtNmBJg">
+	      <title>突然觉得自己完全就是个配角 休闲游戏 篱笆论坛</title>
+	      <script src="topic_files/ga.js" async="" type="text/javascript"></script>
+	      <script src="topic_files/laliba.js" async="" defer="defer" type="text/javascript"></script>
+	      <script src="topic_files/ga.js" async="" type="text/javascript"></script>
+	      <script src="topic_files/laliba.js" async="" defer="defer" type="text/javascript"></script>
+	      <script src="topic_files/tabcontent.js"></script>
+	      <script src="topic_files/main1202.js"></script>
+	      <link type="text/css" rel="stylesheet" href="topic_files/bdsstyle.css">
+		<link rel="stylesheet" href="css/app_backup.css" type="text/css" />
+	      </head>
+	      <body>
+		<script src="topic_files/jquery.js"></script>
+		<script src="topic_files/bbs2012.js"></script>
+		<script src="topic_files/jquery_003.js"></script>
+		<script src="topic_files/jquery_002.js"></script>
+		<link href="topic_files/resect.css" rel="stylesheet" type="text/css">
+		  <link href="topic_files/bbs2012.css" rel="stylesheet" type="text/css">
+		    <link href="topic_files/layer.css" rel="stylesheet" type="text/css">
+		      <link href="topic_files/progressbar.css" rel="stylesheet" type="text/css">
+			<link href="topic_files/uploadify.css" rel="stylesheet" type="text/css">
+			  <script type="text/javascript" src="topic_files/analyticstracking.htm"></script>
+			  <script type="text/javascript" src="topic_files/jquery_005.js"></script>
+			  <script type="text/javascript" src="topic_files/jquery_004.js"></script>
+			  <script type="text/javascript" src="topic_files/swfobject.js"></script>
+
+
+			  <script type="text/javascript">
+			    $(document).ready(function() {
+			    var i=0;
+			    $('#file_upload').uploadify({
+			    'width'      : 69,
+			    'height'     : 27,
+			    'swf'		 : '/public/js/uploadify/uploadify.swf',
+			    'uploader'   : '/public/js/uploadify/uploadify.php?userUploadHash={$user_upload_hash}',
+			    'buttonImage': '/public/js/uploadify/button.jpg',
+			    'cancelImg'  : '/public/js/uploadify/cancel.png',
+			    'fileTypeExts' : '*.gif; *.jpg; *.png;*.rar;*.zip',
+			    'fileSizeLimit' : '1024KB',
+			    'uploadLimit' : 5,
+			    'method'     : 'get',
+			    'auto'       : true,
+			    'debug'		 : false,
+			    // 单个文件上传成功时的处理函数
+			    'onUploadSuccess' : function(file, data, response) {
+			    //alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':' + data);
+			    var img_html = '<img id="img'+i+'" alt="" class="" src="./public/js/uploadify/uploads/'+data+'"  onerror="this.onerror=null;this.src=\'./public/js/uploadify/uploads/rar-icon.png\';"><em id="em'+i+'" onclick="del_img('+i+')">x</em>';
+			      $('.upload-img').append(img_html);
+			      i++;
+			      }
+
+			      });
+			      });
+
+			      function del_img(img_id){
+			      $.ajax({
+			      type: "POST",
+			      url: "./public/js/uploadify/del_image.php",
+			      data:"id="+img_id+"&user_upload_hash={$user_upload_hash}",
+			      dataType: "html",
+			      success: function(data){
+			      alert('删除成功');
+			      $("#img"+img_id).remove();
+			      $("#em"+img_id).remove();
+			      }
+			      });
+			      }
+			    </script>
+
+			    <div class="topic-main">
+			      <!--贴子主题开始-->
+			      <input id="pppp" type="hidden">
+				<div class="topic-hd clearfix">
+				  <div class="topic-theme clearfix">
+				    <div class="menu">
+				      <div class="menu-hd"><a href="http://bbs.liba.com/f_1137.htm">[休闲游戏]</a><i></i></div>
+				      <div class="menu-bd">
+					<!--if:cate_navigation-->
+					<div class="menu-bd-panel">
+					  <div class="title">
+					    <a href="http://bbs.liba.com/">
+					      回到首页
+					    </a>
+					  </div>
+					  
+					  <div class="desc">
+					    <a href="http://bbs.liba.com/f_100.htm">
+					      学习培训
+					    </a>
+					  </div>
+					  <div class="desc">
+					    <a href="http://bbs.liba.com/f_80.htm">
+					      娱乐八卦
+					    </a>
+					  </div>
+					  <div class="desc">
+					    <a href="http://bbs.liba.com/f_1135.htm">
+					      篱笆移动生活
+					    </a>
+					  </div>
+					  <div class="desc">
+					    <a href="http://bbs.liba.com/f_57.htm">
+					      职场人生
+					    </a>
+					  </div>
+					  <div class="desc">
+					    <a href="http://bbs.liba.com/f_13.htm">
+					      老干部闲聊
+					    </a>
+					  </div>
+					  <div class="desc">
+					    <a href="http://bbs.liba.com/f_1139.htm">
+					      篱笆海淘
+					    </a>
+					  </div>
+					  <div class="desc">
+					    <a href="http://bbs.liba.com/f_1138.htm">
+					      篱笆吃货团
+					    </a>
+					  </div>
+					</div>
+					<!--/if:cate_navigation-->
+				      </div>
+				    </div>
+				    <div class="topic-title"><div class="short-title"><i>突然觉得自己完全就是个配角</i></div><span style="display: none;" class="hover-title">突然觉得自己完全就是个配角</span></div>
+				  </div>
+				  <div class="topic-mana clearfix">
+				    <ul>
+				      <li class="share">
+					<!-- Baidu Button BEGIN -->
+					<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" data="{
+													      'text':'我在 @篱笆网 发现一个强帖，快来围观 【突然觉得自己完全就是个配角】',
+													      'url':'http://bbs.liba.com/t_1137_7213282_1.htm',
+													      'pic':''
+													      }">
+					  <span style="float:left;position:relative;top:8px;display:block;">分享到：</span>
+					  <a class="bds_tsina" title="分享到新浪微博"></a>
+					</div>
+
+					<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" data="{
+													      'text':'我在篱笆网发现一个强帖，快来围观 【突然觉得自己完全就是个配角】',
+													      'url':'http://bbs.liba.com/t_1137_7213282_1.htm',
+													      'pic':''
+													      }">
+					  <a class="bds_kaixin001" title="分享到开心网"></a>
+					  <a class="bds_qzone" title="分享到QQ空间"></a>
+					  <a class="bds_tqq" title="分享到腾讯微博"></a>
+					  <a class="bds_renren" title="分享到人人网"></a>
+					</div>
+
+					<script src="topic_files/bds_s_v2.js" type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=689531"></script>
+					<script src="topic_files/shell_v2.js" type="text/javascript" id="bdshell_js"></script>
+					<script type="text/javascript">
+					  var bds_config = {
+					  'bdDesc':'帖子摘要内容，最多30个字',
+					  'review':'off',
+					  'snsKey':{'tsina':'2395744793','tqq':'801140537','kaixin001':'100031934','renren':'0869cf72e97a4defbac156897351b510'}	
+					  };
+					  document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+					</script>
+					<!-- Baidu Button END -->                      
+				      </li>
+				      <li class="collection"><i></i><a href="javascript:;" class="J-add-topic">加入收藏</a></li>
+				      <li class="last"><a class="reply-btn" href="http://bbs.liba.com/post_new.php?action=postReply&amp;forumId=1137&amp;topicId=7213282">回复</a></li>
+				    </ul>
+				  </div>
+				</div>
+
+				<div class="topic-list-hd clearfix">
+				  <div class="topic-filter clearfix">
+				    <ul>
+				      <li>全部内容</li>
+				      <li class="last"><a href="http://bbs.liba.com/topic.php?forumId=1137&amp;topicId=7213282&amp;action=only&amp;only_userid=4662756">只看楼主</a></li>
+				      <li class="change"><i></i><a href="http://bbs.liba.com/topic.php?forumId=1137&amp;topicId=7213282&amp;action=print">切换至打印版</a></li>
+				      <li class="last">
+					<!--<img src="http://bbs.liba.com//public/css/img/bbs2012/weibo.png"  />&nbsp;<a target="_blank" href="http://bbs.liba.com/topic.php?forumId=1137&topicId=7213282&action=share&only_userid=4662756">生成长微博</a>-->
+					<!-- JiaThis Button BEGIN -->
+					<img src="topic_files/weibo.png"><a title="分享到新浪微博" class="jiathis_button_tsina" style="cursor: pointer;"><span class="jiathis_txt jiathis_separator jtico jtico_tsina">生成长微博</span></a>
+					  <script type="text/javascript">
+					    var jiathis_config={
+					    url:"http://bbs.liba.com/t_1137_7213282_1.htm",
+					    title:"突然觉得自己完全就是个配角(分享自@篱笆闲聊)",
+					    pic:"http://bbs.liba.com/topic.php?forumId=1137&topicId=7213282&action=share&abc=.gif",
+					    hideMore:true
+					    }
+					  </script>
+					  <script type="text/javascript" src="topic_files/jia.js" charset="utf-8"></script><script type="text/javascript" src="topic_files/plugin_002.js" charset="utf-8"></script><div style="position:absolute;width:0px;height:0px;"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="JIATHISSWF" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" height="0" width="0"><param name="allowScriptAccess" value="always"><param name="swLiveConnect" value="true"><param name="movie" value="http://www.jiathis.com/code/swf/m.swf"><param name="FlashVars" value="z=a"><embed name="JIATHISSWF" src="topic_files/m.swf" flashvars="z=a" allowscriptaccess="always" swliveconnect="true" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" height="0" width="0"></object></div>
+						    <!-- JiaThis Button END -->
+						  </li>
+						</ul>
+					      </div>
+					      <div class="pager simple">
+						<span class="prev disable">&lt; 上一页</span><span class="current">1</span><span class="slash">/</span><a href="http://bbs.liba.com/t_1137_7213282_1.htm" class="total">1</a><span class="next disable">下一页 &gt;</span>
+					      </div>
+					    </div>
+					    <!--贴子主题结束-->
+					    <!--贴子列表开始-->
+					    <!--if:replies-->
+
+					    <div class="topic-list">
+					      <a name="458315056"></a>
+					      <div class="topic-content clearfix">
+						<div class="infor">
+						  <a href="http://i.liba.com/4662756"><p class="name">伐想长大</p></a>
+						  <p></p>
+						  <a href="http://i.liba.com/4662756"><img onerror="this.onerror=null;this.src='http://avatars.liba.com/default/d_head.png';" src="topic_files/4662756.gif"></a>
+						    <div class="item">注册日期: <span>2012-05-24</span><br>
+							来自: <span></span><br>
+							  工分: <em>74</em></div>
+						      </div>
+						      <div class="topic-text">
+							
+	    						<!--app-->
+							<div class="app fn-clear">
+							  <img src="img/app-icon.jpg" class="app-img" alt="" />
+							  <div class="appinfo">
+							    <h2 class="app-title">Great Little War Game HD (Universal)</h2>
+							    <ul>
+							      <li class="app-info">大小：36MB</li>
+							      <li class="app-info">系统：3.2+</li>
+							      <li class="app-info">价格:$2.99 <em>限时免费</em></li>  
+							    </ul>
+							    <ul>
+							      <li class="app-info">游戏</li>
+							      <li class="app-info">iphone和ipad都适用</li>
+							    </ul>
+							  </div>
+							  <a class="app-load" href="{:javascript://}"></a>
+
+							  <div class="app_box">  
+							    <div class="divcontent">  
+							      
+							      <img alt="iPhone 屏幕截图 1" class="portrait" src="http://a2.mzstatic.com/us/r1000/076/Purple/v4/29/c3/83/29c3835a-1bb1-c305-4312-b426c1b3ef10/mza_3123817448258738450.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 2" class="portrait" src="http://a3.mzstatic.com/us/r1000/119/Purple/v4/03/0f/a1/030fa12a-1e73-b117-1e45-9620a36b98c7/mza_8176226798468180293.320x480-75.jpg" />
+
+							      <img alt="iPhone 屏幕截图 3" class="portrait" src="http://a1.mzstatic.com/us/r1000/120/Purple/v4/09/e2/22/09e22220-6b21-6a6b-57bb-33084e5bcae2/mza_102167020749508993.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 4" class="portrait" src="http://a2.mzstatic.com/us/r1000/091/Purple/v4/9f/33/08/9f33084b-fe45-a25a-70ee-ad92abb01d10/mza_1106148166484622832.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 5" class="portrait" src="http://a3.mzstatic.com/us/r1000/081/Purple/v4/db/34/fa/db34faab-4fdf-a050-9545-da1e875c4705/mza_5275003878873612404.320x480-75.jpg" />
+		   					      
+							    </div>  
+							  </div>  
+							  
+							</div>
+							<!--app-->
+
+
+							<div style="display: block;" class="signature">
+							  <i></i>
+							  <div class="pic"></div>
+							  <script type="text/javascript" src="topic_files/show.htm"></script>
+							</div>
+						      </div>
+						    </div>
+						    <div class="topic-list-bt clearfix">
+						      <div class="topic-related">
+							<ul>
+							  <li class="date">2012-07-19 16:29</li>
+							  <li class="data"><a href="http://i.liba.com/4662756" target="_blank" title="点这里查看 伐想长大 的个人资料">TA的主页</a></li>
+							  <li><a href="http://i.liba.com/4662756" title="将 伐想长大 添加到你的好友列表">加为好友</a></li>
+							  <li><a href="http://www.liba.com/message/write/uid/4662756" target="_blank">悄悄话</a></li>
+							  <li class="last"><a href="http://bbs.liba.com/topic.php?forumId=1137&amp;topicId=7213282&amp;action=only&amp;only_userid=4662756" target="_blank">只看此人</a></li>
+							</ul>
+						      </div>
+						      <script language="javascript" type="text/javascript" charset="gbk" src="topic_files/messages.htm"></script><div class="advert" id="forum_detail0_1137"></div>
+
+						      <div class="topic-detail-mana">
+							<ul>
+							  <li class="manager"><div class="menu"><div class="menu-hd"><a href="#">管理</a><i></i></div><div style="display: none;" class="menu-bd"><div class="menu-bd-panel"><div class="desc"><a target="_blank" href="http://bbs.liba.com/member.php?action=getinfo&amp;userid=4662756">资料</a></div><div class="desc"><a target="_blank" href="http://bbs.liba.com/search_post.php?action=finduser&amp;userid=4662756">搜索</a></div><div class="desc"><a href="http://bbs.liba.com/manage.php?action=getip&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137">查IP</a></div><div class="desc"><a onclick="return delThisPost();" href="http://bbs.liba.com/manage.php?action=deletePost&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1&amp;page=1">删除</a></div></div></div></div></li>
+							  <li class="copy-address"><input id="post458315056" value="http://bbs.liba.com/t_1137_7213282_1.htm#458315056" type="hidden"><span id="copy458315056" title="复制本楼地址，可以直接定位到本楼">复制本楼地址</span></li>
+							  <li><a href="http://bbs.liba.com/post_new.php?action=edit&amp;isTop=edit_top&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1">编辑</a></li>
+							  <li class="quote"><a href="http://bbs.liba.com/post_new.php?action=quoteReply&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1&amp;page=1">引用</a></li>
+							  <li class="last">楼主</li>
+							  </ul>
+							</div>
+						      </div>
+						    </div>
+						    
+						    <!--贴子列表结束-->
+ <div class="topic-list">
+					      <a name="458315056"></a>
+					      <div class="topic-content clearfix">
+						<div class="infor">
+						  <a href="http://i.liba.com/4662756"><p class="name">伐想长大</p></a>
+						  <p></p>
+						  <a href="http://i.liba.com/4662756"><img onerror="this.onerror=null;this.src='http://avatars.liba.com/default/d_head.png';" src="topic_files/4662756.gif"></a>
+						    <div class="item">注册日期: <span>2012-05-24</span><br>
+							来自: <span></span><br>
+							  工分: <em>74</em></div>
+						      </div>
+						      <div class="topic-text">
+							
+	    						<!--app-->
+							<div class="app fn-clear">
+							  <img src="img/app-icon.jpg" class="app-img" alt="" />
+							  <div class="appinfo">
+							    <h2 class="app-title">Great Little War Game HD (Universal)</h2>
+							    <ul>
+							      <li class="app-info">大小：36MB</li>
+							      <li class="app-info">系统：3.2+</li>
+							      <li class="app-info">价格:$2.99 <em>限时免费</em></li>  
+							    </ul>
+							    <ul>
+							      <li class="app-info">游戏</li>
+							      <li class="app-info">iphone和ipad都适用</li>
+							    </ul>
+							  </div>
+							  <a class="app-load" href="{:javascript://}"></a>
+
+							  <div class="app_box">  
+							    <div class="divcontent">  
+							      
+							      <img alt="iPhone 屏幕截图 1" class="portrait" src="http://a2.mzstatic.com/us/r1000/076/Purple/v4/29/c3/83/29c3835a-1bb1-c305-4312-b426c1b3ef10/mza_3123817448258738450.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 2" class="portrait" src="http://a3.mzstatic.com/us/r1000/119/Purple/v4/03/0f/a1/030fa12a-1e73-b117-1e45-9620a36b98c7/mza_8176226798468180293.320x480-75.jpg" />
+
+							      <img alt="iPhone 屏幕截图 3" class="portrait" src="http://a1.mzstatic.com/us/r1000/120/Purple/v4/09/e2/22/09e22220-6b21-6a6b-57bb-33084e5bcae2/mza_102167020749508993.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 4" class="portrait" src="http://a2.mzstatic.com/us/r1000/091/Purple/v4/9f/33/08/9f33084b-fe45-a25a-70ee-ad92abb01d10/mza_1106148166484622832.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 5" class="portrait" src="http://a3.mzstatic.com/us/r1000/081/Purple/v4/db/34/fa/db34faab-4fdf-a050-9545-da1e875c4705/mza_5275003878873612404.320x480-75.jpg" />
+		   					      
+							    </div>  
+							  </div>  
+							  
+							</div>
+							<!--app-->
+
+
+							<div style="display: block;" class="signature">
+							  <i></i>
+							  <div class="pic"></div>
+							  <script type="text/javascript" src="topic_files/show.htm"></script>
+							</div>
+						      </div>
+						    </div>
+						    <div class="topic-list-bt clearfix">
+						      <div class="topic-related">
+							<ul>
+							  <li class="date">2012-07-19 16:29</li>
+							  <li class="data"><a href="http://i.liba.com/4662756" target="_blank" title="点这里查看 伐想长大 的个人资料">TA的主页</a></li>
+							  <li><a href="http://i.liba.com/4662756" title="将 伐想长大 添加到你的好友列表">加为好友</a></li>
+							  <li><a href="http://www.liba.com/message/write/uid/4662756" target="_blank">悄悄话</a></li>
+							  <li class="last"><a href="http://bbs.liba.com/topic.php?forumId=1137&amp;topicId=7213282&amp;action=only&amp;only_userid=4662756" target="_blank">只看此人</a></li>
+							</ul>
+						      </div>
+						      <script language="javascript" type="text/javascript" charset="gbk" src="topic_files/messages.htm"></script><div class="advert" id="forum_detail0_1137"></div>
+
+						      <div class="topic-detail-mana">
+							<ul>
+							  <li class="manager"><div class="menu"><div class="menu-hd"><a href="#">管理</a><i></i></div><div style="display: none;" class="menu-bd"><div class="menu-bd-panel"><div class="desc"><a target="_blank" href="http://bbs.liba.com/member.php?action=getinfo&amp;userid=4662756">资料</a></div><div class="desc"><a target="_blank" href="http://bbs.liba.com/search_post.php?action=finduser&amp;userid=4662756">搜索</a></div><div class="desc"><a href="http://bbs.liba.com/manage.php?action=getip&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137">查IP</a></div><div class="desc"><a onclick="return delThisPost();" href="http://bbs.liba.com/manage.php?action=deletePost&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1&amp;page=1">删除</a></div></div></div></div></li>
+							  <li class="copy-address"><input id="post458315056" value="http://bbs.liba.com/t_1137_7213282_1.htm#458315056" type="hidden"><span id="copy458315056" title="复制本楼地址，可以直接定位到本楼">复制本楼地址</span></li>
+							  <li><a href="http://bbs.liba.com/post_new.php?action=edit&amp;isTop=edit_top&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1">编辑</a></li>
+							  <li class="quote"><a href="http://bbs.liba.com/post_new.php?action=quoteReply&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1&amp;page=1">引用</a></li>
+							  <li class="last">楼主</li>
+							  </ul>
+							</div>
+						      </div>
+						    </div>
+ <div class="topic-list">
+					      <a name="458315056"></a>
+					      <div class="topic-content clearfix">
+						<div class="infor">
+						  <a href="http://i.liba.com/4662756"><p class="name">伐想长大</p></a>
+						  <p></p>
+						  <a href="http://i.liba.com/4662756"><img onerror="this.onerror=null;this.src='http://avatars.liba.com/default/d_head.png';" src="topic_files/4662756.gif"></a>
+						    <div class="item">注册日期: <span>2012-05-24</span><br>
+							来自: <span></span><br>
+							  工分: <em>74</em></div>
+						      </div>
+						      <div class="topic-text">
+							
+	    						<!--app-->
+							<div class="app fn-clear">
+							  <img src="img/app-icon.jpg" class="app-img" alt="" />
+							  <div class="appinfo">
+							    <h2 class="app-title">Great Little War Game HD (Universal)</h2>
+							    <ul>
+							      <li class="app-info">大小：36MB</li>
+							      <li class="app-info">系统：3.2+</li>
+							      <li class="app-info">价格:$2.99 <em>限时免费</em></li>  
+							    </ul>
+							    <ul>
+							      <li class="app-info">游戏</li>
+							      <li class="app-info">iphone和ipad都适用</li>
+							    </ul>
+							  </div>
+							  <a class="app-load" href="{:javascript://}"></a>
+
+							  <div class="app_box">  
+							    <div class="divcontent">  
+							      
+							      <img alt="iPhone 屏幕截图 1" class="portrait" src="http://a2.mzstatic.com/us/r1000/076/Purple/v4/29/c3/83/29c3835a-1bb1-c305-4312-b426c1b3ef10/mza_3123817448258738450.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 2" class="portrait" src="http://a3.mzstatic.com/us/r1000/119/Purple/v4/03/0f/a1/030fa12a-1e73-b117-1e45-9620a36b98c7/mza_8176226798468180293.320x480-75.jpg" />
+
+							      <img alt="iPhone 屏幕截图 3" class="portrait" src="http://a1.mzstatic.com/us/r1000/120/Purple/v4/09/e2/22/09e22220-6b21-6a6b-57bb-33084e5bcae2/mza_102167020749508993.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 4" class="portrait" src="http://a2.mzstatic.com/us/r1000/091/Purple/v4/9f/33/08/9f33084b-fe45-a25a-70ee-ad92abb01d10/mza_1106148166484622832.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 5" class="portrait" src="http://a3.mzstatic.com/us/r1000/081/Purple/v4/db/34/fa/db34faab-4fdf-a050-9545-da1e875c4705/mza_5275003878873612404.320x480-75.jpg" />
+		   					      
+							    </div>  
+							  </div>  
+							  
+							</div>
+							<!--app-->
+
+
+							<div style="display: block;" class="signature">
+							  <i></i>
+							  <div class="pic"></div>
+							  <script type="text/javascript" src="topic_files/show.htm"></script>
+							</div>
+						      </div>
+						    </div>
+						    <div class="topic-list-bt clearfix">
+						      <div class="topic-related">
+							<ul>
+							  <li class="date">2012-07-19 16:29</li>
+							  <li class="data"><a href="http://i.liba.com/4662756" target="_blank" title="点这里查看 伐想长大 的个人资料">TA的主页</a></li>
+							  <li><a href="http://i.liba.com/4662756" title="将 伐想长大 添加到你的好友列表">加为好友</a></li>
+							  <li><a href="http://www.liba.com/message/write/uid/4662756" target="_blank">悄悄话</a></li>
+							  <li class="last"><a href="http://bbs.liba.com/topic.php?forumId=1137&amp;topicId=7213282&amp;action=only&amp;only_userid=4662756" target="_blank">只看此人</a></li>
+							</ul>
+						      </div>
+						      <script language="javascript" type="text/javascript" charset="gbk" src="topic_files/messages.htm"></script><div class="advert" id="forum_detail0_1137"></div>
+
+						      <div class="topic-detail-mana">
+							<ul>
+							  <li class="manager"><div class="menu"><div class="menu-hd"><a href="#">管理</a><i></i></div><div style="display: none;" class="menu-bd"><div class="menu-bd-panel"><div class="desc"><a target="_blank" href="http://bbs.liba.com/member.php?action=getinfo&amp;userid=4662756">资料</a></div><div class="desc"><a target="_blank" href="http://bbs.liba.com/search_post.php?action=finduser&amp;userid=4662756">搜索</a></div><div class="desc"><a href="http://bbs.liba.com/manage.php?action=getip&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137">查IP</a></div><div class="desc"><a onclick="return delThisPost();" href="http://bbs.liba.com/manage.php?action=deletePost&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1&amp;page=1">删除</a></div></div></div></div></li>
+							  <li class="copy-address"><input id="post458315056" value="http://bbs.liba.com/t_1137_7213282_1.htm#458315056" type="hidden"><span id="copy458315056" title="复制本楼地址，可以直接定位到本楼">复制本楼地址</span></li>
+							  <li><a href="http://bbs.liba.com/post_new.php?action=edit&amp;isTop=edit_top&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1">编辑</a></li>
+							  <li class="quote"><a href="http://bbs.liba.com/post_new.php?action=quoteReply&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1&amp;page=1">引用</a></li>
+							  <li class="last">楼主</li>
+							  </ul>
+							</div>
+						      </div>
+						    </div>
+ <div class="topic-list">
+					      <a name="458315056"></a>
+					      <div class="topic-content clearfix">
+						<div class="infor">
+						  <a href="http://i.liba.com/4662756"><p class="name">伐想长大</p></a>
+						  <p></p>
+						  <a href="http://i.liba.com/4662756"><img onerror="this.onerror=null;this.src='http://avatars.liba.com/default/d_head.png';" src="topic_files/4662756.gif"></a>
+						    <div class="item">注册日期: <span>2012-05-24</span><br>
+							来自: <span></span><br>
+							  工分: <em>74</em></div>
+						      </div>
+						      <div class="topic-text">
+							
+	    						<!--app-->
+							<div class="app fn-clear">
+							  <img src="img/app-icon.jpg" class="app-img" alt="" />
+							  <div class="appinfo">
+							    <h2 class="app-title">Great Little War Game HD (Universal)</h2>
+							    <ul>
+							      <li class="app-info">大小：36MB</li>
+							      <li class="app-info">系统：3.2+</li>
+							      <li class="app-info">价格:$2.99 <em>限时免费</em></li>  
+							    </ul>
+							    <ul>
+							      <li class="app-info">游戏</li>
+							      <li class="app-info">iphone和ipad都适用</li>
+							    </ul>
+							  </div>
+							  <a class="app-load" href="{:javascript://}"></a>
+
+							  <div class="app_box">  
+							    <div class="divcontent">  
+							      
+							      <img alt="iPhone 屏幕截图 1" class="portrait" src="http://a2.mzstatic.com/us/r1000/076/Purple/v4/29/c3/83/29c3835a-1bb1-c305-4312-b426c1b3ef10/mza_3123817448258738450.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 2" class="portrait" src="http://a3.mzstatic.com/us/r1000/119/Purple/v4/03/0f/a1/030fa12a-1e73-b117-1e45-9620a36b98c7/mza_8176226798468180293.320x480-75.jpg" />
+
+							      <img alt="iPhone 屏幕截图 3" class="portrait" src="http://a1.mzstatic.com/us/r1000/120/Purple/v4/09/e2/22/09e22220-6b21-6a6b-57bb-33084e5bcae2/mza_102167020749508993.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 4" class="portrait" src="http://a2.mzstatic.com/us/r1000/091/Purple/v4/9f/33/08/9f33084b-fe45-a25a-70ee-ad92abb01d10/mza_1106148166484622832.320x480-75.jpg" />
+							      
+							      
+							      <img alt="iPhone 屏幕截图 5" class="portrait" src="http://a3.mzstatic.com/us/r1000/081/Purple/v4/db/34/fa/db34faab-4fdf-a050-9545-da1e875c4705/mza_5275003878873612404.320x480-75.jpg" />
+		   					      
+							    </div>  
+							  </div>  
+							  
+							</div>
+							<!--app-->
+
+
+							<div style="display: block;" class="signature">
+							  <i></i>
+							  <div class="pic"></div>
+							  <script type="text/javascript" src="topic_files/show.htm"></script>
+							</div>
+						      </div>
+						    </div>
+						    <div class="topic-list-bt clearfix">
+						      <div class="topic-related">
+							<ul>
+							  <li class="date">2012-07-19 16:29</li>
+							  <li class="data"><a href="http://i.liba.com/4662756" target="_blank" title="点这里查看 伐想长大 的个人资料">TA的主页</a></li>
+							  <li><a href="http://i.liba.com/4662756" title="将 伐想长大 添加到你的好友列表">加为好友</a></li>
+							  <li><a href="http://www.liba.com/message/write/uid/4662756" target="_blank">悄悄话</a></li>
+							  <li class="last"><a href="http://bbs.liba.com/topic.php?forumId=1137&amp;topicId=7213282&amp;action=only&amp;only_userid=4662756" target="_blank">只看此人</a></li>
+							</ul>
+						      </div>
+						      <script language="javascript" type="text/javascript" charset="gbk" src="topic_files/messages.htm"></script><div class="advert" id="forum_detail0_1137"></div>
+
+						      <div class="topic-detail-mana">
+							<ul>
+							  <li class="manager"><div class="menu"><div class="menu-hd"><a href="#">管理</a><i></i></div><div style="display: none;" class="menu-bd"><div class="menu-bd-panel"><div class="desc"><a target="_blank" href="http://bbs.liba.com/member.php?action=getinfo&amp;userid=4662756">资料</a></div><div class="desc"><a target="_blank" href="http://bbs.liba.com/search_post.php?action=finduser&amp;userid=4662756">搜索</a></div><div class="desc"><a href="http://bbs.liba.com/manage.php?action=getip&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137">查IP</a></div><div class="desc"><a onclick="return delThisPost();" href="http://bbs.liba.com/manage.php?action=deletePost&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1&amp;page=1">删除</a></div></div></div></div></li>
+							  <li class="copy-address"><input id="post458315056" value="http://bbs.liba.com/t_1137_7213282_1.htm#458315056" type="hidden"><span id="copy458315056" title="复制本楼地址，可以直接定位到本楼">复制本楼地址</span></li>
+							  <li><a href="http://bbs.liba.com/post_new.php?action=edit&amp;isTop=edit_top&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1">编辑</a></li>
+							  <li class="quote"><a href="http://bbs.liba.com/post_new.php?action=quoteReply&amp;topicId=7213282&amp;postId=458315056&amp;forumId=1137&amp;sortId=-1&amp;page=1">引用</a></li>
+							  <li class="last">楼主</li>
+							  </ul>
+							</div>
+						      </div>
+						    </div>
+						    <!--贴子列表下方页码-->
+						    <div class="topic-list-ft clearfix">
+						      <div class="menu">
+							<div class="menu-hd"><a href="javascript:;">[休闲游戏]</a><i></i></div>
+							<div class="menu-bd">
+							  <!--if:cate_navigation_down-->
+							  <div class="menu-bd-panel">
+							    <div class="title">
+							      <a href="http://bbs.liba.com/">
+								回到首页
+							      </a>
+							    </div>
+							    
+							    <div class="desc">
+							      <a href="http://bbs.liba.com/f_100.htm">
+								学习培训
+							      </a>
+							    </div>
+							    <div class="desc">
+							      <a href="http://bbs.liba.com/f_80.htm">
+								娱乐八卦
+							      </a>
+							    </div>
+							    <div class="desc">
+							      <a href="http://bbs.liba.com/f_1135.htm">
+								篱笆移动生活
+							      </a>
+							    </div>
+							    <div class="desc">
+							      <a href="http://bbs.liba.com/f_57.htm">
+								职场人生
+							      </a>
+							    </div>
+							    <div class="desc">
+							      <a href="http://bbs.liba.com/f_13.htm">
+								老干部闲聊
+							      </a>
+							    </div>
+							    <div class="desc">
+							      <a href="http://bbs.liba.com/f_1139.htm">
+								篱笆海淘
+							      </a>
+							    </div>
+							    <div class="desc">
+							      <a href="http://bbs.liba.com/f_1138.htm">
+								篱笆吃货团
+							      </a>
+							    </div>
+							  </div>
+							  <!--/if:cate_navigation_down-->
+							</div>
+						      </div>
+						      <div class="menu">
+							
+						      </div>
+						      <div class="pager all-topic">
+							共1页<a href="#"><font color="black">1</font></a>
+							<span class="page-search">第<input class="page-input" onfocus="this.select()" value="1" name="fgopage" type="text">页</span><input class="page-btn" title="跳转到指定页" value="" type="submit"></div>
+							  <input class="J_url" value="http://bbs.liba.com/t_1137_7213282_1.htm" type="hidden">
+							    <a href="http://bbs.liba.com/post_new.php?action=postReply&amp;forumId=1137&amp;topicId=7213282" target="_blank" class="reply-btn">回复</a>
+							  </div>
+
+							  <select id="manageb" onchange="if(this.options[this.selectedIndex].value != '') {
+											 window.location=('http://bbs.liba.com/'+'manage.php?sessionhash=cdd44208bec098e10a959164f56d6426&amp;forumId=1137&amp;sortId=-1&amp;page=1'+this.options[this.selectedIndex].value) }">
+							    <option selected="selected" value="">=管理选项=</option>
+							    <option value="&amp;action=viewManageLog&amp;topicId=7213282">查看管理历史记录</option>
+							    <option value="&amp;action=stickTopic&amp;topicId=7213282">置顶/消顶</option>
+							    <option value="&amp;action=lockTopic&amp;topicId=7213282">锁定/解锁</option>
+							    <option value="&amp;action=greatTopic&amp;topicId=7213282">精华/普通</option><option value="&amp;action=setTag&amp;forumId=1137&amp;topicId=7213282&amp;modId=3907">编辑标签</option><option value="&amp;action=move&amp;topicId=7213282">移动主题</option>
+							    <option value="&amp;action=copy&amp;topicId=7213282">复制主题</option>
+							    <option value="&amp;action=editSort&amp;topicId=7213282">编辑分类</option>
+							    <option value="&amp;action=delTopic&amp;topicId=7213282">删除主题</option>
+
+							    <option value="&amp;action=fixTopic&amp;topicId=7213282">修复主题</option>
+							    <option value="&amp;action=joinTopic&amp;topicId=7213282">合并主题</option>
+							    <option value="&amp;action=reportTopic&amp;topicId=7213282">投诉转移</option>
+							    <option value="&amp;action=portalTopic&amp;forumId=1137&amp;topicId=7213282">盖章</option>
+
+							  </select>
+							  <input value="GO" onclick="if(manageb.options[manageb.selectedIndex].value != '') { window.location=('http://bbs.liba.com/'+'manage.php?sessionhash=cdd44208bec098e10a959164f56d6426&amp;forumId=1137&amp;sortId=-1&amp;page=1'+manageb.options[manageb.selectedIndex].value);}" type="button">
+							    <!--贴子列表下方页码结束-->
+							    <!--快速回复开始-->
+							    <script src="topic_files/bbcode.js"></script>
+							    <script type="text/javascript">
+							      $(function(){
+							      //删除收藏
+							      $('.J-delete-topic').click(function() {
+							      Dialog.ask("你确定要删除这条收收藏吗？", ["确定", "取消"], function(val) {
+							      if(val=="确定"){
+							      location.href='fav.php?action=cancel_topic&topic_id=7213282&forum_id=1137&page=1';
+							      }
+							      },{title:"取消收藏",width:"418px"});
+							      return false;
+							      });
+							      });
+							      window.onload=function(){
+							      $(".signature").each(function () {
+							      var $this = $(this);
+							      $this.show();
+							      $this.prev().css({"margin-bottom": $this.outerHeight(true) + 10});
+							      });
+							      }
+							      function resend_mobile_code() {
+							      var frm1 = document.form1;
+							      frm1.onsubmit = '';
+							      frm1.action = '/mobile_service.php';
+							      frm1.formAction.value = 'resendMobileCode';
+							      frm1.submit();
+							      }
+							    </script>
+
+							    <div class="quick-reply clearfix">
+							      <form action="http://bbs.liba.com/post_new.php" method="post" name="form1" onsubmit="return checkForm(form1);">
+								<input name="action" value="saveReply" type="hidden">
+								  <input name="forumId" value="1137" type="hidden">
+								    <input name="topicId" value="7213282" type="hidden">
+								      <div class="reply-content">
+									<div class="reply-hd clearfix">
+									  <div class="reply-tit">快速回复</div>
+									  <div class="share-method">同步到：<a href="https://api.weibo.com/oauth2/authorize?client_id=2395744793&amp;redirect_uri=http%3A%2F%2Fwww.liba.com%2Fcallback%2Fsina&amp;response_type=code&amp;with_offical_account=1" target="_blank" class="gray-sina" title="点亮即可同步" data-id="4600741">新浪</a></div>
+									</div>
+									<div class="reply-bd">
+									  <div><textarea name="content" id="textarea" onkeydown="return ctlent(event,form1);"></textarea></div>
+									  <div class="reply-submit clearfix">
+									    <div class="ubb"><input name="disableUbb" value="checked" type="checkbox"><span onclick="checkBoxCheck(document.form1.disableUbb);">禁用UBB代码</span><a href="http://bbs.liba.com/ubb.php" target="_blank">[帮助]</a></div>
+									      <div class="reply-btn">
+										<input class="input-empty quick-reply-btn" name="Reset" value="清空内容" type="reset">
+										  <input class="input-copy quick-reply-btn" id="copy-text" value="复制到黏贴板" name="copy" title="复制到剪贴板，提交不成功可以重新粘贴" type="button">
+										    <input class="submit-reply quick-reply-btn" name="Submit" value="提交回复" type="submit">
+										    </div>
+										  </div>
+										</div>
+									      </div>
+									      <div class="reply-rules">
+										<ul>
+										  <li>·尊重网上道德，遵守《<a href="http://bbs.sh.liba.com/rules.php" target="_blank">篱笆论坛规则</a>》及《<a href="http://www.liba.com/article/article_show.php?article_id=60" target="_blank">互联网电子公告服务管理规<br>&nbsp;&nbsp;定</a>》等其他国家法规</li>
+										  <li>·承担一切因您的行为而直接或间接导致的民事或刑事法律责任</li>
+										  <li>·论坛管理人员有权保留或删除其管辖留言中的任意内容</li>
+										  <li>·您在论坛发表的作品，篱笆网有权在网站内转载或引用</li>
+										  <li>·任何个人或单位转载论坛文字、图片，须经网站和发帖人允许并注明出处</li>
+										  <li>·用户承诺上传、发布的文字、图片等相关内容不侵犯第三方的权益，包括<br>&nbsp;&nbsp;但不限于隐私权、肖像权、名誉权、知识产权等</li>
+										  <li>·在本论坛发表留言即表明您已经阅读并接受上述条款</li>
+										  </ul>
+										  </div>
+										</form>
+									      </div>
+									      <!--add tag begin-->
+									      <div class="add-tag">
+										<div class="inner-tag">
+										  <form action="./fav.php?action=add_topic_new&amp;forum_id=1137&amp;topic_id=7213282&amp;page=1" method="post" name="fav_forum">
+										    <div class="select-tag clearfix">
+										      <a class="x_a" href="http://bbs.liba.com/fav.php?action=add_topic&amp;forum_id=1137&amp;topic_id=7213282&amp;page=1&amp;tag_id=1075919"><span class="x_b">1</span></a>
+										    </div>
+										    <div class="new-tag"><label>新建标签：</label><input name="tag" class="J-input-tag" maxlength="10" onkeyup="while(value.replace(/[^\x00-\xff]/g, '**').length>maxLength)value=value.slice(0,-1)" type="text"></div><div class="tag-tip">每个标签最多十个字符</div>
+										      <div class="tag-btn"><input name="fav_submit" value="确定" class="form-btn confirm" type="submit"></div>
+										      </form>
+										    </div>
+										  </div>
+										  <!--add tag end-->
+										  <script src="topic_files/ZeroClipboard.js"></script>
+										  <script>
+										    function getid(id) { return document.getElementById(id); }
+										    function toClipboard(cid,tid,txt){
+										    var clip = new ZeroClipboard.Client();
+										    var copyText=getid(tid).value;
+										    clip.setHandCursor(true);
+										    clip.addEventListener('mouseOver', function (client) {
+										    clip.setText(copyText);
+    										    });
+    										    clip.addEventListener('complete', function (client) {
+										    alert(txt); //复制成功提示
+    										    });
+										    clip.glue(cid);		
+										    }
+										    $(function(){
+										    $(".copy-address span").mouseover(function(){
+										    var id=$(this).attr("id");
+										    var pid=$(this).prev().attr("id");
+										    toClipboard(id,pid,"复制成功，请粘贴到你的帖子、QQ、MSN上推荐给你的好友，可以直接跳转到本楼");
+										    });	
+										    $("#copy-text").mouseover(function(){
+										    toClipboard("copy-text","textarea","复制到剪贴板成功！");										   
+										    });
+										    })
+										  </script>
+										  <script type="text/javascript" src="topic_files/jia_002.js" charset="utf-8">
+										  </script><script type="text/javascript" src="topic_files/plugin.js" charset="utf-8"></script>
+										</div>
+										<!--快速回复结束-->
+
+										<div style="position: absolute; left: 914px; top: 378px; width: 72px; height: 15px; z-index: 99;"><embed id="ZeroClipboardMovie_1" src="topic_files/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" name="ZeroClipboardMovie_1" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=1&amp;width=72&amp;height=15" wmode="transparent" align="middle" height="15" width="72"></div>
+										</body>
+										<script type="text/javascript" src="js/app.js"></script>
+									      </html>

@@ -1,0 +1,47 @@
+/* global */
+body{font:normal 12px/1.5 arial,\5b8b\4f53; color:#333; background-color:#F5ECDD;}
+a:link{text-decoration:none;color:#11aabb;}
+a:visited{text-decoration:none;color:#11aabb;}
+a:hover{text-decoration:underline;outline:none;color:#11aabb;}
+a:active{color:#11aabb;}
+input[type=submit]::-moz-focus-inner,input[type=button]::-moz-focus-inner{border : 0px;}
+input[type=submit]:focus, input[type=button]:focus{outline : none;}
+.clearfix:after{visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+.clearfix{zoom:1;}
+
+/* fn */
+.fn-more, .fn-more:link{color:#58C;}
+.fn-ad{margin-bottom:10px;}
+
+/* decoration center */
+#container{width:100%;background:#F5ECDD;}
+.wrapper{width:1000px;background:#F6E1C6;border:1px solid #fff;margin:40px auto;}
+.main{width:100%;position:relative;margin:10px;}
+	.main-hg{}
+		.design{margin:0 5px -5px 0;}
+		.ui-button{display:inline-block;height:100px;width:100px;}
+		.ui-mediterranean-1{background-image:url("../img/Mediterranean/logo1.jpg");}
+		.ui-mediterranean-2{background-image:url("../img/Mediterranean/logo2.jpg");}
+		.ui-mediterranean-3{background-image:url("../img/Mediterranean/logo3.jpg");}
+		.ui-costly-1{background-image:url("../img/costly/logo1.jpg");}
+		.ui-costly-2{background-image:url("../img/costly/logo2.jpg");}     
+		.ui-costly-3{background-image:url("../img/costly/logo3.jpg");}
+		.ui-contracted-1{background-image:url("../img/contracted/logo1.jpg");}
+		.ui-contracted-2{background-image:url("../img/contracted/logo2.jpg");}
+		.ui-contracted-3{background-image:url("../img/contracted/logo3.jpg");}
+		.ui-American-1{background-image:url("../img/American/logo1.jpg");}
+		.ui-American-2{background-image:url("../img/American/logo2.jpg");}
+		.ui-American-3{background-image:url("../img/American/logo3.jpg");}   
+		.ui-rural-1{background-image:url("../img/rural/logo1.jpg");} 
+		.ui-rural-2{background-image:url("../img/rural/logo2.jpg");} 
+		.ui-china-1{background-image:url("../img/china/logo1.jpg");}
+		.ui-china-2{background-image:url("../img/china/logo2.jpg");}
+		.ui-china-3{background-image:url("../img/china/logo3.jpg");}   
+	.main-bg{}
+		.ui-box{width:582px;float:left;margin:5px 0;}
+		.ui-sider{width:380px;clear:right;float:left;margin:5px 0;background:#E5C8A6;padding:0 10px 10px 10px;}
+			.ui-sider-hg{}
+				.ui-sider-item{background:#fff;padding:10px;}
+				.ui-sider-item dl{float:left;margin:10px 5px 10px 0;}
+				.ui-sider-item dd a{background:#FF6600;color:#fff;}
+			.ui-sider-bg{}

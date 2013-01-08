@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <script src="jquery-1.4.1-vsdoc.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        $(
+        function() {
+            for (var i = 0; i < 100; i++) {
+                $("<li>").appendTo("ol");
+            }
+        }
+        );
+
+        $(
+        function() {
+            $("li").css("background-color",
+            function(index, value) {
+                var clocrValue = "";
+                if (index == 0) {
+                    clocrValue = (function() {
+                        var r = parseInt(Math.random() * 256), g = parseInt(Math.random() * 256), b = parseInt(Math.random() * 256);
+                        return "rgb(" + r + "," + g + "," + b + ")";
+                    })();
+                }
+                else {
+                    clocrValue = (function(v) {
+                        var b = (
+                        function(v) {
+                            return v + 10 <= 255 ? v + 2 : 255;
+
+                        } (parseInt(v.replace("rgb(", "").replace(")", "").split(",")[2]))
+                        ),
+                            g = (function(b, v) {
+                                if (b <= 255) {
+                                    return v;
+                                }
+                                else {
+                                    return v + 2 <= 255 ? v + 2 : 255;
+                                }
+                            } (b, parseInt(v.replace("rgb(", "").replace(")", "").split(",")[1]))
+                            ),
+                            r = (function(g, v) {
+                                if (g <= 255) {
+                                    return v;
+                                }
+                                else {
+                                    return v + 2 <= 255 ? v + 2 : 255;
+                                }
+                            } (g, parseInt(v.replace("rgb(", "").replace(")", "").split(",")[0]))
+                            );
+                        return "rgb(" + r + "," + g + "," + b + ")";
+                    } ($("ol>li").eq(index - 1).css("background-color")));
+                }
+                return clocrValue;
+            }
+            );
+        }
+        );
+       
+       
+       
+
+    </script>
+
+    <style type="text/css">
+        li
+        {
+            float: left;
+            width: 5px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <ol style="list-style-type: none;">
+    </ol>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#footer {width:100%; background:url(images/comm/footerbg.gif) 0 0;}
+.footer-inner {width:1000px; margin:0 auto; padding:25px 12px; background:url(images/comm/footerbg.gif) 0 0; text-align: center;}
+.footer-main .footer-nav {zoom:1; padding:0 0 20px 317px;}
+.footer-main .footer-nav  li {zoom:1; float:left; padding-right:58px; width:48px;}
+.footer-main .footer-nav  li a{ color:#bfbfbf;}
+.footer-main .footer-nav  li.last {background:none;}
+
+.footer-logo{padding: 0 0 20px 188px;}
+.footer-logo li{zoom:1; float:left; padding-right:5px;}
+.footer-logo a{display:block; height:42px;}
+.footer-logo .footer-logo-icp{width:126px;background: url("images/comm/footerLogoIcp.gif") no-repeat scroll 0 0 transparent;}
+.footer-logo .footer-logo-pol{width:155px;background: url("images/comm/footerLogoPol.gif") no-repeat scroll 0 0 transparent;}
+.footer-logo .footer-logo-aci{width:135px;background: url("images/comm/footerLogoAci.gif") no-repeat scroll 0 0 transparent;}
+.footer-logo .footer-logo-net {width:136px;background: url("images/comm/footerLogoNet.gif") no-repeat scroll 0 0 transparent;}
+.footer-logo .footer-logo-Info{width:192px;background: url("images/comm/FooterLogoInfo.gif") no-repeat scroll 0 0 transparent;}
+.footer-logo .footer-logo-pol a{float:left; width:51px;}
+
+
+.footer-forOther{padding: 0 0 20px 188px;}
+.footer-forOther .footer-logo-aci{display:none}
+
+.footer-main .copyright {zoom:1; line-height:17px; color:#555; clear:left;}
+.copyright span {font-family:Arial;}

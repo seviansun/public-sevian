@@ -1,0 +1,69 @@
+在右边的是函数表达式
+或者（）中的
+function fun1（）{}
+var fun = function fun3（）{}
+申明函数在前面和后面扫描。
+任何var申明高，但是函数申明更高
+key
+全局变量 this == windows
+
+var input = 5；
+swith（input）{
+	case 1；
+		function fun1（）{
+		alert（1）；
+	}
+}
+break；
+
+fun1 = funtion（）{} 才会被case引用到
+
+function fun1（）{}只会一个一个扫描后面代替上面
+
+当一个function在分支语句中，无论function如何定义，总表示一个函数。
+
+申明一次立即运行自运行
+(function(){
+	alert("a")；
+})()；
+
+(function(a,b)){
+	alert(a*b);
+})(10,2);
+
+
+
+var fun3=function fun1(){
+	alert("fun1");
+}
+fun3();
+fun3 = function(){
+	alert("fun3");
+}
+一个表达式被执行完后，就被内存释放掉
+ie8中执行完后，内存泄露，会继续执行
+
+所以不要写一个表达式被执行后再继续执行。定义过的泄露。
+
+return 正常执行  不带名字。
+
+匿名函数，递归
+
+arguments.callee(x)调用自己
+
+10!计算表达式
+
+alert((function(x){
+	if(x>1){
+	return x*arguments.callee(--x);
+}
+	else{
+	return x;
+}
+}(10)));
+
+var li = $("<li>").appendTo("ol");
+创建li放入ol
+
+alert(key+":"+d[key]);
+

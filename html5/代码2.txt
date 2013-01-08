@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function copy(d) {
+            var e = document.createElement("div");
+            for (var key in d.style) {
+                if (d.style[key] != undefined) {
+                    e.style[key] = d.style[key];
+                }
+            }
+            document.getElementsByTagName("body")[0].appendChild(e);
+        }
+    </script> 
+    
+</head>
+<body>
+<div onclick="copy(this)">Page3</div>
+<div style="width:10px; height:50px; background-color:Red;" onclick="copy(this)">page3</div>
+<div style="width:20px; height:40px; background-color:white;" onclick="copy(this)"></div>
+<div style="width:30px; height:30px; background-color:black;" onclick="copy(this)"></div>
+<div style="width:40px; height:20px; background-color:blue;" onclick="copy(this)"></div>
+<div style="width:50px; height:10px; background-color:green;" onclick="copy(this)"></div>
+</body>
+</html>

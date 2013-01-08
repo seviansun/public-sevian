@@ -1,0 +1,9 @@
+/*5c.css*/
+#box{width:400px;float:left;overflow: hidden;}
+	#box ul{overflow:hidden;width:90000px;}
+#img1,#img2,#img3,#img4,#img5{display: block;float: left;overflow: hidden;text-align: center;}
+#img1 img,#img2 img,#img3 img,#img4 img,#img5 img
+{height:300px;width:400px;}
+.selected img{display:block;}
+#c1,#c2,#c3,#c4,#c5
+{border: 1px solid #000;position: relative;}

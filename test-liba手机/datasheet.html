@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head data-base='{"debug":true}'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>篱笆移动</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <link rel="stylesheet" href="http://css.liba.com/css/base-alice.css" type="text/css" />
+    <link rel="stylesheet" href="css/datasheet.css" type="text/css" />
+    <script type="text/javascript" src="http://www.liba.com/public/js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+    (function($) {
+	$.fn.myScroll = function(options) {
+	    
+	    //默认配置
+	    var defaults = {
+		auto:[false,3000], //是否自动滚动,第二个参数是自动滚动是切换的间隔时间
+		visible:4, //可显示的数量
+		speed:1000, //动画时间，可选slow，fast，数值类
+		scroll:1 //每次切换的个数,此数小于等于visible值
+	    };   
+	    
+	    var opts = $.extend({},defaults,options);
+	    opts.scroll=opts.scroll>opts.visible?opts.visible:opts.scroll;
+	    
+	    this.each(function(i){
+		
+		var sx=$(this).find("div.rolling-img"),
+		ux=sx.find("ul"),
+		sl=sx.find('ul>li'),
+		slNum=sl.size(),
+		slwidth=sl.width(),
+		sxwidth=slwidth*opts.visible,//可见区域宽度
+		intervalId; 
+		
+		//设置宽度样式
+		$(this).width(sxwidth);
+		sx.width(sxwidth).find("ul").width(slwidth*slNum);								   						    
+		//获取已滚动个数
+		function getSnum(){
+		    return (parseInt(ux.css("margin-left"))*-1)/slwidth;
+		}
+		
+		//获取滚动的距离
+		function getMove(c){
+		    return c>=opts.scroll?opts.scroll*slwidth:c*slwidth;
+		} 
+		
+		
+		//如果自动滚动
+		if(opts.auto[0]){
+		    
+		    $(this).width(sxwidth);
+		    
+		    function auto(){
+			var snum=getSnum(),
+			m=getMove(slNum-snum-opts.visible); 
+			
+			if(slNum-snum > opts.visible){
+			    ux.animate({
+				"margin-left":"-="+m
+			    },opts.speed);
+			}else{
+			    ux.css("margin-left",0).find('li').slice(0,slNum-opts.visible).appendTo(ux);
+			}
+		    }
+		    
+		    
+		    //当鼠标经过滚动区域停止滚动
+		    sx
+			.hover(function(){
+			    clearInterval(intervalId); 
+			},function(){
+			    intervalId=setInterval(auto,opts.auto[1]+Math.abs(opts.speed-opts.auto[1])+100);
+			})
+			.trigger('mouseleave');
+		    
+		}      
+	    });
+
+	}; 
+	
+    })(jQuery); 
+
+$(function(){
+    $("#rolling").myScroll({
+	visible:1,
+	scroll:1,
+	auto:[true,2000],
+	speed:1000
+    });
+});  
+</script>
+  </head>
+  <body>
+    <script type="text/javascript"  src="http://passport.liba.com/feeds/comm/top"></script> 
+    <div id="container">
+      <div id="main">
+	<div id="rolling">
+          <div class="rolling-img">
+	    <ul>
+	      <li><img src="images/img_1.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_2.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_3.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_4.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_5.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_6.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_7.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_8.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_9.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_10.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_11.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_12.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_13.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_14.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_15.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_16.png" class="ui-rolling-img"/></li>
+	      <li><img src="images/img_17.png" class="ui-rolling-img"/></li>
+	    </ul>
+	  </div>
+	</div>
+	<a class="ui-button-load" target="_blank" href="http://itunes.apple.com/cn/app/li-ba-she-qu/id530023006?mt=8"></a>
+	<a class="ui-button-play" target="_blank" href="http://m.163.com/android/software/316iph.html "></a>
+	<div class="ui-version">
+	  <ul class="ui-version-iphone">
+	    <li class="ui-version-txt">for iphone 版本 V3.2</li>
+	    <li class="ui-version-txt">更新时间2012-7-20</li>
+	  </ul>
+	  <ul class="ui-version-Android">
+	    <li class="ui-version-txt">for Android 版本 V3.0.2</li>
+	    <li class="ui-version-txt">更新时间2012-6-8</li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+    <div class="ui-float ui-float-feedback" style="position:fixed; _position:absolute; top:70px; right:0;">
+	<a href="http://www.liba.com/feedback" target="_blank" title="意见反馈"><img src="http://css.liba.com/css/images/index/ui-float-feedback.png" style="border:0; width:29px; height:97px;" alt="意见反馈"></a>
+</div>
+    <script type="text/javascript" src="http://service.liba.com/feeds/comm/bottom"></script>
+  </body>
+</html>

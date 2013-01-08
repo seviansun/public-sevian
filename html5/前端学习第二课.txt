@@ -1,0 +1,90 @@
+alert(s.replace(/l/g,"#"));当中的是固定的不是变量
+var keyword = "l";
+
+是否是一个合法的财务数字
+小数点只能有一个，不能再数字之前，也不能再最后一位精度不大于2，允许有负号，但负号只能在数字之前，只能有一个
+允许有货币负号￥，但￥只能在负号之前，也只能有一个，出了小数点数字负号￥，不能含有其他字符。
+
+	function check(){
+		var val = numbervalue.value;
+		if(val.indexOf("$")!=val.lastIndexOf("$")||val.lastIndexOf("$")>0){
+		alert("error at $");
+		}
+		else{
+			if(val.indexOf("$")>-1){//has $
+				if(val.indexOf("$")!=val.lastIndexOf("$")||val.lastIndexOf("$")>1){
+				alert("error at -");
+				}
+			}
+		}
+	}
+
+
+body
+	<input type = "text" />
+	<input type = "button" value = "check" onlick = "check()"/>
+
+
+先判断有没有$在判断有$后负号如何没有$后负号如何处理
+
+数学函数应用
+Math.abs()
+Math.ceil//天花板数（取一个最接近的大整数）
+Math.floor//地板数（取一个最接近的小整数）
+Math.max//返回最大数
+Math.min//返回最小数
+Math.pow//求幂次方
+Math.round//四舍五入，舍整数
+Math.sqrt//求平方根
+Math.random//随机数，小数
+new Date()
+new Date().toLocaDateString()
+new Date().toLocaString()
+new Date().toLocalTimeString()
+new Date().getDate()
+new Date().getDay()
+new Date().getMonth()
+new Date().getHours()
+new Date().getMilliseconds()
+new Date().getTime()//1970-1-1 至今的ms数
+new Date().getUTCHours()//世界标准时间
+new Date(设置时间).toLocaString()
+new Date().setFullYear(2012,3,1)
+Date.parse
+
+va arr = [];
+alert(arr.length);
+arr = [1,3,5,7,9,11];
+alert(arr.length);
+alert(arr[3]);
+
+dom树
+js dom操作
+html dom对象
+html dom接口 leve1 2 3
+
+alert能去show出html中的元素
+alert(img1.src);
+
+but1.onclick = check 调用 check调去变量
+
+声明模式 <></>
+编程模式 script
+onload() 所有元素回调后才触发
+window.onload = load;
+window.onload = function()
+window.onload = function(){
+but1.onclick = function(){
+alert(numbervalue.value);
+}
+}
+
+document.getElementsByTagName("span")[0].innerHTML= "DOM";
+document.getElementsByTagName("")[].innerHTML;标签中的元素
+
+this.parentNode.removeChild(this);
+li.parentNode.removeChild(this); 
+放鸽问题，每次都会返回最后一个元素，所以删除最后一个li，则会出错
+
+引申一下自己查吧，哎
+

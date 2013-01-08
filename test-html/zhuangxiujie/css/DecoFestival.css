@@ -1,0 +1,39 @@
+/* global */
+body{font:normal 12px/1.5 arial,\5b8b\4f53; color:#333; background-color:#f6ecdd;}
+a:link{text-decoration:none;color:#11aabb;}
+a:visited{text-decoration:none;color:#11aabb;}
+a:hover{text-decoration:underline;outline:none;color:#11aabb;}
+a:active{color:#11aabb;}
+input[type=submit]::-moz-focus-inner,input[type=button]::-moz-focus-inner{border : 0px;}
+input[type=submit]:focus, input[type=button]:focus{outline : none;}
+.clearfix:after{visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+.clearfix{zoom:1;}
+
+/* fn */
+.fn-more, .fn-more:link{color:#58C;}
+.fn-ad{margin-bottom:10px;}
+
+/* decoration center */
+#container{width:100%;background:#f6ecdd;}
+.wrapper{width:1000px;height:946px;margin:0 auto;background-image:url("../img/festival-BG.jpg");}
+.main{width:100%;position:relative;}
+.main-hg{position:absolute;left:585px;top:252px;}
+	.ui-button-1{display:inline-block;background-image:url("../img/festival-btn.png");width:124px;height:35px;margin:5px; border:none;}
+	.ui-button-1{background-position:-839px -253px;}
+	.ui-button-2{display:inline-block;background-image:url("../img/festival-btn.png");width:124px;height:35px;margin:5px; border:none;}
+	.ui-button-2{background-position:-966px -253px;}
+	.ui-button-3{display:inline-block;background-image:url("../img/festival-btn.png");width:124px;height:35px;margin:5px; border:none;}
+	.ui-button-3{background-position:-1096px -253px;}
+.main-bg{position:absolute;left:8px;top:384px;display:block;}
+	.ui-img-1{display:inline-block;background-image:url("../img/festival-btn.png");width:154px;height:154px;margin:4px; border:none;}
+	.ui-img-1{background-position:-264px -388px;}
+	.ui-img-2{display:inline-block;background-image:url("../img/festival-btn.png");width:154px;height:154px;margin:4px; border:none;}
+	.ui-img-2{background-position:-428px -388px;}
+	.ui-img-3{display:inline-block;background-image:url("../img/festival-btn.png");width:154px;height:154px;margin:4px; border:none;}
+	.ui-img-3{background-position:-592px -388px;}
+	.ui-img-4{display:inline-block;background-image:url("../img/festival-btn.png");width:154px;height:154px;margin:4px; border:none;}
+	.ui-img-4{background-position:-756px -388px;}
+	.ui-img-5{display:inline-block;background-image:url("../img/festival-btn.png");width:154px;height:154px;margin:4px; border:none;}
+	.ui-img-5{background-position:-920px -388px;}
+	.ui-img-6{display:inline-block;background-image:url("../img/festival-btn.png");width:154px;height:154px;margin:4px; border:none;}
+	.ui-img-6{background-position:-1084px -388px;}
